@@ -1,0 +1,340 @@
+/* ============================================================
+   TIMELINE.CSS — Interactive Timeline Page
+   Chhatrapati Shivaji Maharaj Tribute · Rajwadi Regal
+   ============================================================ */
+
+/* -------------------------------------------------------
+   TIMELINE PAGE CONTAINER
+   ------------------------------------------------------- */
+#timeline-page {
+  width: 100%;
+  max-width: var(--max-content);
+  margin: 0 auto;
+  padding: var(--space-2xl) clamp(1.5rem, 3vw, 3rem);
+  padding-top: calc(var(--header-height) + var(--space-xl));
+}
+
+.timeline-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.timeline-header .plaque {
+  margin-bottom: var(--space-md);
+}
+
+.timeline-header h1 {
+  color: var(--antique-gold);
+  margin-bottom: var(--space-sm);
+}
+
+.timeline-header p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: var(--fs-body);
+  opacity: 0.85;
+}
+
+
+/* -------------------------------------------------------
+   TIMELINE SCRUBBER — Custom Range Input
+   ------------------------------------------------------- */
+.timeline-scrubber-container {
+  position: relative;
+  padding: var(--space-lg) 0 var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+/* Year labels above the track */
+.timeline-years {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-bottom: var(--space-sm);
+}
+
+.timeline-year {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: var(--antique-gold);
+  opacity: 0.6;
+  position: relative;
+  text-align: center;
+}
+
+.timeline-year::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 6px;
+  background: var(--antique-gold);
+  opacity: 0.3;
+}
+
+.timeline-year.active {
+  opacity: 1;
+  color: var(--bhagwa-saffron);
+}
+
+/* Range input — Strip browser chrome */
+.timeline-scrubber {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 4px;
+  background: var(--rajwadi-maroon);
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Elapsed/filled portion */
+.timeline-scrubber::-webkit-slider-runnable-track {
+  height: 4px;
+  background: var(--rajwadi-maroon);
+  border-radius: 2px;
+}
+
+.timeline-scrubber::-moz-range-track {
+  height: 4px;
+  background: var(--rajwadi-maroon);
+  border-radius: 2px;
+  border: none;
+}
+
+/* Progress fill (WebKit — needs JS for dynamic fill) */
+.timeline-scrubber::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: var(--bhagwa-saffron);
+  clip-path: polygon(
+    30% 0%, 70% 0%,
+    100% 30%, 100% 70%,
+    70% 100%, 30% 100%,
+    0% 70%, 0% 30%
+  );
+  cursor: pointer;
+  margin-top: -8px;
+  border: none;
+  transition: transform var(--duration-fast) var(--ease-default);
+}
+
+.timeline-scrubber::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: var(--bhagwa-saffron);
+  clip-path: polygon(
+    30% 0%, 70% 0%,
+    100% 30%, 100% 70%,
+    70% 100%, 30% 100%,
+    0% 70%, 0% 30%
+  );
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+}
+
+.timeline-scrubber::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.timeline-scrubber::-moz-range-thumb:hover {
+  transform: scale(1.2);
+}
+
+/* Focus visible on scrubber */
+.timeline-scrubber:focus-visible {
+  outline: 2px solid var(--bhagwa-saffron);
+  outline-offset: 4px;
+}
+
+/* Progress fill track overlay */
+.timeline-track-fill {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 4px;
+  background: var(--antique-gold);
+  border-radius: 2px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+/* -------------------------------------------------------
+   TIMELINE MAP — Territory Visualization
+   ------------------------------------------------------- */
+.timeline-map {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--parchment-ivory);
+  border: 1px solid var(--gold-30);
+  position: relative;
+  margin-bottom: var(--space-lg);
+  overflow: hidden;
+}
+
+.timeline-map__inner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-map__placeholder {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--antique-gold-accessible);
+  opacity: 0.5;
+  border: 1px dashed var(--gold-30);
+  padding: 0.5em 1em;
+}
+
+/* Territory overlay regions */
+.timeline-territory {
+  position: absolute;
+  background: var(--maroon-80);
+  border: 1px solid var(--antique-gold);
+  opacity: 0;
+  transition: opacity var(--duration-medium) var(--ease-default);
+}
+
+.timeline-territory.visible {
+  opacity: 0.4;
+}
+
+/* Year display overlay */
+.timeline-map__year {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--fs-h2);
+  color: var(--antique-gold-accessible);
+  opacity: 0.3;
+}
+
+
+/* -------------------------------------------------------
+   TIMELINE CARDS — Milestone Info
+   ------------------------------------------------------- */
+.timeline-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+}
+
+.timeline-card {
+  border: 1px solid var(--gold-30);
+  padding: var(--space-md);
+  background: var(--basalt-charcoal);
+  transition: border-color var(--duration-fast) var(--ease-default),
+              box-shadow var(--duration-fast) var(--ease-default);
+}
+
+.timeline-card:hover {
+  border-color: var(--bhagwa-saffron);
+}
+
+.timeline-card.active {
+  border-color: var(--bhagwa-saffron);
+  box-shadow: 0 0 20px var(--saffron-glow);
+}
+
+.timeline-card__year {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--fs-h3);
+  color: var(--bhagwa-saffron);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.timeline-card__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-h4);
+  color: var(--antique-gold);
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.timeline-card__desc {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  color: var(--parchment-ivory);
+  opacity: 0.8;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.timeline-card__link {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--bhagwa-saffron);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  transition: gap var(--duration-fast) var(--ease-default);
+}
+
+.timeline-card__link:hover {
+  gap: 0.8em;
+}
+
+.timeline-card__link::after {
+  content: '→';
+}
+
+/* Timeline card octagonal badge */
+.timeline-card__badge {
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+/* -------------------------------------------------------
+   RESPONSIVE — Timeline
+   ------------------------------------------------------- */
+@media (max-width: 1024px) {
+  #timeline-page {
+    padding-top: calc(var(--header-height) + var(--space-lg));
+  }
+
+  .timeline-years {
+    overflow-x: auto;
+    gap: var(--space-md);
+    padding-bottom: 0.5rem;
+  }
+
+  .timeline-year {
+    flex-shrink: 0;
+  }
+
+  .timeline-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-map {
+    aspect-ratio: 4 / 3;
+  }
+}

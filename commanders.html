@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chhatrapati Shivaji Maharaj — The Loyal Commanders</title>
+  <meta name="description" content="Meet the legendary Mavalas who fought for Swarajya.">
+  
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <style>
+    .commanders-hero {
+      background: var(--basalt-charcoal);
+      padding: calc(var(--header-height) + var(--space-xl)) clamp(2rem, 4vw, 4rem) var(--space-lg);
+      text-align: center;
+      border-bottom: 1px solid var(--gold-30);
+    }
+    .commanders-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: var(--max-content);
+      margin: var(--space-xl) auto;
+      padding: 0 clamp(2rem, 4vw, 4rem);
+    }
+    .commander-card {
+      border: 1px solid var(--gold-30);
+      background: var(--rajwadi-maroon);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .commander-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--antique-gold);
+    }
+    .commander-icon {
+      width: 64px;
+      height: 64px;
+      color: var(--bhagwa-saffron);
+      margin-bottom: 1rem;
+    }
+    .commander-title {
+      color: var(--antique-gold);
+      margin-bottom: 0.5rem;
+      font-size: var(--fs-h3);
+    }
+    .commander-subtitle {
+      font-family: var(--font-ui);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: var(--parchment-ivory);
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+    }
+    .commander-desc {
+      color: var(--parchment-ivory);
+      opacity: 0.9;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header scrolled">
+    <div class="header-inner">
+      <a href="index.html" class="header-brand">
+        <svg class="header-seal" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-rajmudra"></use></svg>
+        <div class="header-wordmark">
+          <span class="wordmark-top">CHHATRAPATI</span>
+          <span class="wordmark-bottom">SHIVAJI MAHARAJ</span>
+        </div>
+      </a>
+      <button class="hamburger"><span></span><span></span><span></span></button>
+      <nav class="header-nav" id="header-nav-menu">
+        <ul>
+          <li><a href="index.html" class="active"><span class="lang-en">The Life</span><span class="lang-mr-text deva">जीवनपट</span></a></li>
+          <li><a href="legacy.html"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a></li>
+          <li><a href="galleries.html"><span class="lang-en">Forts & Gallery</span><span class="lang-mr-text deva">किल्ले व दालन</span></a></li>
+          <li><a href="timeline.html"><span class="lang-en">Timeline</span><span class="lang-mr-text deva">कालपट</span></a></li>
+          <li><a href="letters.html"><span class="lang-en">Quotes & Sources</span><span class="lang-mr-text deva">विचार व साधने</span></a></li>
+        </ul>
+        <div class="nav-divider"></div>
+        <div class="lang-toggle">
+          <button class="active" data-lang="en">EN</button>
+          <button data-lang="mr" class="deva">म</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="commanders-hero">
+      <div class="plaque" style="color: var(--antique-gold); border-color: var(--gold-30);">
+        <span class="lang-en">The Mavalas</span>
+        <span class="lang-mr-text deva">मावळे</span>
+      </div>
+      <h1 style="color: var(--parchment-ivory); margin-top: 1rem;">
+        <span class="lang-en">THE LOYAL COMMANDERS</span>
+        <span class="lang-mr-text deva">स्वराज्याचे शिलेदार</span>
+      </h1>
+      <p class="lang-en" style="max-width: 600px; margin: 1rem auto 0; opacity: 0.9;">
+        Swarajya was built on the unmatched loyalty and sacrifice of the Mavalas. These commanders shed their blood so that an independent nation could breathe free.
+      </p>
+      <p class="lang-mr-text deva-body" style="max-width: 600px; margin: 1rem auto 0; opacity: 0.9;">
+        स्वराज्य हे मावळ्यांच्या अफाट निष्ठेवर आणि बलिदानावर उभे राहिले. त्यांनी सांडलेल्या रक्तामुळेच हा देश स्वतंत्र श्वास घेऊ शकला.
+      </p>
+    </section>
+
+    <div class="commanders-grid">
+      
+      <!-- Tanaji Malusare -->
+      <div class="commander-card">
+        <svg class="commander-icon"><use href="assets/icons/sprite.svg#icon-crossed-swords"></use></svg>
+        <h3 class="commander-title"><span class="lang-en">Tanaji Malusare</span><span class="lang-mr-text deva">तानाजी मालुसरे</span></h3>
+        <div class="commander-subtitle">
+          <span class="lang-en">The Lion of Sinhagad</span>
+          <span class="lang-mr-text deva">सिंहगडाचा सिंह</span>
+        </div>
+        <p class="commander-desc">
+          <span class="lang-en">Famous for the daring 1670 capture of Kondhana. He lost his life in the fierce battle, prompting Shivaji Maharaj to say, <em>"Gad aala, pan Sinha gela"</em> (The fort is won, but the lion is lost). The fort was renamed Sinhagad in honor of his supreme sacrifice.</span>
+          <span class="lang-mr-text deva">कोंढाणा किल्ला जिंकण्यासाठी त्यांनी आपल्या प्राणांची आहुती दिली. त्यांच्या बलिदानामुळेच महाराजांनी किल्ल्याचे नाव बदलून 'सिंहगड' ठेवले आणि उद्गार काढले, <em>"गड आला, पण सिंह गेला!"</em></span>
+        </p>
+      </div>
+
+      <!-- Baji Prabhu Deshpande -->
+      <div class="commander-card">
+        <svg class="commander-icon"><use href="assets/icons/sprite.svg#icon-shield"></use></svg>
+        <h3 class="commander-title"><span class="lang-en">Baji Prabhu Deshpande</span><span class="lang-mr-text deva">बाजीप्रभू देशपांडे</span></h3>
+        <div class="commander-subtitle">
+          <span class="lang-en">Defender of Pavan Khind</span>
+          <span class="lang-mr-text deva">पावनखिंडीचे रक्षक</span>
+        </div>
+        <p class="commander-desc">
+          <span class="lang-en">He held the narrow Ghodkhind pass against a massive Adilshahi pursuit, fighting fiercely while mortally wounded, just long enough to ensure Shivaji Maharaj safely escaped to Vishalgad. The pass was sanctified by his blood and renamed Pavan Khind.</span>
+          <span class="lang-mr-text deva">महाराजांना विशाळगडावर सुखरूप पोहोचवण्यासाठी त्यांनी घोडखिंड प्राणपणाने लढवली. त्यांच्या रक्ताने पावन झालेल्या या खिंडीला 'पावनखिंड' असे नाव दिले गेले.</span>
+        </p>
+      </div>
+
+      <!-- Murarbaji Deshpande -->
+      <div class="commander-card">
+        <svg class="commander-icon"><use href="assets/icons/sprite.svg#icon-fortress"></use></svg>
+        <h3 class="commander-title"><span class="lang-en">Murarbaji Deshpande</span><span class="lang-mr-text deva">मुरारबाजी देशपांडे</span></h3>
+        <div class="commander-subtitle">
+          <span class="lang-en">The Guardian of Purandar</span>
+          <span class="lang-mr-text deva">पुरंदरचा वीर</span>
+        </div>
+        <p class="commander-desc">
+          <span class="lang-en">The commander who fiercely defended Purandar fort against Diler Khan's massive Mughal army. Rejecting bribes of wealth and rank, he fought relentlessly until he was struck down, epitomizing the unbreakable Maratha spirit.</span>
+          <span class="lang-mr-text deva">दिलेरखानाच्या प्रचंड मुघल सैन्याविरुद्ध त्यांनी पुरंदर किल्ला प्राणपणाने लढवला. मोहाच्या आमिषांना बळी न पडता शेवटच्या श्वासापर्यंत ते लढले.</span>
+        </p>
+      </div>
+
+      <!-- Jiva Mahala -->
+      <div class="commander-card">
+        <svg class="commander-icon"><use href="assets/icons/sprite.svg#icon-scroll"></use></svg>
+        <h3 class="commander-title"><span class="lang-en">Jiva Mahala</span><span class="lang-mr-text deva">जिवा महाला</span></h3>
+        <div class="commander-subtitle">
+          <span class="lang-en">The Bodyguard at Pratapgad</span>
+          <span class="lang-mr-text deva">प्रतापगडावरील रक्षक</span>
+        </div>
+        <p class="commander-desc">
+          <span class="lang-en">During the deadly confrontation with Afzal Khan at Pratapgad, it was Jiva Mahala who swiftly struck down Khan's bodyguard Syed Banda, saving Shivaji Maharaj's life. This gave birth to the proverb, <em>"Hota Jiva, mhanun vachla Shiva"</em>.</span>
+          <span class="lang-mr-text deva">प्रतापगडावर अफझलखान भेटीच्या वेळी सय्यद बंडाचा वार परतून त्यांनी महाराजांचे प्राण वाचवले. म्हणूनच <em>"होता जिवा म्हणून वाचला शिवा"</em> ही म्हण रूढ झाली.</span>
+        </p>
+      </div>
+
+      <!-- Shiva Kashid -->
+      <div class="commander-card">
+        <svg class="commander-icon"><use href="assets/icons/sprite.svg#icon-magnifier"></use></svg>
+        <h3 class="commander-title"><span class="lang-en">Shiva Kashid</span><span class="lang-mr-text deva">शिवा काशिद</span></h3>
+        <div class="commander-subtitle">
+          <span class="lang-en">The Loyal Decoy</span>
+          <span class="lang-mr-text deva">एकनिष्ठ मावळा</span>
+        </div>
+        <p class="commander-desc">
+          <span class="lang-en">A brave barber who bore a strong resemblance to the King. During the siege of Panhala, he volunteered to impersonate Shivaji Maharaj in a decoy palanquin, knowingly marching to his death to allow the real king to escape safely.</span>
+          <span class="lang-mr-text deva">पन्हाळगडाच्या वेढ्यातून महाराजांची सुटका व्हावी म्हणून महाराजांचा वेष धारण करून ते मृत्यूच्या दारी गेले. त्यांच्या या सर्वोच्च बलिदानाने स्वराज्य सुरक्षित राहिले.</span>
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" style="margin-top:0;">
+    <div class="footer-main">
+      <div class="footer-seal-container">
+        <svg class="footer-seal" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-rajmudra"></use></svg>
+      </div>
+      <div class="footer-center">
+        <h3 class="deva">श्रीमंत योगी छत्रपती शिवाजी महाराज</h3>
+        <p class="footer-subtitle">FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-social">
+        <a href="index.html">The Life</a>
+        <a href="legacy.html">The Legacy</a>
+        <a href="galleries.html">Forts</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="letters.html">Sources</a>
+      </div>
+      <div class="footer-legal">
+        <span>© 2026 Tribute.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

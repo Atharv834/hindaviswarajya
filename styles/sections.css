@@ -1,0 +1,747 @@
+/* ============================================================
+   SECTIONS.CSS — Life Page Section Styles (02–10, 16)
+   Chhatrapati Shivaji Maharaj Tribute · Rajwadi Regal
+   ============================================================ */
+
+/* -------------------------------------------------------
+   SECTION 02 — PROLOGUE
+   ------------------------------------------------------- */
+#prologue {
+  position: relative;
+}
+
+#prologue .split__panel {
+  position: relative;
+  overflow: hidden;
+}
+
+#prologue .split__panel .plaque {
+  margin-bottom: var(--space-md);
+}
+
+#prologue .prologue-headline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-h1);
+  line-height: 1.1;
+  color: var(--parchment-ivory);
+  margin-bottom: var(--space-md);
+}
+
+#prologue .prologue-body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--parchment-ivory);
+  opacity: 0.92;
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+}
+
+#prologue .prologue-closing {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--bhagwa-saffron);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+/* Fort silhouette watermark */
+#prologue .watermark--fort {
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 200px;
+  opacity: 0.08;
+}
+
+/* Seal straddling boundary at ~55% */
+#prologue .seal-straddle {
+  position: absolute;
+  width: clamp(140px, 12vw, 180px);
+  height: clamp(140px, 12vw, 180px);
+  left: 55%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Dark scroll-cue bar */
+#prologue .prologue-scroll-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: var(--basalt-charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+#prologue .prologue-scroll-bar span {
+  font-family: var(--font-ui);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  #prologue .seal-straddle {
+    display: none;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 03 — BIRTH, CHILDHOOD & LINEAGE
+   ------------------------------------------------------- */
+#birth {
+  position: relative;
+}
+
+/* Caption strip below photo (not overlaid) */
+#birth .birth-caption-strip {
+  background: var(--basalt-charcoal);
+  border-top: 1px solid var(--gold-30);
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+}
+
+/* Panel sub-blocks */
+#birth .birth-block,
+#birth .childhood-block,
+#birth .lineage-block {
+  margin-bottom: var(--space-md);
+}
+
+/* Childhood block — icon + text */
+.childhood-block {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+.childhood-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--rajwadi-maroon);
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--gold-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.childhood-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Lineage Chart */
+.lineage-chart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+  position: relative;
+  padding: var(--space-md) 0;
+}
+
+.lineage-medallion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.lineage-medallion__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid var(--antique-gold-accessible);
+  background: var(--gold-10);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.lineage-medallion__name {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  color: var(--antique-gold-accessible);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.lineage-medallion__role {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  opacity: 0.7;
+}
+
+/* Connecting lines */
+.lineage-chart__connector {
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: var(--space-md);
+  background: var(--antique-gold-accessible);
+  opacity: 0.4;
+}
+
+/* Bottom center medallion row */
+.lineage-chart__result {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.lineage-chart__result::before {
+  content: '';
+  position: absolute;
+  top: -var(--space-md);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: var(--space-md);
+  background: var(--antique-gold-accessible);
+  opacity: 0.4;
+}
+
+/* Birth panel seal */
+#birth .birth-seal {
+  width: 48px;
+  height: 48px;
+  margin-top: var(--space-md);
+  align-self: center;
+}
+
+@media (max-width: 600px) {
+  .childhood-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .lineage-chart {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 05 — SEEDS OF SWARAJYA / TORNA
+   ------------------------------------------------------- */
+#torna {
+  position: relative;
+}
+
+#torna .split__panel {
+  text-align: center;
+}
+
+#torna .plaque {
+  margin-bottom: var(--space-md);
+}
+
+#torna h2 {
+  margin-bottom: var(--space-sm);
+}
+
+#torna .torna-intro {
+  max-width: 480px;
+  margin: 0 auto var(--space-md);
+  font-size: var(--fs-body);
+  line-height: 1.7;
+}
+
+/* Oath Row */
+.oath-row {
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+  margin: var(--space-md) 0;
+}
+
+.wax-seal {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: var(--rajwadi-maroon);
+  border: 3px solid var(--antique-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+
+.wax-seal__text {
+  font-family: var(--font-display-deva);
+  font-size: var(--fs-body);
+  color: var(--antique-gold);
+  line-height: 1.3;
+}
+
+.oath-content {
+  text-align: left;
+}
+
+.oath-content h4 {
+  margin-bottom: 0.5rem;
+}
+
+.oath-content p {
+  font-size: var(--fs-body);
+  opacity: 0.85;
+}
+
+/* Info Cards */
+.info-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.info-card {
+  border: 1px solid var(--gold-30);
+  padding: var(--space-sm);
+  text-align: left;
+}
+
+.info-card__image {
+  aspect-ratio: 16 / 10;
+  background: var(--gold-10);
+  margin-bottom: var(--space-sm);
+  border: 1px solid var(--gold-10);
+}
+
+/* Map card — NO blue, uses ivory + maroon */
+.info-card--map {
+  background: var(--parchment-ivory);
+}
+
+.info-card--map .map-area {
+  aspect-ratio: 16 / 10;
+  background: var(--parchment-ivory);
+  border: 1px solid var(--antique-gold-accessible);
+  position: relative;
+  margin-bottom: var(--space-sm);
+}
+
+.map-legend {
+  display: flex;
+  gap: var(--space-sm);
+  margin-bottom: 0.5rem;
+}
+
+.map-legend__swatch {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.map-legend__color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.map-footnote {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-small);
+  opacity: 0.7;
+}
+
+/* Pull-quote on torna image */
+#torna .pull-quote--overlay {
+  top: 2rem;
+  right: 2rem;
+}
+
+/* Caption on torna image */
+#torna .caption-box {
+  bottom: 1.5rem;
+  left: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .oath-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .oath-content {
+    text-align: center;
+  }
+
+  .info-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 06 — BUILDING THE KINGDOM
+   ------------------------------------------------------- */
+#building-kingdom {
+  position: relative;
+}
+
+/* Shared band overrides for Section 06 */
+#rajgad,
+#sinhagad,
+#mavals {
+  border-bottom: 1px solid var(--gold-10);
+}
+
+#rajgad .band__panel .plaque,
+#sinhagad .band__panel .plaque,
+#mavals .band__panel .plaque {
+  margin-bottom: var(--space-sm);
+}
+
+#rajgad .band__panel h3,
+#sinhagad .band__panel h3,
+#mavals .band__panel h3 {
+  margin-bottom: var(--space-sm);
+}
+
+/* Mavals subheading */
+#mavals .maval-subheading {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--antique-gold);
+  margin-bottom: var(--space-sm);
+}
+
+/* Ivory summary band */
+.kingdom-summary {
+  background: var(--parchment-ivory);
+  padding: var(--space-lg) clamp(2rem, 4vw, 4rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+}
+
+.kingdom-summary__quadrant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.kingdom-summary__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+  color: var(--bhagwa-saffron);
+}
+
+.kingdom-summary__label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--antique-gold-accessible);
+}
+
+.kingdom-summary__desc {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  color: var(--basalt-charcoal);
+  opacity: 0.8;
+}
+
+.kingdom-summary__seal {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  color: var(--rajwadi-maroon);
+}
+
+@media (max-width: 1024px) {
+  .kingdom-summary {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTIONS 07-09 — CONFLICT TRIO
+   ------------------------------------------------------- */
+.conflict-trio {
+  position: relative;
+}
+
+/* Tighter vertical spacing between the three conflict bands */
+#afzal-khan,
+#shaista-khan,
+#purandar {
+  border-bottom: none;
+}
+
+#afzal-khan + #shaista-khan,
+#shaista-khan + #purandar {
+  margin-top: 0;
+}
+
+/* Claw icon + caption area */
+.conflict-icon-caption {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.conflict-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conflict-caption {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+/* Seal divider between conflict sections */
+.conflict-seal-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-sm) 0;
+  background: var(--basalt-charcoal);
+}
+
+.conflict-seal-divider .oct-badge {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Shared ribbon at end of conflict trio */
+.conflict-ribbon {
+  position: relative;
+}
+
+
+/* -------------------------------------------------------
+   SECTION 10 — CORONATION AT RAIGAD
+   ------------------------------------------------------- */
+#coronation {
+  position: relative;
+}
+
+#coronation .split__panel {
+  position: relative;
+}
+
+#coronation .plaque {
+  margin-bottom: var(--space-md);
+}
+
+#coronation h2 {
+  margin-bottom: var(--space-sm);
+}
+
+/* Artifact Row */
+.artifact-row {
+  display: flex;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+  flex-wrap: wrap;
+}
+
+.artifact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 120px;
+}
+
+.artifact-item__image {
+  aspect-ratio: 1;
+  width: 100%;
+  max-width: 140px;
+  border: 2px solid var(--antique-gold);
+  background: var(--gold-10);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artifact-item__image--ivory {
+  border-color: var(--antique-gold-accessible);
+}
+
+.artifact-item__caption {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Interactive Seal */
+.seal-interactive {
+  cursor: pointer;
+  transition: transform 150ms var(--ease-default),
+              filter 150ms var(--ease-default);
+}
+
+.seal-interactive:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.seal-interactive:hover {
+  filter: drop-shadow(0 0 20px var(--saffron-glow));
+}
+
+/* Saffron glow pulse on release */
+@keyframes seal-pulse {
+  0% {
+    filter: drop-shadow(0 0 10px var(--saffron-glow));
+  }
+  50% {
+    filter: drop-shadow(0 0 30px var(--saffron-glow));
+  }
+  100% {
+    filter: drop-shadow(0 0 10px var(--saffron-glow));
+  }
+}
+
+.seal-interactive.pulse {
+  animation: seal-pulse 0.8s ease-in-out;
+}
+
+/* Coronation seal straddle */
+#coronation .seal-straddle {
+  position: absolute;
+  width: clamp(160px, 14vw, 220px);
+  height: clamp(160px, 14vw, 220px);
+  right: -10%;
+  bottom: 25%;
+  transform: translateX(50%);
+  z-index: 10;
+}
+
+/* Pull-quote on coronation image */
+#coronation .pull-quote--overlay {
+  top: 2rem;
+  right: 2rem;
+  max-width: 280px;
+}
+
+/* Caption on coronation image */
+#coronation .caption-box {
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .artifact-row {
+    justify-content: center;
+  }
+
+  #coronation .seal-straddle {
+    display: none;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 16 — FINAL YEARS
+   ------------------------------------------------------- */
+#final-years {
+  background: var(--parchment-ivory);
+  padding: var(--space-2xl) var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.final-card {
+  border: 1px solid var(--gold-30);
+  padding: var(--space-lg);
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--parchment-ivory);
+}
+
+.final-card .plaque {
+  margin-bottom: var(--space-md);
+}
+
+.final-card h2 {
+  font-family: var(--font-display);
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-sm);
+}
+
+.final-card p {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--basalt-charcoal);
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+.final-card .gold-divider {
+  margin: var(--space-md) auto;
+  max-width: 200px;
+}
+
+@media (max-width: 480px) {
+  .final-card {
+    padding: var(--space-md);
+  }
+
+  #final-years {
+    padding: var(--space-xl) var(--space-sm);
+  }
+}

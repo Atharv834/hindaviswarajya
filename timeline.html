@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chhatrapati Shivaji Maharaj — Timeline</title>
+  <meta name="description" content="A premium tribute site dedicated to Chhatrapati Shivaji Maharaj. Explore the timeline of his life.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/timeline.css">
+  <style>
+    /* Add logic for scrubber fill based on the JS variable --fill-percent */
+    .timeline-scrubber-container .timeline-scrubber {
+      background: linear-gradient(to right, var(--bhagwa-saffron) var(--fill-percent, 0%), var(--rajwadi-maroon) var(--fill-percent, 0%));
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-brand" aria-label="Chhatrapati Shivaji Maharaj Tribute Home">
+        <svg class="header-seal" aria-hidden="true">
+          <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
+        </svg>
+        <div class="header-wordmark">
+          <span class="wordmark-top">CHHATRAPATI</span>
+          <span class="wordmark-bottom">SHIVAJI MAHARAJ</span>
+        </div>
+      </a>
+      
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="header-nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="header-nav" id="header-nav-menu">
+        <ul>
+          <li><a href="index.html"><span class="lang-en">The Life</span><span class="lang-mr-text deva">जीवनपट</span></a></li>
+          <li><a href="legacy.html"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a></li>
+          <li><a href="galleries.html"><span class="lang-en">Forts & Gallery</span><span class="lang-mr-text deva">किल्ले व दालन</span></a></li>
+          <li><a href="timeline.html" class="active"><span class="lang-en">Timeline</span><span class="lang-mr-text deva">कालपट</span></a></li>
+          <li><a href="letters.html"><span class="lang-en">Quotes & Sources</span><span class="lang-mr-text deva">विचार व साधने</span></a></li>
+        </ul>
+        <div class="nav-divider" role="presentation"></div>
+        <div class="lang-toggle">
+          <button class="active" data-lang="en" aria-label="Switch to English">EN</button>
+          <button data-lang="mr" aria-label="मराठीमध्ये बदला" class="deva">म</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Spacer for fixed header -->
+  <div style="height: var(--header-height); background: var(--basalt-charcoal);"></div>
+
+  <section id="timeline-page">
+    <div class="timeline-header">
+      <div class="plaque">
+        <span class="lang-en">Journey of Swarajya</span>
+        <span class="lang-mr-text deva">स्वराज्याचा प्रवास</span>
+      </div>
+      <h1>
+        <span class="lang-en">THE LIFELINE</span>
+        <span class="lang-mr-text deva">कालपट</span>
+      </h1>
+      <p>
+        <span class="lang-en">Follow the chronological events that shaped the foundation and expansion of Hindavi Swarajya, from a young boy's oath to the coronation of a sovereign king.</span>
+        <span class="lang-mr-text deva">छत्रपती शिवरायांच्या जन्मापासून ते त्यांच्या राज्याभिषेकापर्यंतच्या ऐतिहासिक घटनांचा आणि स्वराज्याच्या विस्ताराचा कालानुक्रम प्रवास.</span>
+      </p>
+    </div>
+
+    <!-- Scrubber -->
+    <div class="timeline-scrubber-container">
+      <div class="timeline-years">
+        <div class="timeline-year">1630</div>
+        <div class="timeline-year">1646</div>
+        <div class="timeline-year">1659</div>
+        <div class="timeline-year">1665</div>
+        <div class="timeline-year">1674</div>
+        <div class="timeline-year">1680</div>
+      </div>
+      <input type="range" min="1630" max="1680" value="1630" class="timeline-scrubber" aria-label="Timeline Scrubber" style="--fill-percent: 0%;">
+    </div>
+
+    <!-- Territory Map Visualization -->
+    <div class="timeline-map">
+      <div class="timeline-map__inner" style="background: var(--parchment-ivory); position: absolute; inset: 0;">
+        <!-- Background images for each year, stacked and faded in/out -->
+        <div class="timeline-map-img" data-year="1630" style="position: absolute; inset: 0; background: url('assets/img/timeline-1630.jpg') center/cover; opacity: 1;"></div>
+        <div class="timeline-map-img" data-year="1646" style="position: absolute; inset: 0; background: url('assets/img/timeline-1646.jpg') center/cover; opacity: 0;"></div>
+        <div class="timeline-map-img" data-year="1659" style="position: absolute; inset: 0; background: url('assets/img/timeline-1659.jpg') center/cover; opacity: 0;"></div>
+        <div class="timeline-map-img" data-year="1665" style="position: absolute; inset: 0; background: url('assets/img/timeline-1665.jpg') center/cover; opacity: 0;"></div>
+        <div class="timeline-map-img" data-year="1674" style="position: absolute; inset: 0; background: url('assets/img/timeline-1674.jpg') center/cover; opacity: 0;"></div>
+        <div class="timeline-map-img" data-year="1680" style="position: absolute; inset: 0; background: url('assets/img/timeline-1680.jpg') center/cover; opacity: 0;"></div>
+        
+        <!-- Vignette & Map Tint -->
+        <div style="position: absolute; inset: 0; background: radial-gradient(circle, transparent 40%, rgba(30, 26, 22, 0.75) 100%); pointer-events: none; z-index: 3;"></div>
+      </div>
+      <div class="timeline-map__year timeline-year-display" style="position: absolute; top: 1.5rem; left: 1.5rem; font-family: var(--font-ui); font-weight: 700; font-size: var(--fs-h1); color: var(--bhagwa-saffron); text-shadow: 0 2px 10px rgba(0,0,0,0.8); z-index: 5;">1630</div>
+    </div>
+
+    <!-- Milestone Cards -->
+    <div class="timeline-cards">
+      <!-- 1630 -->
+      <div id="milestone-1630" class="timeline-card milestone-card active">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">I</div>
+        <div class="timeline-card__year">1630</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">Birth at Shivneri</span>
+          <span class="lang-mr-text deva">शिवनेरीवर जन्म</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">Born on the Shivneri fort to Jijabai and Shahaji Raje Bhosale. His early years were shaped by his mother's teachings of righteousness and justice.</span>
+          <span class="lang-mr-text deva">शिवनेरी किल्ल्यावर माता जिजाऊ आणि शहाजीराजे भोसले यांच्या पोटी शिवरायांचा जन्म झाला.</span>
+        </p>
+        <a href="index.html#birth" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+
+      <!-- 1646 -->
+      <div id="milestone-1646" class="timeline-card milestone-card">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">II</div>
+        <div class="timeline-card__year">1646</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">Oath of Swarajya</span>
+          <span class="lang-mr-text deva">स्वराज्याची शपथ आणि तोरणा</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">At the age of 16, he took the oath of Swarajya at Raireshwar temple and captured the Torna fort, marking the beginning of his independent kingdom.</span>
+          <span class="lang-mr-text deva">रायरेश्वराच्या मंदिरात स्वराज्याची शपथ घेतली आणि तोरणा किल्ला जिंकून स्वराज्याचे पहिले तोरण बांधले.</span>
+        </p>
+        <a href="index.html#torna" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+
+      <!-- 1659 -->
+      <div id="milestone-1659" class="timeline-card milestone-card">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">III</div>
+        <div class="timeline-card__year">1659</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">Defeating Afzal Khan</span>
+          <span class="lang-mr-text deva">अफझलखान वध</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">A defining moment where he strategically eliminated the giant Adilshahi general Afzal Khan at the foothills of Pratapgad, saving Swarajya from early destruction.</span>
+          <span class="lang-mr-text deva">प्रतापगडाच्या पायथ्याशी विजापूरचा सरदार अफझलखान याचा अत्यंत चातुर्याने वध केला.</span>
+        </p>
+        <a href="index.html#conflicts" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+
+      <!-- 1665 -->
+      <div id="milestone-1665" class="timeline-card milestone-card">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">IV</div>
+        <div class="timeline-card__year">1665 – 1666</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">Treaty & Escape</span>
+          <span class="lang-mr-text deva">पुरंदरचा तह आणि आग्र्याहून सुटका</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">Signed the Treaty of Purandar to protect his people, leading to his house arrest in Agra by Aurangzeb, and his legendary, miraculous escape.</span>
+          <span class="lang-mr-text deva">रयतेच्या रक्षणासाठी पुरंदरचा तह केला. नंतर आग्र्याला औरंगजेबाच्या कैदेतून अत्यंत शिताफीने निसटले.</span>
+        </p>
+        <a href="index.html#conflicts" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+
+      <!-- 1674 -->
+      <div id="milestone-1674" class="timeline-card milestone-card">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">V</div>
+        <div class="timeline-card__year">1674</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">The Coronation</span>
+          <span class="lang-mr-text deva">राज्याभिषेक</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">Crowned as the Chhatrapati (sovereign emperor) of the Maratha Empire at Raigad fort, formally establishing an independent Hindu kingdom.</span>
+          <span class="lang-mr-text deva">रायगड किल्ल्यावर शिवरायांचा राज्याभिषेक संपन्न झाला आणि ते अधिकृतपणे 'छत्रपती' बनले.</span>
+        </p>
+        <a href="index.html#coronation" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+
+      <!-- 1680 -->
+      <div id="milestone-1680" class="timeline-card milestone-card">
+        <div class="timeline-card__badge oct-badge oct-badge--sm oct-badge--gold">VI</div>
+        <div class="timeline-card__year">1680</div>
+        <h3 class="timeline-card__title">
+          <span class="lang-en">The Final Journey</span>
+          <span class="lang-mr-text deva">महानिर्वाण</span>
+        </h3>
+        <p class="timeline-card__desc">
+          <span class="lang-en">Chhatrapati Shivaji Maharaj breathed his last at Raigad. He left behind a vast, well-administered empire and a legacy of self-respect that endures forever.</span>
+          <span class="lang-mr-text deva">रायगडावर शिवरायांचे महानिर्वाण झाले. त्यांनी मागे एक विशाल साम्राज्य आणि स्वाभिमानाचा प्रेरणादायी वारसा ठेवला.</span>
+        </p>
+        <a href="index.html" class="timeline-card__link">
+          <span class="lang-en">Read More</span>
+          <span class="lang-mr-text deva">अधिक वाचा</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <svg class="footer-seal" aria-hidden="true">
+          <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
+        </svg>
+      </div>
+      <div class="footer-center">
+        <h2 class="footer-title">
+          <span class="lang-en">CHHATRAPATI SHIVAJI MAHARAJ</span>
+          <span class="lang-mr-text deva">छत्रपती शिवाजी महाराज</span>
+        </h2>
+        <div class="footer-dates">1630 – 1680</div>
+        <div class="footer-subtitle">
+          <span class="lang-en">VISIONARY · WARRIOR · KING</span>
+          <span class="lang-mr-text deva">युगपुरुष · रयतेचा राजा</span>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-desc lang-en">"He did not merely rule a kingdom, he ignited the spirit of a nation, teaching generations to walk with their heads held high in the pursuit of righteous self-rule."</p>
+        <p class="footer-desc lang-mr-text deva-body">"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली."</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-social">
+        <a href="index.html"><span class="lang-en">The Life</span><span class="lang-mr-text deva">जीवन</span></a>
+        <a href="legacy.html"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a>
+        <a href="galleries.html"><span class="lang-en">Forts</span><span class="lang-mr-text deva">किल्ले</span></a>
+        <a href="timeline.html" class="active"><span class="lang-en">Timeline</span><span class="lang-mr-text deva">कालपट</span></a>
+        <a href="letters.html"><span class="lang-en">Sources</span><span class="lang-mr-text deva">साधने</span></a>
+      </div>
+      
+      <div class="footer-quote">
+        <span class="lang-en">✦ Praised by Friends and Respected by Foes ✦</span>
+        <span class="lang-mr-text deva">✦ शत्रूनेही आदर करावा असे आदर्श राजे ✦</span>
+      </div>
+      
+      <div class="footer-legal">
+        <span>© 2026 Tribute.</span>
+        <svg style="width: 14px; height: 14px; color: var(--antique-gold); vertical-align: middle; margin-left: 5px;" aria-hidden="true">
+          <use href="assets/icons/sprite.svg#icon-diamond"></use>
+        </svg>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+  
+  <!-- GSAP & ScrollTrigger CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  
+  <!-- Interactive Timeline controller -->
+  <script>
+    (function() {
+      'use strict';
+      
+      const scrubber = document.querySelector('.timeline-scrubber');
+      const yearDisplay = document.querySelector('.timeline-year-display');
+      const yearLabels = document.querySelectorAll('.timeline-year');
+      const cards = document.querySelectorAll('.milestone-card');
+      const mapImages = document.querySelectorAll('.timeline-map-img');
+      
+      const years = [1630, 1646, 1659, 1665, 1674, 1680];
+      
+      function updateTimeline(year) {
+        // Find closest year
+        const closestYear = years.reduce((prev, curr) => 
+          Math.abs(curr - year) < Math.abs(prev - year) ? curr : prev
+        );
+        
+        // Update range value
+        scrubber.value = closestYear;
+        
+        // Update fill percent styling
+        const percent = ((closestYear - 1630) / (1680 - 1630)) * 100;
+        scrubber.style.setProperty('--fill-percent', `${percent}%`);
+        
+        // Update year text
+        if (yearDisplay) yearDisplay.textContent = closestYear;
+        
+        // Update labels
+        yearLabels.forEach(label => {
+          const lblYear = parseInt(label.textContent);
+          label.classList.toggle('active', lblYear === closestYear);
+        });
+        
+        // Update cards
+        cards.forEach(card => {
+          const cardId = card.getAttribute('id');
+          const isActive = cardId === `milestone-${closestYear}`;
+          card.classList.toggle('active', isActive);
+          if (isActive) {
+            card.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+          }
+        });
+        
+        // Fade map images
+        mapImages.forEach(img => {
+          const imgYear = parseInt(img.dataset.year);
+          if (imgYear === closestYear) {
+            gsap.to(img, { opacity: 1, duration: 0.5, ease: "power1.inOut" });
+          } else {
+            gsap.to(img, { opacity: 0, duration: 0.5, ease: "power1.inOut" });
+          }
+        });
+      }
+      
+      if (scrubber) {
+        scrubber.addEventListener('input', function() {
+          updateTimeline(parseInt(this.value));
+        });
+        
+        scrubber.addEventListener('change', function() {
+          updateTimeline(parseInt(this.value));
+        });
+      }
+      
+      // Handle label clicks
+      yearLabels.forEach(label => {
+        label.style.cursor = 'pointer';
+        label.addEventListener('click', function() {
+          const selectedYear = parseInt(this.textContent);
+          updateTimeline(selectedYear);
+        });
+      });
+      
+      // Handle card clicks
+      cards.forEach(card => {
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', function() {
+          const cardId = card.getAttribute('id');
+          const year = parseInt(cardId.split('-')[1]);
+          updateTimeline(year);
+        });
+      });
+      
+      // Initial animation
+      if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.from('.timeline-header', {
+          opacity: 0,
+          y: -20,
+          duration: 0.8,
+          ease: "power2.out"
+        });
+      }
+      
+      // Initialize timeline
+      updateTimeline(1630);
+    })();
+  </script>
+</body>
+</html>

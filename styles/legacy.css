@@ -1,0 +1,562 @@
+/* ============================================================
+   LEGACY.CSS — Legacy Page Section Styles (11–14, Retro)
+   Chhatrapati Shivaji Maharaj Tribute · Rajwadi Regal
+   ============================================================ */
+
+/* -------------------------------------------------------
+   SECTION 11 — ASHTAPRADHAN COUNCIL
+   ------------------------------------------------------- */
+#ashtapradhan {
+  background: var(--parchment-ivory);
+  color: var(--basalt-charcoal);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+}
+
+.ashtapradhan-layout {
+  display: grid;
+  grid-template-columns: 1fr 500px 1fr;
+  gap: var(--space-lg);
+  max-width: var(--max-content);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.ashtapradhan-intro h2 {
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-sm);
+}
+
+.ashtapradhan-intro .plaque {
+  margin-bottom: var(--space-md);
+}
+
+.ashtapradhan-intro p {
+  font-size: var(--fs-body);
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+/* Honeycomb / Octagon Constellation */
+.honeycomb {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* Center octagon */
+.honeycomb__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.honeycomb__center .oct-badge--xl {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1.2;
+  padding: 0.5rem;
+}
+
+/* Ring nodes — 7 surrounding octagons */
+.honeycomb__node {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Hex ring positions (centered around 250px, 250px with ~160px radius) */
+.honeycomb__node:nth-child(2) { top: 30px;  left: 218px; }   /* Top */
+.honeycomb__node:nth-child(3) { top: 90px;  left: 370px; }   /* Top-Right */
+.honeycomb__node:nth-child(4) { top: 240px; left: 400px; }   /* Right */
+.honeycomb__node:nth-child(5) { top: 370px; left: 350px; }   /* Bottom-Right */
+.honeycomb__node:nth-child(6) { top: 400px; left: 200px; }   /* Bottom */
+.honeycomb__node:nth-child(7) { top: 340px; left: 60px;  }   /* Bottom-Left */
+.honeycomb__node:nth-child(8) { top: 170px; left: 50px;  }   /* Left */
+
+.honeycomb__node-label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--antique-gold-accessible);
+  margin-top: 0.4rem;
+  text-align: center;
+  max-width: 80px;
+}
+
+.honeycomb__node-role {
+  font-family: var(--font-body);
+  font-size: 0.6rem;
+  color: var(--basalt-charcoal);
+  opacity: 0.6;
+  text-align: center;
+  max-width: 80px;
+}
+
+/* Gold connecting lines — center to each ring node */
+.honeycomb__line {
+  position: absolute;
+  background: var(--antique-gold);
+  height: 1px;
+  transform-origin: left center;
+  z-index: 1;
+  opacity: 0.35;
+}
+
+/* Lines positioned from center (250, 250) to each node center */
+.honeycomb__line--1 { top: 250px; left: 250px; width: 140px; transform: rotate(-90deg); }
+.honeycomb__line--2 { top: 250px; left: 250px; width: 160px; transform: rotate(-40deg); }
+.honeycomb__line--3 { top: 250px; left: 250px; width: 155px; transform: rotate(0deg); }
+.honeycomb__line--4 { top: 250px; left: 250px; width: 160px; transform: rotate(40deg); }
+.honeycomb__line--5 { top: 250px; left: 250px; width: 140px; transform: rotate(90deg); }
+.honeycomb__line--6 { top: 250px; left: 250px; width: 160px; transform: rotate(140deg); }
+.honeycomb__line--7 { top: 250px; left: 250px; width: 155px; transform: rotate(190deg); }
+
+/* Seal beneath center */
+.honeycomb__seal {
+  position: absolute;
+  top: calc(50% + 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 36px;
+  height: 36px;
+  z-index: 3;
+}
+
+/* Illustration column */
+.ashtapradhan-illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.ashtapradhan-illustration__image {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 3 / 4;
+  background: var(--gold-10);
+  border: 1px solid var(--gold-30);
+}
+
+@media (max-width: 1100px) {
+  .ashtapradhan-layout {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .honeycomb {
+    transform: scale(0.75);
+    margin: var(--space-md) auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .honeycomb {
+    transform: scale(0.55);
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 12 — MILITARY STRATEGY
+   ------------------------------------------------------- */
+#military {
+  background: var(--parchment-ivory);
+  color: var(--basalt-charcoal);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+}
+
+.military-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--space-lg);
+  max-width: var(--max-content);
+  margin: 0 auto;
+  align-items: start;
+}
+
+.military-intro .plaque {
+  margin-bottom: var(--space-sm);
+}
+
+.military-intro h2 {
+  color: var(--antique-gold-accessible);
+  margin-bottom: 0.5rem;
+}
+
+.military-subhead {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--bhagwa-saffron);
+  margin-bottom: var(--space-sm);
+}
+
+.military-intro p {
+  font-size: var(--fs-body);
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+/* Icon Cards */
+.military-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-sm);
+}
+
+.military-card {
+  border: 1px solid var(--gold-30);
+  padding: var(--space-sm);
+  text-align: center;
+  background: var(--parchment-ivory);
+}
+
+.military-card__icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto var(--space-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.military-card__label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--antique-gold-accessible);
+  margin-bottom: 0.25rem;
+}
+
+.military-card__desc {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  opacity: 0.75;
+  line-height: 1.5;
+}
+
+/* Fort classification note */
+.military-card__note {
+  margin-top: 0.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  color: var(--antique-gold-accessible);
+  opacity: 0.8;
+  border-top: 1px solid var(--gold-10);
+  padding-top: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .military-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .military-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .military-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 13 — MARATHA NAVY (Teal Section)
+   ------------------------------------------------------- */
+#navy {
+  background: var(--konkan-teal);
+  color: var(--parchment-ivory);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+  position: relative;
+  border-top: 1px solid var(--gold-30);
+  border-bottom: 1px solid var(--gold-30);
+}
+
+.navy-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: var(--space-lg);
+  max-width: var(--max-content);
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* Ship placeholder */
+.navy-ship {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--gold-30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.navy-ship__label {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+  opacity: 0.5;
+  border: 1px dashed var(--gold-30);
+  padding: 0.5em 1em;
+}
+
+/* Text blocks */
+.navy-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.navy-content .plaque {
+  color: var(--antique-gold);
+  border-color: var(--gold-30);
+  box-shadow: inset 0 0 0 2px transparent, 0 0 0 1px var(--gold-30);
+}
+
+.navy-content h2 {
+  color: var(--antique-gold);
+}
+
+.navy-block {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-start;
+}
+
+.navy-block__icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navy-block__text h4 {
+  color: var(--antique-gold);
+  margin-bottom: 0.25rem;
+  font-size: var(--fs-small);
+}
+
+.navy-block__text p {
+  font-size: var(--fs-small);
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+/* Rope-knot bottom-left */
+.navy-rope-knot {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.navy-rope-knot__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.navy-rope-knot__caption {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+  .navy-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SECTION 14 — RELIGIOUS TOLERANCE
+   ------------------------------------------------------- */
+#tolerance {
+  background: var(--parchment-ivory);
+  color: var(--basalt-charcoal);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+}
+
+.tolerance-layout {
+  max-width: var(--max-content);
+  margin: 0 auto;
+}
+
+.tolerance-layout .plaque {
+  margin-bottom: var(--space-md);
+}
+
+.tolerance-bilingual {
+  font-family: var(--font-body-deva);
+  font-size: var(--fs-body);
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-xs);
+  font-style: italic;
+}
+
+.tolerance-layout h2 {
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-sm);
+}
+
+.tolerance-layout > p {
+  max-width: 700px;
+  font-size: var(--fs-body);
+  line-height: 1.8;
+  opacity: 0.85;
+  margin-bottom: var(--space-md);
+}
+
+.tolerance-icons {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+  margin-top: var(--space-md);
+}
+
+.tolerance-icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 180px;
+}
+
+.tolerance-icon-item__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.75rem;
+}
+
+.tolerance-icon-item__label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--antique-gold-accessible);
+  margin-bottom: 0.25rem;
+}
+
+.tolerance-icon-item__desc {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  opacity: 0.75;
+}
+
+
+/* -------------------------------------------------------
+   LEGACY RETROSPECTIVE
+   ------------------------------------------------------- */
+#legacy-retro {
+  background: var(--parchment-ivory);
+  color: var(--basalt-charcoal);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+  border-top: 1px solid var(--gold-30);
+}
+
+.legacy-retro-layout {
+  max-width: var(--max-content);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.legacy-retro-layout .plaque {
+  margin-bottom: var(--space-md);
+}
+
+.legacy-retro-layout h2 {
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-sm);
+}
+
+.legacy-retro-layout > p {
+  max-width: 650px;
+  margin: 0 auto var(--space-lg);
+  font-size: var(--fs-body);
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+/* Photo grid */
+.legacy-photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.legacy-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legacy-photo__image {
+  aspect-ratio: 1;
+  width: 100%;
+  background: var(--gold-10);
+  border: 1px solid var(--gold-30);
+  margin-bottom: 0.75rem;
+}
+
+.legacy-photo__caption {
+  font-family: var(--font-ui);
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--antique-gold-accessible);
+  text-align: center;
+}
+
+/* Flame emblem */
+.legacy-flame {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .legacy-photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .legacy-photos {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

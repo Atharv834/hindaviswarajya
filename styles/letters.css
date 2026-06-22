@@ -1,0 +1,355 @@
+/* ============================================================
+   LETTERS.CSS — Words That Endure & Sources
+   Chhatrapati Shivaji Maharaj Tribute · Rajwadi Regal
+   ============================================================ */
+
+/* -------------------------------------------------------
+   WORDS THAT ENDURE — Quotes Module
+   ------------------------------------------------------- */
+#quotes-module {
+  background: var(--rajwadi-maroon);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+}
+
+.quotes-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.quotes-header .plaque {
+  margin-bottom: var(--space-md);
+  color: var(--antique-gold);
+  border-color: var(--gold-30);
+  box-shadow: inset 0 0 0 2px transparent, 0 0 0 1px var(--gold-30);
+}
+
+.quotes-header .plaque::before,
+.quotes-header .plaque::after {
+  color: var(--antique-gold);
+}
+
+.quotes-header h2 {
+  color: var(--parchment-ivory);
+  margin-bottom: var(--space-sm);
+}
+
+.quotes-header p {
+  max-width: 500px;
+  margin: 0 auto;
+  color: var(--parchment-ivory);
+  opacity: 0.8;
+}
+
+/* Quotes Grid */
+.quotes-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-lg);
+  max-width: var(--max-content);
+  margin: 0 auto;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Individual Quote Card */
+.quote-card {
+  background: transparent;
+  border: 1px solid var(--gold-30);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: border-color var(--duration-fast) var(--ease-default);
+}
+
+.quote-card:hover {
+  border-color: var(--antique-gold);
+}
+
+.quote-mark {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  color: var(--antique-gold);
+  opacity: 0.7;
+  line-height: 1;
+  height: 2rem;
+  user-select: none;
+}
+
+.quote-deva {
+  font-family: var(--font-body-deva);
+  font-size: var(--fs-h4);
+  color: var(--parchment-ivory);
+  line-height: 1.6;
+}
+
+.quote-divider {
+  width: 40px;
+  height: 1px;
+  background: var(--antique-gold);
+  opacity: 0.4;
+}
+
+.quote-english {
+  font-family: var(--font-body);
+  font-style: italic;
+  color: var(--parchment-ivory);
+  opacity: 0.9;
+  font-size: var(--fs-body);
+  line-height: 1.7;
+}
+
+.quote-attribution {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  color: var(--antique-gold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: auto;
+}
+
+
+/* -------------------------------------------------------
+   CREDIBILITY SIDEBAR
+   ------------------------------------------------------- */
+.credibility-sidebar {
+  border: 1px solid var(--gold-30);
+  padding: 2rem;
+  height: fit-content;
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-md));
+}
+
+.credibility-sidebar__title {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--fs-small);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--antique-gold);
+  margin-bottom: var(--space-md);
+  text-align: center;
+}
+
+.credibility-section {
+  margin-bottom: var(--space-md);
+}
+
+.credibility-section:last-child {
+  margin-bottom: 0;
+}
+
+.credibility-section__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.credibility-section__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.credibility-section__label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--antique-gold);
+}
+
+.credibility-section__desc {
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  color: var(--parchment-ivory);
+  opacity: 0.75;
+  line-height: 1.6;
+}
+
+/* Divider between credibility sections */
+.credibility-divider {
+  border: none;
+  border-top: 1px solid var(--gold-30);
+  margin: var(--space-sm) 0;
+  opacity: 0.5;
+}
+
+
+/* -------------------------------------------------------
+   SOURCES & FURTHER READING
+   ------------------------------------------------------- */
+#sources-module {
+  background: var(--parchment-ivory);
+  color: var(--basalt-charcoal);
+  padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);
+}
+
+.sources-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.sources-header .plaque {
+  margin-bottom: var(--space-md);
+  color: var(--antique-gold-accessible);
+  border-color: rgba(140, 115, 51, 0.3);
+}
+
+.sources-header .plaque::before,
+.sources-header .plaque::after {
+  color: var(--antique-gold-accessible);
+}
+
+.sources-header h2 {
+  color: var(--antique-gold-accessible);
+  margin-bottom: var(--space-sm);
+}
+
+/* Sources Grid */
+.sources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  max-width: var(--max-content);
+  margin: 0 auto var(--space-xl);
+}
+
+.sources-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.sources-column__header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--gold-30);
+}
+
+.sources-column__icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.sources-column__title {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--fs-small);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--antique-gold-accessible);
+}
+
+.sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sources-list__item {
+  position: relative;
+  padding-left: 1.25rem;
+  font-family: var(--font-body);
+  font-size: var(--fs-small);
+  line-height: 1.6;
+  color: var(--basalt-charcoal);
+  opacity: 0.8;
+}
+
+.sources-list__item::before {
+  content: '◆';
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-size: 0.45rem;
+  color: var(--antique-gold-accessible);
+}
+
+.sources-list__item a {
+  color: var(--antique-gold-accessible);
+  text-decoration: underline;
+  text-decoration-color: var(--gold-30);
+  text-underline-offset: 2px;
+  transition: text-decoration-color var(--duration-fast) var(--ease-default);
+}
+
+.sources-list__item a:hover {
+  text-decoration-color: var(--bhagwa-saffron);
+  color: var(--bhagwa-saffron);
+}
+
+/* Encouragement note */
+.sources-encouragement {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--space-md);
+  border: 1px solid var(--gold-30);
+}
+
+.sources-encouragement p {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-body);
+  color: var(--basalt-charcoal);
+  opacity: 0.75;
+  line-height: 1.7;
+}
+
+.sources-encouragement .oct-badge {
+  margin: 0 auto var(--space-sm);
+}
+
+
+/* -------------------------------------------------------
+   RESPONSIVE — Letters
+   ------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .quotes-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .credibility-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 1024px) {
+  .quotes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sources-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-card {
+    padding: 1.5rem;
+  }
+
+  .quote-mark {
+    font-size: 2rem;
+  }
+}

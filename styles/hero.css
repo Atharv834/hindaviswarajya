@@ -1,0 +1,451 @@
+/* ============================================================
+   HERO.CSS — Hero Section Styles
+   Chhatrapati Shivaji Maharaj Tribute · Rajwadi Regal
+   ============================================================ */
+
+/* -------------------------------------------------------
+   HERO CONTAINER
+   ------------------------------------------------------- */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: var(--hero-ratio);
+  min-height: 100vh;
+}
+
+
+/* -------------------------------------------------------
+   HERO LEFT — Text Panel
+   ------------------------------------------------------- */
+.hero-left {
+  background: var(--basalt-charcoal);
+  padding: clamp(5rem, 8vw, 8rem) clamp(2.5rem, 5vw, 5rem);
+  padding-right: clamp(3rem, 6vw, 7rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Pre-Title */
+.hero-pretitle {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+  letter-spacing: 0.3em;
+  color: var(--antique-gold);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+/* Main Title */
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--fs-hero);
+  line-height: 0.95;
+  color: var(--parchment-ivory);
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.hero-title span {
+  display: block;
+}
+
+/* Divider */
+.hero-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+  max-width: 260px;
+}
+
+.hero-divider::before,
+.hero-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--antique-gold);
+  opacity: 0.5;
+}
+
+.hero-divider__diamond {
+  color: var(--antique-gold);
+  font-size: 0.5rem;
+  line-height: 1;
+}
+
+/* Subtitle */
+.hero-subtitle {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-h4);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+  margin-bottom: 1rem;
+}
+
+/* Dates */
+.hero-dates {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: var(--fs-h3);
+  color: var(--bhagwa-saffron);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+/* Saffron Accent Line */
+.hero-saffron-line {
+  width: 50px;
+  height: 3px;
+  background: var(--bhagwa-saffron);
+  margin-bottom: 1.5rem;
+  border-radius: 1px;
+}
+
+/* Description */
+.hero-description {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--fs-body);
+  color: var(--parchment-ivory);
+  opacity: 0.9;
+  max-width: 420px;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+/* CTA */
+.hero-cta {
+  margin-top: 0.5rem;
+}
+
+
+/* -------------------------------------------------------
+   HERO RIGHT — Image Panel
+   ------------------------------------------------------- */
+.hero-right {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image Placeholder */
+.hero-image-placeholder {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    var(--bhagwa-saffron) 20%,
+    #A85A1A 50%,
+    var(--basalt-charcoal) 85%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image-placeholder span {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: var(--fs-small);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+  opacity: 0.6;
+  text-align: center;
+  padding: 0.5em 1em;
+  border: 1px dashed var(--gold-30);
+}
+
+/* Hero Caption */
+.hero-caption {
+  bottom: 2rem;
+  right: 2rem;
+}
+
+
+/* -------------------------------------------------------
+   RAJMUDRA SEAL WRAPPER — Straddles Left/Right Boundary
+   ------------------------------------------------------- */
+.hero-seal-wrapper {
+  position: absolute;
+  left: 50%; /* Centered on the 50% split boundary line of the #hero grid */
+  top: 58%; /* Shifted slightly down from center */
+  transform: translate(-50%, -50%);
+  width: clamp(150px, 13vw, 200px); /* Slightly smaller size */
+  height: clamp(150px, 13vw, 200px);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.hero-seal {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 4px 30px rgba(0, 0, 0, 0.5));
+}
+
+.hero-seal img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* -------------------------------------------------------
+   EMBER PARTICLES — Around Seal
+   ------------------------------------------------------- */
+.hero-embers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.ember {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: ember-float 3s ease-in-out infinite;
+}
+
+.ember--1 {
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, var(--bhagwa-saffron), transparent);
+  top: 10%;
+  left: 20%;
+  animation-delay: 0s;
+  filter: blur(1px);
+}
+
+.ember--2 {
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, var(--rajwadi-maroon), transparent);
+  top: 85%;
+  left: 30%;
+  animation-delay: 0.5s;
+  filter: blur(1.5px);
+}
+
+.ember--3 {
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, var(--bhagwa-saffron), transparent);
+  top: 75%;
+  right: 15%;
+  animation-delay: 1s;
+  filter: blur(1px);
+}
+
+.ember--4 {
+  width: 7px;
+  height: 7px;
+  background: radial-gradient(circle, var(--bhagwa-saffron), transparent);
+  top: 15%;
+  right: 25%;
+  animation-delay: 1.5s;
+  filter: blur(2px);
+}
+
+.ember--5 {
+  width: 12px;
+  height: 12px;
+  background: radial-gradient(circle, var(--rajwadi-maroon), transparent);
+  bottom: 20%;
+  left: 50%;
+  animation-delay: 0.8s;
+  filter: blur(1px);
+}
+
+.ember--6 {
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, var(--bhagwa-saffron), transparent);
+  top: 50%;
+  left: 5%;
+  animation-delay: 2s;
+  filter: blur(1.5px);
+}
+
+@keyframes ember-float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-8px) scale(1.15);
+    opacity: 0.9;
+  }
+}
+
+
+/* -------------------------------------------------------
+   SCROLL CUE
+   ------------------------------------------------------- */
+.hero-scroll-cue {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 15;
+}
+
+.hero-scroll-cue__label {
+  font-family: var(--font-ui);
+  font-weight: 600;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--parchment-ivory);
+  opacity: 0.7;
+}
+
+.hero-scroll-cue__chevron {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: scroll-bounce 2s ease-in-out infinite;
+}
+
+.hero-scroll-cue__chevron::before {
+  content: '▾';
+  font-size: 1rem;
+  color: var(--bhagwa-saffron);
+}
+
+@keyframes scroll-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+
+/* -------------------------------------------------------
+   HERO BOTTOM BORDER — Repeating Diamond Strip
+   ------------------------------------------------------- */
+.hero-bottom-border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  z-index: 20;
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0px,
+      transparent 6px,
+      var(--antique-gold) 6px,
+      var(--antique-gold) 7px,
+      transparent 7px,
+      transparent 13px
+    );
+  background-size: 100% 1px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-bottom-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 15px,
+      var(--antique-gold) 15px,
+      var(--antique-gold) 16px
+    );
+  opacity: 0.25;
+}
+
+/* Centered diamonds within the strip */
+.hero-bottom-border::after {
+  content: '◆  ◆  ◆  ◆  ◆';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.35rem;
+  color: var(--antique-gold);
+  letter-spacing: 2rem;
+  white-space: nowrap;
+}
+
+
+/* -------------------------------------------------------
+   RESPONSIVE — Hero
+   ------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-right {
+    min-height: 50vh;
+    order: 1;
+  }
+
+  .hero-left {
+    order: 2;
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .hero-seal-wrapper {
+    /* Reposition seal wrapper to straddle top-image (50vh) / bottom-text on mobile */
+    left: 50%;
+    top: 50vh;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+  }
+
+  .hero-scroll-cue {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: var(--space-md);
+    align-self: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: clamp(3rem, 12vw, 4rem);
+  }
+
+  .hero-pretitle {
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+  }
+}
