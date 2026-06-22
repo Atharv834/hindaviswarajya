@@ -162,24 +162,26 @@
     .honeycomb { position: relative; width: 480px; height: 480px; flex-shrink: 0; transform: scale(var(--honeycomb-scale, 1)); transform-origin: center; }
     .honeycomb__center { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 2; }
     .honeycomb__center .oct-badge--xl { font-size: 0.75rem; text-align: center; line-height: 1.2; padding: 0.5rem; }
-    .honeycomb__node { position: absolute; display: flex; flex-direction: column; align-items: center; z-index: 2; }
-    .honeycomb__node:nth-child(2) { top: 25px;  left: 208px; }
-    .honeycomb__node:nth-child(3) { top: 85px;  left: 360px; }
-    .honeycomb__node:nth-child(4) { top: 230px; left: 390px; }
-    .honeycomb__node:nth-child(5) { top: 355px; left: 340px; }
-    .honeycomb__node:nth-child(6) { top: 390px; left: 190px; }
-    .honeycomb__node:nth-child(7) { top: 325px; left: 55px;  }
-    .honeycomb__node:nth-child(8) { top: 160px; left: 45px;  }
+    .honeycomb__node { position: absolute; display: flex; flex-direction: column; align-items: center; z-index: 2; width: 80px; }
+    .honeycomb__node--1 { top: 20px;  left: 200px; }
+    .honeycomb__node--2 { top: 70px;  left: 320px; }
+    .honeycomb__node--3 { top: 195px; left: 370px; }
+    .honeycomb__node--4 { top: 320px; left: 320px; }
+    .honeycomb__node--5 { top: 370px; left: 200px; }
+    .honeycomb__node--6 { top: 320px; left: 80px;  }
+    .honeycomb__node--7 { top: 195px; left: 30px;  }
+    .honeycomb__node--8 { top: 70px;  left: 80px;  }
     .honeycomb__node-label { font-family: var(--font-ui); font-weight: 700; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--antique-gold-accessible); margin-top: 0.4rem; text-align: center; max-width: 80px; }
     .honeycomb__node-role  { font-size: 0.55rem; color: var(--basalt-charcoal); opacity: 0.6; text-align: center; max-width: 80px; }
     .honeycomb__line { position: absolute; background: var(--antique-gold); height: 1px; transform-origin: left center; z-index: 1; opacity: 0.3; }
-    .honeycomb__line--1 { top: 240px; left: 240px; width: 140px; transform: rotate(-90deg); }
-    .honeycomb__line--2 { top: 240px; left: 240px; width: 155px; transform: rotate(-40deg); }
-    .honeycomb__line--3 { top: 240px; left: 240px; width: 150px; transform: rotate(0deg); }
-    .honeycomb__line--4 { top: 240px; left: 240px; width: 155px; transform: rotate(40deg); }
-    .honeycomb__line--5 { top: 240px; left: 240px; width: 140px; transform: rotate(90deg); }
-    .honeycomb__line--6 { top: 240px; left: 240px; width: 155px; transform: rotate(140deg); }
-    .honeycomb__line--7 { top: 240px; left: 240px; width: 150px; transform: rotate(190deg); }
+    .honeycomb__line--1 { top: 240px; left: 240px; width: 145px; transform: rotate(-90deg); }
+    .honeycomb__line--2 { top: 240px; left: 240px; width: 145px; transform: rotate(-45deg); }
+    .honeycomb__line--3 { top: 240px; left: 240px; width: 145px; transform: rotate(0deg); }
+    .honeycomb__line--4 { top: 240px; left: 240px; width: 145px; transform: rotate(45deg); }
+    .honeycomb__line--5 { top: 240px; left: 240px; width: 145px; transform: rotate(90deg); }
+    .honeycomb__line--6 { top: 240px; left: 240px; width: 145px; transform: rotate(135deg); }
+    .honeycomb__line--7 { top: 240px; left: 240px; width: 145px; transform: rotate(180deg); }
+    .honeycomb__line--8 { top: 240px; left: 240px; width: 145px; transform: rotate(225deg); }
     .honeycomb__seal { position: absolute; top: calc(50% + 58px); left: 50%; transform: translateX(-50%); width: 34px; height: 34px; z-index: 3; }
 
     /* Ashtapradhan Image */
@@ -589,6 +591,7 @@
             <span class="honeycomb__line honeycomb__line--5"></span>
             <span class="honeycomb__line honeycomb__line--6"></span>
             <span class="honeycomb__line honeycomb__line--7"></span>
+            <span class="honeycomb__line honeycomb__line--8"></span>
 
             <div class="honeycomb__center">
               <div class="oct-badge oct-badge--xl oct-badge--gold" style="font-weight:700;">
@@ -596,40 +599,45 @@
               </div>
             </div>
 
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--1">
               <div class="oct-badge oct-badge--lg">१</div>
               <span class="honeycomb__node-label">Peshwa</span>
               <span class="honeycomb__node-role">Prime Minister</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--2">
               <div class="oct-badge oct-badge--lg">२</div>
               <span class="honeycomb__node-label">Amatya</span>
               <span class="honeycomb__node-role">Finance</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--3">
               <div class="oct-badge oct-badge--lg">३</div>
               <span class="honeycomb__node-label">Sachiv</span>
               <span class="honeycomb__node-role">Secretary</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--4">
               <div class="oct-badge oct-badge--lg">४</div>
               <span class="honeycomb__node-label">Mantri</span>
               <span class="honeycomb__node-role">Interior</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--5">
               <div class="oct-badge oct-badge--lg">५</div>
               <span class="honeycomb__node-label">Senapati</span>
               <span class="honeycomb__node-role">Commander</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--6">
               <div class="oct-badge oct-badge--lg">६</div>
               <span class="honeycomb__node-label">Sumant</span>
               <span class="honeycomb__node-role">Foreign</span>
             </div>
-            <div class="honeycomb__node">
+            <div class="honeycomb__node honeycomb__node--7">
               <div class="oct-badge oct-badge--lg">७</div>
               <span class="honeycomb__node-label">Nyayadhish</span>
               <span class="honeycomb__node-role">Law &amp; Justice</span>
+            </div>
+            <div class="honeycomb__node honeycomb__node--8">
+              <div class="oct-badge oct-badge--lg">८</div>
+              <span class="honeycomb__node-label">Panditrao</span>
+              <span class="honeycomb__node-role">High Priest</span>
             </div>
 
             <svg class="honeycomb__seal" aria-hidden="true" style="color: var(--rajwadi-maroon);">
