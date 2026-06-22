@@ -449,3 +449,13 @@
     letter-spacing: 0.2em;
   }
 }
+
+/* --- Devanagari Hero Adjustments --- */
+html.lang-mr .hero-title {
+  line-height: 1.25;
+}
+
+html.lang-mr .hero-pretitle {
+  margin-bottom: 1.5rem;
+}
+

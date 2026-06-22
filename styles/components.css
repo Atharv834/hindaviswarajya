@@ -583,6 +583,17 @@
   color: var(--bhagwa-saffron);
 }
 
+.band--campaign {
+  grid-template-columns: 45% 55%;
+}
+
+@media (max-width: 1024px) {
+  .band--campaign {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 @media (max-width: 1024px) {
   .band {
     grid-template-columns: 1fr;
