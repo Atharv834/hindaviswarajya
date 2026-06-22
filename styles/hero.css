@@ -420,13 +420,7 @@
   }
 
   .hero-seal-wrapper {
-    /* Reposition seal wrapper to straddle top-image (50vh) / bottom-text on mobile */
-    left: 50%;
-    top: 50vh;
-    bottom: auto;
-    transform: translate(-50%, -50%);
-    width: 140px;
-    height: 140px;
+    display: none;
   }
 
   .hero-scroll-cue {
@@ -441,7 +435,7 @@
 
 @media (max-width: 480px) {
   .hero-title {
-    font-size: clamp(3rem, 12vw, 4rem);
+    font-size: clamp(3.5rem, 16vw, 4.5rem);
   }
 
   .hero-pretitle {
