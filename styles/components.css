@@ -889,113 +889,16 @@
   }
 }
 
-/* -------------------------------------------------------
-   LUXURY SECTION DIVIDER — Museum/Editorial Style
-   ------------------------------------------------------- */
 .luxury-divider {
   width: 100%;
-  padding: 3rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: clamp(50px, 4.5vw, 80px);
+  background: url('../assets/img/luxury-divider.svg') center/cover no-repeat;
+  margin: 0;
+  padding: 0;
+  display: block;
   position: relative;
-  overflow: hidden;
-  background: var(--basalt-charcoal);
-  background: linear-gradient(
-    90deg,
-    var(--basalt-charcoal) 0%,
-    var(--rajwadi-maroon) 50%,
-    var(--basalt-charcoal) 100%
-  );
-}
-
-/* Outer thin lines */
-.luxury-divider::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    var(--antique-gold) 20%,
-    var(--antique-gold) 45%,
-    transparent 45%,
-    transparent 55%,
-    var(--antique-gold) 55%,
-    var(--antique-gold) 80%,
-    transparent 100%
-  );
-  opacity: 0.6;
-  z-index: 1;
-}
-
-/* Inner decorative lines (filigree impression) */
-.luxury-divider::after {
-  content: '';
-  position: absolute;
-  top: calc(50% - 4px);
-  left: 0;
-  width: 100%;
-  height: 9px;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    transparent 35%,
-    var(--antique-gold) 35%,
-    var(--antique-gold) 40%,
-    transparent 40%,
-    transparent 60%,
-    var(--antique-gold) 60%,
-    var(--antique-gold) 65%,
-    transparent 65%,
-    transparent 100%
-  );
-  opacity: 0.3;
-  z-index: 1;
-}
-
-/* Central Octagonal Seal Area */
-.luxury-divider__center {
-  position: relative;
-  z-index: 2;
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: radial-gradient(circle at center, rgba(140, 115, 51, 0.15) 0%, transparent 70%);
-  border-radius: 50%;
-}
-
-.luxury-divider__center::before {
-  content: '◆';
-  position: absolute;
-  left: -40px;
-  color: var(--antique-gold);
-  font-size: 0.5rem;
-  opacity: 0.8;
-}
-
-.luxury-divider__center::after {
-  content: '◆';
-  position: absolute;
-  right: -40px;
-  color: var(--antique-gold);
-  font-size: 0.5rem;
-  opacity: 0.8;
-}
-
-.luxury-divider__seal {
-  width: 48px;
-  height: 48px;
-  color: var(--antique-gold);
-  filter: drop-shadow(0 0 10px rgba(189, 154, 75, 0.4));
-  transition: transform 0.5s ease;
-}
-
-.luxury-divider:hover .luxury-divider__seal {
-  transform: rotate(5deg) scale(1.05);
+  z-index: 5;
+  border-top: 1px solid rgba(189, 154, 75, 0.2);
+  border-bottom: 1px solid rgba(189, 154, 75, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.4);
 }

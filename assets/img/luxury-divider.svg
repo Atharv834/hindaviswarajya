@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 80" width="100%" height="100%">
+  <defs>
+    <!-- Dark metal/grunge texture filter -->
+    <filter id="aged-metal" x="0" y="0" width="1600" height="80" filterUnits="userSpaceOnUse">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.7" numOctaves="4" result="noise" />
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 0.12 0" in="noise" result="coloredNoise"/>
+      <feComposite operator="in" in2="SourceGraphic" />
+      <feBlend mode="multiply" in="SourceGraphic" in2="coloredNoise" />
+    </filter>
+
+    <!-- Soft gold glow filter -->
+    <filter id="gold-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Background Maroon-Charcoal Gradient -->
+    <linearGradient id="metal-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#12100E" />
+      <stop offset="25%" stop-color="#1E1A16" />
+      <stop offset="40%" stop-color="#3D0B14" />
+      <stop offset="50%" stop-color="#6E1423" />
+      <stop offset="60%" stop-color="#3D0B14" />
+      <stop offset="75%" stop-color="#1E1A16" />
+      <stop offset="100%" stop-color="#12100E" />
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="gold-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A6F27" />
+      <stop offset="20%" stop-color="#C5A046" />
+      <stop offset="40%" stop-color="#F3D78A" />
+      <stop offset="50%" stop-color="#BD9A4B" />
+      <stop offset="60%" stop-color="#F3D78A" />
+      <stop offset="80%" stop-color="#C5A046" />
+      <stop offset="100%" stop-color="#8A6F27" />
+    </linearGradient>
+
+    <!-- Radial glow for center -->
+    <radialGradient id="center-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F3D78A" stop-opacity="0.3" />
+      <stop offset="40%" stop-color="#BD9A4B" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#1E1A16" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Base background plate with metal texture -->
+  <rect width="1600" height="80" fill="url(#metal-gradient)" filter="url(#aged-metal)" />
+
+  <!-- Center radial glow -->
+  <circle cx="800" cy="40" r="140" fill="url(#center-glow)" />
+
+  <!-- Symmetrical Ornamental Lines (Left Side) -->
+  <g filter="url(#gold-glow)">
+    <!-- Thin primary gold borders -->
+    <line x1="0" y1="18" x2="720" y2="18" stroke="url(#gold-gradient)" stroke-width="1.2" opacity="0.85" />
+    <line x1="0" y1="62" x2="720" y2="62" stroke="url(#gold-gradient)" stroke-width="1.2" opacity="0.85" />
+    
+    <!-- Accent pinstripe line -->
+    <line x1="0" y1="22" x2="680" y2="22" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="0" y1="58" x2="680" y2="58" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+
+    <!-- Detailed Filigree Paths -->
+    <!-- Traditional Maratha floral/spiral scrolls -->
+    <path d="M 0,40 L 400,40 C 450,40 470,30 490,30 C 510,30 520,50 540,50 C 560,50 570,30 590,30 C 610,30 630,50 655,50 C 680,50 700,40 730,40" fill="none" stroke="url(#gold-gradient)" stroke-width="1.5" stroke-linecap="round" opacity="0.9" />
+
+    <!-- Secondary filigree scrolls -->
+    <path d="M 450,37 C 460,28 475,28 480,35 C 485,42 475,48 465,45 C 455,42 458,32 463,30" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+    <path d="M 525,43 C 535,52 550,52 555,45 C 560,38 550,32 540,35 C 530,38 533,48 538,50" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+    <path d="M 605,37 C 615,28 630,28 635,35 C 640,42 630,48 620,45 C 610,42 613,32 618,30" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+
+    <!-- Symmetrical Diamond clusters -->
+    <g transform="translate(150, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+      <circle cx="-12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+      <circle cx="12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+    </g>
+    <g transform="translate(300, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+      <circle cx="-12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+      <circle cx="12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+    </g>
+    <g transform="translate(450, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+    </g>
+    <g transform="translate(600, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+    </g>
+    
+    <!-- Delicate leaf shapes branching out -->
+    <path d="M 410,40 Q 420,30 435,30 Q 425,38 410,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 410,40 Q 420,50 435,50 Q 425,42 410,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 570,40 Q 580,30 595,30 Q 585,38 570,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 570,40 Q 580,50 595,50 Q 585,42 570,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+  </g>
+
+  <!-- Symmetrical Ornamental Lines (Right Side - Mirrored) -->
+  <g transform="translate(1600, 80) scale(-1, -1)" filter="url(#gold-glow)">
+    <!-- Thin primary gold borders -->
+    <line x1="0" y1="18" x2="720" y2="18" stroke="url(#gold-gradient)" stroke-width="1.2" opacity="0.85" />
+    <line x1="0" y1="62" x2="720" y2="62" stroke="url(#gold-gradient)" stroke-width="1.2" opacity="0.85" />
+    
+    <!-- Accent pinstripe line -->
+    <line x1="0" y1="22" x2="680" y2="22" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="0" y1="58" x2="680" y2="58" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+
+    <!-- Detailed Filigree Paths -->
+    <path d="M 0,40 L 400,40 C 450,40 470,30 490,30 C 510,30 520,50 540,50 C 560,50 570,30 590,30 C 610,30 630,50 655,50 C 680,50 700,40 730,40" fill="none" stroke="url(#gold-gradient)" stroke-width="1.5" stroke-linecap="round" opacity="0.9" />
+
+    <!-- Secondary filigree scrolls -->
+    <path d="M 450,37 C 460,28 475,28 480,35 C 485,42 475,48 465,45 C 455,42 458,32 463,30" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+    <path d="M 525,43 C 535,52 550,52 555,45 C 560,38 550,32 540,35 C 530,38 533,48 538,50" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+    <path d="M 605,37 C 615,28 630,28 635,35 C 640,42 630,48 620,45 C 610,42 613,32 618,30" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" opacity="0.6" />
+
+    <!-- Symmetrical Diamond clusters -->
+    <g transform="translate(150, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+      <circle cx="-12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+      <circle cx="12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+    </g>
+    <g transform="translate(300, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+      <circle cx="-12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+      <circle cx="12" cy="0" r="1.5" fill="#F3D78A" opacity="0.6" />
+    </g>
+    <g transform="translate(450, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+    </g>
+    <g transform="translate(600, 40)">
+      <polygon points="0,-4 4,0 0,4 -4,0" fill="url(#gold-gradient)" opacity="0.8" />
+    </g>
+    
+    <!-- Delicate leaf shapes branching out -->
+    <path d="M 410,40 Q 420,30 435,30 Q 425,38 410,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 410,40 Q 420,50 435,50 Q 425,42 410,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 570,40 Q 580,30 595,30 Q 585,38 570,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+    <path d="M 570,40 Q 580,50 595,50 Q 585,42 570,40 Z" fill="url(#gold-gradient)" opacity="0.7" />
+  </g>
+
+  <!-- CENTER RAJMUDRA MOTIF -->
+  <g transform="translate(800, 40)" filter="url(#gold-glow)">
+    <!-- Outer concentric octagon -->
+    <polygon points="
+      -12.5,-30   12.5,-30
+      30,-12.5    30,12.5
+      12.5,30     -12.5,30
+      -30,12.5    -30,-12.5" fill="none" stroke="url(#gold-gradient)" stroke-width="1.8" stroke-linejoin="round" opacity="0.95" />
+      
+    <!-- Inner concentric octagon -->
+    <polygon points="
+      -10,-24     10,-24
+      24,-10      24,10
+      10,24       -10,24
+      -24,10      -24,-10" fill="none" stroke="url(#gold-gradient)" stroke-width="0.8" stroke-linejoin="round" opacity="0.7" />
+
+    <!-- Subtle abstract inner layout (Rajmudra text lines representation without actual readable text) -->
+    <line x1="-16" y1="-14" x2="16" y2="-14" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="-18" y1="-7" x2="18" y2="-7" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="-18" y1="7" x2="18" y2="7" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    <line x1="-16" y1="14" x2="16" y2="14" stroke="url(#gold-gradient)" stroke-width="0.6" opacity="0.5" />
+    
+    <!-- Concentric diamond dots inside -->
+    <circle cx="0" cy="0" r="1.5" fill="#F3D78A" opacity="0.8" />
+    <circle cx="-10" cy="-7" r="1" fill="#F3D78A" opacity="0.6" />
+    <circle cx="10" cy="-7" r="1" fill="#F3D78A" opacity="0.6" />
+    <circle cx="-12" cy="0" r="1" fill="#F3D78A" opacity="0.6" />
+    <circle cx="12" cy="0" r="1" fill="#F3D78A" opacity="0.6" />
+    <circle cx="-10" cy="7" r="1" fill="#F3D78A" opacity="0.6" />
+    <circle cx="10" cy="7" r="1" fill="#F3D78A" opacity="0.6" />
+
+    <!-- Flaunting diamond stars at left & right vertices -->
+    <polygon points="-42,0 -38,-3 -34,0 -38,3" fill="url(#gold-gradient)" opacity="0.9" />
+    <polygon points="42,0 38,-3 34,0 38,3" fill="url(#gold-gradient)" opacity="0.9" />
+    
+    <!-- Connecting dots between central motif and flairs -->
+    <circle cx="-48" cy="0" r="1.2" fill="#F3D78A" opacity="0.7" />
+    <circle cx="48" cy="0" r="1.2" fill="#F3D78A" opacity="0.7" />
+  </g>
+</svg>
