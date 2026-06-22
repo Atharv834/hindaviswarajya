@@ -12,18 +12,23 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: transparent;
-  backdrop-filter: none;
+  background: rgba(30, 26, 22, 0.45); /* translucent basalt charcoal */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(189, 154, 75, 0.15); /* very soft gold bottom border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
   transition: background var(--duration-medium) var(--ease-default),
               border-color var(--duration-medium) var(--ease-default),
-              box-shadow var(--duration-medium) var(--ease-default);
-  border-bottom: 1px solid transparent;
+              box-shadow var(--duration-medium) var(--ease-default),
+              backdrop-filter var(--duration-medium) var(--ease-default);
 }
 
 .site-header.scrolled {
-  background: var(--basalt-charcoal);
-  border-bottom: 1px solid var(--gold-30);
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+  background: rgba(30, 26, 22, 0.75); /* slightly darker translucent on scroll */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(189, 154, 75, 0.35); /* more defined gold bottom border */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 .header-inner {
@@ -184,11 +189,17 @@
 /* — Mobile Navigation — */
 @media (max-width: 1024px) {
   .site-header {
-    background: linear-gradient(to bottom, rgba(30, 26, 22, 0.9) 0%, rgba(30, 26, 22, 0) 100%);
+    background: rgba(30, 26, 22, 0.55);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(189, 154, 75, 0.15);
   }
   
   .site-header.scrolled {
-    background: var(--basalt-charcoal);
+    background: rgba(30, 26, 22, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(189, 154, 75, 0.35);
   }
 
   .hamburger {
