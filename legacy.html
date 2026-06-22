@@ -4,14 +4,461 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chhatrapati Shivaji Maharaj — The Legacy</title>
-  <meta name="description" content="Explore the legacy of Chhatrapati Shivaji Maharaj, including the Ashtapradhan council, military strategies, Maratha Navy, and religious tolerance.">
-  
+  <meta name="description" content="Explore the enduring legacy of Chhatrapati Shivaji Maharaj — his Ashtapradhan council, guerrilla warfare doctrine, Maratha Navy, religious harmony, and his living impact on modern India.">
+
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="styles/tokens.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/components.css">
   <link rel="stylesheet" href="styles/legacy.css">
   <link rel="stylesheet" href="styles/footer.css">
+
+  <style>
+    /* ── LEGACY HERO ───────────────────────────── */
+    .legacy-hero {
+      position: relative;
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: calc(var(--header-height) + 5rem) clamp(2rem, 6vw, 6rem) 5rem;
+      background: var(--basalt-charcoal);
+      overflow: hidden;
+    }
+    .legacy-hero__bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('assets/img/prologue-raigad-sunset.jpg');
+      background-size: cover;
+      background-position: center 30%;
+      opacity: 0.35;
+    }
+    .legacy-hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(26,14,6,0.6) 0%, rgba(26,14,6,0.85) 100%);
+    }
+    .legacy-hero__content {
+      position: relative;
+      z-index: 2;
+      max-width: 860px;
+    }
+    .legacy-hero__kicker {
+      font-family: var(--font-ui);
+      font-size: 0.75rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--bhagwa-saffron);
+      margin-bottom: 1.5rem;
+    }
+    .legacy-hero__title {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 7vw, 5.5rem);
+      color: var(--parchment-ivory);
+      line-height: 1.05;
+      margin-bottom: 1.5rem;
+      letter-spacing: 0.04em;
+    }
+    .legacy-hero__title span.gold {
+      color: var(--antique-gold);
+    }
+    .legacy-hero__divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .legacy-hero__divider::before,
+    .legacy-hero__divider::after {
+      content: '';
+      flex: 1;
+      max-width: 120px;
+      height: 1px;
+      background: var(--antique-gold);
+      opacity: 0.5;
+    }
+    .legacy-hero__divider span {
+      color: var(--antique-gold);
+      font-size: 1rem;
+    }
+    .legacy-hero__desc {
+      color: var(--parchment-ivory);
+      opacity: 0.85;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    /* ── IMPACT STATS BAND ─────────────────────── */
+    .impact-band {
+      background: var(--rajwadi-maroon);
+      border-top: 1px solid var(--gold-30);
+      border-bottom: 1px solid var(--gold-30);
+      padding: 3.5rem clamp(2rem, 5vw, 5rem);
+    }
+    .impact-band__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 2rem;
+      max-width: var(--max-content);
+      margin: 0 auto;
+    }
+    .impact-stat {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      border: 1px solid var(--gold-30);
+      background: rgba(255,255,255,0.03);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .impact-stat:hover {
+      transform: translateY(-4px);
+      border-color: var(--antique-gold);
+    }
+    .impact-stat__number {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      color: var(--antique-gold);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .impact-stat__label {
+      font-family: var(--font-ui);
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--parchment-ivory);
+      opacity: 0.8;
+    }
+    .impact-stat__desc {
+      font-size: 0.8rem;
+      color: var(--parchment-ivory);
+      opacity: 0.6;
+      margin-top: 0.5rem;
+      line-height: 1.5;
+    }
+
+    /* ── ASHTAPRADHAN SECTION ───────────────────── */
+    #ashtapradhan {
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+      background: var(--parchment-ivory);
+      color: var(--basalt-charcoal);
+    }
+    .ashtapradhan-layout {
+      display: grid;
+      grid-template-columns: 1fr 480px 1fr;
+      gap: 3rem;
+      max-width: var(--max-content);
+      margin: 0 auto;
+      align-items: center;
+    }
+    .ashtapradhan-intro h2 { color: var(--antique-gold-accessible); margin-bottom: 1rem; }
+    .ashtapradhan-intro p  { line-height: 1.8; opacity: 0.85; margin-bottom: 1rem; }
+
+    /* Honeycomb */
+    .honeycomb-wrapper { display: flex; justify-content: center; align-items: center; height: calc(480px * var(--honeycomb-scale, 1)); }
+    .honeycomb { position: relative; width: 480px; height: 480px; flex-shrink: 0; transform: scale(var(--honeycomb-scale, 1)); transform-origin: center; }
+    .honeycomb__center { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 2; }
+    .honeycomb__center .oct-badge--xl { font-size: 0.75rem; text-align: center; line-height: 1.2; padding: 0.5rem; }
+    .honeycomb__node { position: absolute; display: flex; flex-direction: column; align-items: center; z-index: 2; }
+    .honeycomb__node:nth-child(2) { top: 25px;  left: 208px; }
+    .honeycomb__node:nth-child(3) { top: 85px;  left: 360px; }
+    .honeycomb__node:nth-child(4) { top: 230px; left: 390px; }
+    .honeycomb__node:nth-child(5) { top: 355px; left: 340px; }
+    .honeycomb__node:nth-child(6) { top: 390px; left: 190px; }
+    .honeycomb__node:nth-child(7) { top: 325px; left: 55px;  }
+    .honeycomb__node:nth-child(8) { top: 160px; left: 45px;  }
+    .honeycomb__node-label { font-family: var(--font-ui); font-weight: 700; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--antique-gold-accessible); margin-top: 0.4rem; text-align: center; max-width: 80px; }
+    .honeycomb__node-role  { font-size: 0.55rem; color: var(--basalt-charcoal); opacity: 0.6; text-align: center; max-width: 80px; }
+    .honeycomb__line { position: absolute; background: var(--antique-gold); height: 1px; transform-origin: left center; z-index: 1; opacity: 0.3; }
+    .honeycomb__line--1 { top: 240px; left: 240px; width: 140px; transform: rotate(-90deg); }
+    .honeycomb__line--2 { top: 240px; left: 240px; width: 155px; transform: rotate(-40deg); }
+    .honeycomb__line--3 { top: 240px; left: 240px; width: 150px; transform: rotate(0deg); }
+    .honeycomb__line--4 { top: 240px; left: 240px; width: 155px; transform: rotate(40deg); }
+    .honeycomb__line--5 { top: 240px; left: 240px; width: 140px; transform: rotate(90deg); }
+    .honeycomb__line--6 { top: 240px; left: 240px; width: 155px; transform: rotate(140deg); }
+    .honeycomb__line--7 { top: 240px; left: 240px; width: 150px; transform: rotate(190deg); }
+    .honeycomb__seal { position: absolute; top: calc(50% + 58px); left: 50%; transform: translateX(-50%); width: 34px; height: 34px; z-index: 3; }
+
+    /* Ashtapradhan Image */
+    .ashtapradhan-image {
+      display: flex; flex-direction: column; align-items: center; gap: 1rem;
+    }
+    .ashtapradhan-image__frame {
+      width: 100%; max-width: 280px; aspect-ratio: 3/4;
+      background: var(--gold-10); border: 2px solid var(--antique-gold);
+      background-image: url('assets/img/ashtapradhan-illustration.jpg');
+      background-size: cover; background-position: center;
+    }
+    .ashtapradhan-image figcaption {
+      font-style: italic; font-size: 0.8rem; text-align: center; opacity: 0.7;
+    }
+
+    @media (max-width: 1100px) {
+      .ashtapradhan-layout { grid-template-columns: 1fr; text-align: center; }
+      :root { --honeycomb-scale: 0.75; }
+    }
+    @media (max-width: 600px) { :root { --honeycomb-scale: 0.55; } }
+
+    /* ── ECONOMY SECTION ─────────────────────────── */
+    #economy {
+      background: var(--basalt-charcoal);
+      color: var(--parchment-ivory);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+    }
+    .economy-inner {
+      max-width: var(--max-content);
+      margin: 0 auto;
+    }
+    .economy-header { text-align: center; margin-bottom: 3rem; }
+    .economy-header h2 { color: var(--antique-gold); margin-top: 1rem; }
+    .economy-header p  { max-width: 700px; margin: 1rem auto 0; opacity: 0.85; line-height: 1.8; }
+    .economy-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+    .economy-card {
+      border: 1px solid var(--gold-30);
+      background: rgba(255,255,255,0.04);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      transition: border-color 0.3s ease, transform 0.3s ease;
+    }
+    .economy-card:hover { border-color: var(--antique-gold); transform: translateY(-4px); }
+    .economy-card svg { width: 48px; height: 48px; color: var(--bhagwa-saffron); margin-bottom: 1rem; }
+    .economy-card h4 { font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase; font-size: 0.85rem; }
+    .economy-card p  { font-size: 0.85rem; opacity: 0.75; line-height: 1.6; }
+    .coin-badge { width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--antique-gold); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.4rem; color: var(--antique-gold); }
+
+    /* ── MILITARY SECTION ────────────────────────── */
+    #military {
+      background: var(--parchment-ivory);
+      color: var(--basalt-charcoal);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+    }
+    .military-layout {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 3rem;
+      max-width: var(--max-content);
+      margin: 0 auto;
+      align-items: start;
+    }
+    .military-intro h2 { color: var(--antique-gold-accessible); margin-bottom: 0.5rem; }
+    .military-subhead { font-family: var(--font-ui); font-weight: 700; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--bhagwa-saffron); margin-bottom: 1.5rem; display: block; }
+    .military-intro p  { line-height: 1.8; opacity: 0.85; }
+    .military-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .strategy-card { border: 1px solid var(--gold-30); padding: 1.75rem 1.5rem; background: white; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
+    .strategy-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.1); border-color: var(--antique-gold-accessible); }
+    .strategy-card__icon { width: 44px; height: 44px; color: var(--bhagwa-saffron); margin-bottom: 1rem; }
+    .strategy-card__title { font-family: var(--font-ui); color: var(--antique-gold-accessible); margin-bottom: 0.75rem; font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; }
+    .strategy-card p { font-size: 0.875rem; line-height: 1.7; opacity: 0.8; }
+    @media (max-width: 900px) { .military-layout { grid-template-columns: 1fr; } .military-grid { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 500px) { .military-grid { grid-template-columns: 1fr; } }
+
+    /* ── NAVY SECTION ─────────────────────────────── */
+    #navy {
+      background: #0a2533;
+      color: var(--parchment-ivory);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+      position: relative;
+      border-top: 1px solid var(--gold-30);
+      border-bottom: 1px solid var(--gold-30);
+    }
+    .navy-layout {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 3rem;
+      max-width: var(--max-content);
+      margin: 0 auto;
+      align-items: center;
+    }
+    .navy-content h2 { color: var(--antique-gold); margin: 1rem 0; }
+    .navy-content p  { opacity: 0.88; line-height: 1.8; margin-bottom: 1.5rem; }
+    .navy-quote {
+      border-left: 3px solid var(--antique-gold);
+      padding: 1rem 1.5rem;
+      margin-top: 1.5rem;
+      background: rgba(255,255,255,0.04);
+    }
+    .navy-quote em { font-size: 0.9rem; opacity: 0.85; font-style: italic; }
+    .navy-quote cite { display: block; font-family: var(--font-ui); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--bhagwa-saffron); margin-top: 0.5rem; }
+    .navy-image-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .navy-ship-img {
+      width: 100%;
+      aspect-ratio: 16/10;
+      background-image: url('assets/img/warship.jpg');
+      background-size: cover;
+      background-position: center;
+      border: 1px solid var(--gold-30);
+    }
+    .navy-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+    }
+    .navy-stat-card {
+      border: 1px solid var(--gold-30);
+      padding: 1rem;
+      text-align: center;
+      background: rgba(255,255,255,0.03);
+    }
+    .navy-stat-card__icon { width: 28px; height: 28px; color: var(--antique-gold); margin: 0 auto 0.5rem; display: block; }
+    .navy-stat-card__title { font-family: var(--font-ui); color: var(--antique-gold); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
+    .navy-stat-card p { font-size: 0.75rem; opacity: 0.75; line-height: 1.5; }
+    @media (max-width: 1024px) { .navy-layout { grid-template-columns: 1fr; } .navy-stats { grid-template-columns: 1fr 1fr 1fr; } }
+    @media (max-width: 500px) { .navy-stats { grid-template-columns: 1fr; } }
+
+    /* ── RELIGIOUS TOLERANCE ──────────────────────── */
+    #tolerance {
+      background: var(--parchment-ivory);
+      color: var(--basalt-charcoal);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+    }
+    .tolerance-inner {
+      max-width: var(--max-content);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .tolerance-text h2   { color: var(--antique-gold-accessible); margin: 1rem 0; }
+    .tolerance-text p    { line-height: 1.8; opacity: 0.85; margin-bottom: 1rem; }
+    .tolerance-facts {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .tolerance-fact {
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+      padding: 1.25rem;
+      border: 1px solid var(--gold-30);
+      background: white;
+      transition: transform 0.3s ease;
+    }
+    .tolerance-fact:hover { transform: translateX(4px); }
+    .tolerance-fact__icon { width: 40px; height: 40px; flex-shrink: 0; color: var(--rajwadi-maroon); }
+    .tolerance-fact h4 { font-family: var(--font-ui); color: var(--antique-gold-accessible); margin-bottom: 0.35rem; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
+    .tolerance-fact p  { font-size: 0.85rem; opacity: 0.75; line-height: 1.5; margin: 0; }
+    @media (max-width: 900px) { .tolerance-inner { grid-template-columns: 1fr; gap: 2.5rem; } }
+
+    /* ── CULTURE SECTION ──────────────────────────── */
+    #culture {
+      background: var(--rajwadi-maroon);
+      color: var(--parchment-ivory);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+    }
+    .culture-layout {
+      max-width: var(--max-content);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .culture-layout h2 { color: var(--parchment-ivory); margin: 1rem 0; }
+    .culture-layout p  { opacity: 0.88; line-height: 1.8; margin-bottom: 1rem; }
+    .culture-quote-box { border: 1px solid var(--gold-30); padding: 2.5rem 2rem; position: relative; background: rgba(0,0,0,0.15); }
+    .culture-quote-box__diamond { position: absolute; top: -15px; left: -15px; width: 30px; height: 30px; color: var(--antique-gold); background: var(--rajwadi-maroon); }
+    .culture-quote-box h4 { font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; }
+    .culture-quote-box blockquote { font-style: italic; font-size: 1rem; opacity: 0.88; line-height: 1.8; border: none; padding: 0; margin: 0; }
+    @media (max-width: 1024px) { .culture-layout { grid-template-columns: 1fr; } }
+
+    /* ── LEGACY TODAY (New Section) ───────────────── */
+    #legacy-today {
+      background: var(--basalt-charcoal);
+      color: var(--parchment-ivory);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+    }
+    .legacy-today-inner {
+      max-width: var(--max-content);
+      margin: 0 auto;
+    }
+    .legacy-today-header { text-align: center; margin-bottom: 3.5rem; }
+    .legacy-today-header h2 { color: var(--antique-gold); margin-top: 1rem; }
+    .legacy-today-header p  { max-width: 650px; margin: 1rem auto 0; opacity: 0.85; line-height: 1.8; }
+    .legacy-today-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 2rem;
+    }
+    .legacy-today-card {
+      border: 1px solid var(--gold-30);
+      background: rgba(255,255,255,0.03);
+      overflow: hidden;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .legacy-today-card:hover { transform: translateY(-6px); border-color: var(--antique-gold); }
+    .legacy-today-card__img {
+      width: 100%;
+      aspect-ratio: 16/10;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .legacy-today-card__img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(26,14,6,0.85) 0%, transparent 60%);
+    }
+    .legacy-today-card__body {
+      padding: 1.5rem;
+    }
+    .legacy-today-card__tag {
+      font-family: var(--font-ui);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--bhagwa-saffron);
+      margin-bottom: 0.5rem;
+    }
+    .legacy-today-card h3 { font-family: var(--font-display); color: var(--antique-gold); font-size: 1.1rem; margin-bottom: 0.75rem; letter-spacing: 0.04em; }
+    .legacy-today-card p  { font-size: 0.875rem; opacity: 0.8; line-height: 1.6; }
+
+    /* ── PHOTO RETROSPECTIVE ──────────────────────── */
+    #legacy-retro {
+      background: var(--parchment-ivory);
+      color: var(--basalt-charcoal);
+      padding: var(--space-2xl) clamp(2rem, 5vw, 5rem);
+      border-top: 1px solid var(--gold-30);
+    }
+    .retro-inner { max-width: var(--max-content); margin: 0 auto; }
+    .retro-header { text-align: center; margin-bottom: 3rem; }
+    .retro-header h2 { color: var(--antique-gold-accessible); margin-top: 1rem; }
+    .legacy-photos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .legacy-photo { display: flex; flex-direction: column; }
+    .legacy-photo__image {
+      aspect-ratio: 1;
+      background-size: cover;
+      background-position: center;
+      border: 2px solid var(--gold-30);
+      margin-bottom: 0.75rem;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .legacy-photo:hover .legacy-photo__image { transform: scale(1.02); border-color: var(--antique-gold-accessible); }
+    .legacy-photo__caption { font-family: var(--font-ui); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--antique-gold-accessible); text-align: center; }
+    @media (max-width: 900px) { .legacy-photos { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .legacy-photos { grid-template-columns: 1fr; max-width: 300px; margin-left: auto; margin-right: auto; } }
+    .retro-flame { text-align: center; margin-top: 3rem; padding-top: 3rem; border-top: 1px solid var(--gold-10); }
+    .retro-flame svg { width: 48px; height: 48px; color: var(--bhagwa-saffron); }
+    .retro-flame p { font-family: var(--font-body); font-style: italic; opacity: 0.75; max-width: 560px; margin: 1rem auto 0; line-height: 1.8; }
+  </style>
 </head>
 <body>
 
@@ -19,28 +466,22 @@
   <header class="site-header scrolled">
     <div class="header-inner">
       <a href="index.html" class="header-brand" aria-label="Chhatrapati Shivaji Maharaj Tribute Home">
-        <svg class="header-seal" aria-hidden="true">
-          <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
-        </svg>
+        <svg class="header-seal" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-rajmudra"></use></svg>
         <div class="header-wordmark">
           <span class="wordmark-top">CHHATRAPATI</span>
           <span class="wordmark-bottom">SHIVAJI MAHARAJ</span>
         </div>
       </a>
-      
       <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="header-nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </button>
-      
       <nav class="header-nav" id="header-nav-menu">
         <ul>
           <li><a href="index.html"><span class="lang-en">The Life</span><span class="lang-mr-text deva">जीवनपट</span></a></li>
           <li><a href="legacy.html" class="active"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a></li>
-          <li><a href="galleries.html"><span class="lang-en">Forts & Gallery</span><span class="lang-mr-text deva">किल्ले व दालन</span></a></li>
+          <li><a href="galleries.html"><span class="lang-en">Forts &amp; Gallery</span><span class="lang-mr-text deva">किल्ले व दालन</span></a></li>
           <li><a href="timeline.html"><span class="lang-en">Timeline</span><span class="lang-mr-text deva">कालपट</span></a></li>
-          <li><a href="letters.html"><span class="lang-en">Quotes & Sources</span><span class="lang-mr-text deva">विचार व साधने</span></a></li>
+          <li><a href="letters.html"><span class="lang-en">Quotes &amp; Sources</span><span class="lang-mr-text deva">विचार व साधने</span></a></li>
         </ul>
         <div class="nav-divider" role="presentation"></div>
         <div class="lang-toggle">
@@ -51,456 +492,603 @@
     </div>
   </header>
 
-  <!-- SECTION 11 — ASHTAPRADHAN COUNCIL -->
-  <section id="ashtapradhan">
-    <div class="ashtapradhan-layout">
-      
-      <!-- Left Column: Intro -->
-      <div class="ashtapradhan-intro">
-        <div class="plaque">
-          <span class="lang-en">Governance</span>
-          <span class="lang-mr-text deva">प्रशासन</span>
-        </div>
-        <h2>
-          <span class="lang-en">THE ASHTAPRADHAN</span>
-          <span class="lang-mr-text deva">अष्टप्रधान मंडळ</span>
-        </h2>
-        <p class="lang-en">He centralized control through merit-based appointments, replacing Persianized titles with Sanskritized administrative terms. The Ashtapradhan functioned as an <strong>advisory council</strong> overseeing civil, military, and spiritual affairs of Swarajya, reporting directly to the Chhatrapati.</p>
-        <p class="lang-mr-text deva-body">शिवरायांनी पारसी भाषेतील पदांना संस्कृत नावे दिली. अष्टप्रधान मंडळ हे मुख्यत्वे सल्लागार मंडळ होते आणि सर्व मंत्री थेट छत्रपतींना जबाबदार असत.</p>
+  <main>
+
+    <!-- ═══════════════════════════════════════════════
+         LEGACY HERO
+    ═══════════════════════════════════════════════ -->
+    <section class="legacy-hero">
+      <div class="legacy-hero__bg"></div>
+      <div class="legacy-hero__overlay"></div>
+      <div class="legacy-hero__content">
+        <p class="legacy-hero__kicker">
+          <span class="lang-en">The Enduring Vision · 1630 – 1680 & Beyond</span>
+          <span class="lang-mr-text deva">अमर वारसा · 1630 – 1680 आणि पुढेही</span>
+        </p>
+        <h1 class="legacy-hero__title">
+          <span class="lang-en">THE <span class="gold">LEGACY</span><br>OF SWARAJYA</span>
+          <span class="lang-mr-text deva">स्वराज्याचा<br><span class="gold">अमर वारसा</span></span>
+        </h1>
+        <div class="legacy-hero__divider"><span>◆</span></div>
+        <p class="legacy-hero__desc lang-en">
+          He did not merely conquer territory — he built an idea. A philosophy of governance, justice, maritime power, religious harmony, and self-reliance that would echo through centuries and shape the soul of a nation.
+        </p>
+        <p class="legacy-hero__desc lang-mr-text deva-body">
+          त्यांनी केवळ भूमी जिंकली नाही — त्यांनी एक विचार जगवला. सुशासन, न्याय, सागरी शक्ती, सर्वधर्मसमभाव आणि स्वावलंबनाचा तो विचार शतकांनंतरही राष्ट्राच्या आत्म्यात प्रवाहित होत आहे.
+        </p>
       </div>
+    </section>
 
-      <!-- Center Column: Honeycomb Diagram -->
-      <div class="honeycomb-wrapper">
-        <div class="honeycomb">
-          <!-- Lines -->
-          <span class="honeycomb__line honeycomb__line--1" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--2" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--3" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--4" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--5" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--6" role="presentation"></span>
-          <span class="honeycomb__line honeycomb__line--7" role="presentation"></span>
+    <!-- ═══════════════════════════════════════════════
+         IMPACT STATS BAND
+    ═══════════════════════════════════════════════ -->
+    <div class="impact-band">
+      <div class="impact-band__grid">
+        <div class="impact-stat">
+          <div class="impact-stat__number">300<span style="font-size:1.5rem">+</span></div>
+          <div class="impact-stat__label"><span class="lang-en">Forts Controlled</span><span class="lang-mr-text deva">किल्ले</span></div>
+          <div class="impact-stat__desc lang-en">At its peak, Swarajya administered over 300 forts across the Deccan and Konkan.</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat__number">8</div>
+          <div class="impact-stat__label"><span class="lang-en">Cabinet Ministers</span><span class="lang-mr-text deva">अष्टप्रधान</span></div>
+          <div class="impact-stat__desc lang-en">The Ashtapradhan — eight merit-based ministers overseeing every branch of governance.</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat__number">50<span style="font-size:1.5rem">+</span></div>
+          <div class="impact-stat__label"><span class="lang-en">Days — Chakan Siege</span><span class="lang-mr-text deva">चाकण वेढा</span></div>
+          <div class="impact-stat__desc lang-en">Firangoji Narsala held Chakan fort against Shaista Khan's entire army for 50+ days.</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat__number">3</div>
+          <div class="impact-stat__label"><span class="lang-en">Types of Forts</span><span class="lang-mr-text deva">दुर्गप्रकार</span></div>
+          <div class="impact-stat__desc lang-en">Giridurg (hill), Jaladurg (sea), and Bhuidurg (land) — a revolutionary tri-domain defense.</div>
+        </div>
+        <div class="impact-stat">
+          <div class="impact-stat__number">1674</div>
+          <div class="impact-stat__label"><span class="lang-en">Year of Coronation</span><span class="lang-mr-text deva">राज्याभिषेक वर्ष</span></div>
+          <div class="impact-stat__desc lang-en">The historic Rajyabhishek at Raigad — a Hindu king on his own independent throne after centuries.</div>
+        </div>
+      </div>
+    </div>
 
-          <!-- Center badge (Shivaji Maharaj) -->
-          <div class="honeycomb__center">
-            <div class="oct-badge oct-badge--xl oct-badge--gold" style="font-weight: 700;">
-              <span class="deva">छत्रपती<br>शिवराय</span>
+    <!-- ═══════════════════════════════════════════════
+         ASHTAPRADHAN COUNCIL
+    ═══════════════════════════════════════════════ -->
+    <section id="ashtapradhan">
+      <div class="ashtapradhan-layout">
+
+        <!-- Left: Intro -->
+        <div class="ashtapradhan-intro">
+          <div class="plaque">
+            <span class="lang-en">Governance</span>
+            <span class="lang-mr-text deva">प्रशासन</span>
+          </div>
+          <h2>
+            <span class="lang-en">THE ASHTAPRADHAN</span>
+            <span class="lang-mr-text deva">अष्टप्रधान मंडळ</span>
+          </h2>
+          <p class="lang-en">
+            Shivaji Maharaj centralized power through <strong>merit-based appointments</strong>, replacing Persian titles with dignified Sanskrit administrative terms. The Ashtapradhan (Eight Ministers) functioned as an advisory council overseeing civil, military, financial, and spiritual affairs — all reporting directly to the Chhatrapati, not to each other. This eliminated feudal fragmentation.
+          </p>
+          <p class="lang-mr-text deva-body">
+            शिवरायांनी पारसी भाषेतील पदांना संस्कृत नावे देऊन गुणवत्तेवर आधारित प्रशासन उभे केले. अष्टप्रधान मंडळ थेट छत्रपतींना जबाबदार होते, ज्यामुळे सरंजामशाहीचे खंडन झाले आणि केंद्रीकृत, पारदर्शी राज्यव्यवस्था निर्माण झाली.
+          </p>
+          <p class="lang-en" style="margin-top:1rem;">
+            His decision to pay all commanders and officers in <em>cash salaries</em> rather than land grants (jagirs) was centuries ahead of its time — it kept military loyalty tied to the King, not to the soil.
+          </p>
+        </div>
+
+        <!-- Center: Honeycomb Diagram -->
+        <div class="honeycomb-wrapper">
+          <div class="honeycomb">
+            <span class="honeycomb__line honeycomb__line--1"></span>
+            <span class="honeycomb__line honeycomb__line--2"></span>
+            <span class="honeycomb__line honeycomb__line--3"></span>
+            <span class="honeycomb__line honeycomb__line--4"></span>
+            <span class="honeycomb__line honeycomb__line--5"></span>
+            <span class="honeycomb__line honeycomb__line--6"></span>
+            <span class="honeycomb__line honeycomb__line--7"></span>
+
+            <div class="honeycomb__center">
+              <div class="oct-badge oct-badge--xl oct-badge--gold" style="font-weight:700;">
+                <span class="deva">छत्रपती<br>शिवराय</span>
+              </div>
+            </div>
+
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">१</div>
+              <span class="honeycomb__node-label">Peshwa</span>
+              <span class="honeycomb__node-role">Prime Minister</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">२</div>
+              <span class="honeycomb__node-label">Amatya</span>
+              <span class="honeycomb__node-role">Finance</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">३</div>
+              <span class="honeycomb__node-label">Sachiv</span>
+              <span class="honeycomb__node-role">Secretary</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">४</div>
+              <span class="honeycomb__node-label">Mantri</span>
+              <span class="honeycomb__node-role">Interior</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">५</div>
+              <span class="honeycomb__node-label">Senapati</span>
+              <span class="honeycomb__node-role">Commander</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">६</div>
+              <span class="honeycomb__node-label">Sumant</span>
+              <span class="honeycomb__node-role">Foreign</span>
+            </div>
+            <div class="honeycomb__node">
+              <div class="oct-badge oct-badge--lg">७</div>
+              <span class="honeycomb__node-label">Nyayadhish</span>
+              <span class="honeycomb__node-role">Law &amp; Justice</span>
+            </div>
+
+            <svg class="honeycomb__seal" aria-hidden="true" style="color: var(--rajwadi-maroon);">
+              <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right: Image -->
+        <figure class="ashtapradhan-image">
+          <div class="ashtapradhan-image__frame"></div>
+          <figcaption class="lang-en">Miniature representation of the Royal Durbar at Raigad</figcaption>
+          <figcaption class="lang-mr-text deva-body" style="font-size:0.75rem; opacity:0.7; text-align:center;">रायगडावरील राजसभेचे लघुचित्र</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         ECONOMY & REVENUE
+    ═══════════════════════════════════════════════ -->
+    <section id="economy">
+      <div class="economy-inner">
+        <div class="economy-header">
+          <div class="plaque" style="color:var(--antique-gold); border-color:var(--gold-30);">
+            <span class="lang-en">Economy &amp; Revenue</span>
+            <span class="lang-mr-text deva">अर्थव्यवस्था</span>
+          </div>
+          <h2>
+            <span class="lang-en">DIRECT ASSESSMENT &amp; OWN CURRENCY</span>
+            <span class="lang-mr-text deva">थेट महसूल आणि स्वतंत्र चलन</span>
+          </h2>
+          <p class="lang-en">
+            Land revenue was the state's backbone. He abolished middlemen and implemented <strong>direct land-revenue assessment</strong> — farmers paid the state directly based on actual cultivation. He minted his own coins, asserting complete economic sovereignty.
+          </p>
+          <p class="lang-mr-text deva-body" style="max-width:700px; margin:1rem auto 0; opacity:0.85;">
+            जमीन महसूल हाच राज्याचा मुख्य उत्पन्नाचा स्रोत होता. मध्यस्थांना हटवून शेतकऱ्यांकडून थेट महसूल वसुली केली. स्वतःची नाणी पाडून आर्थिक सार्वभौमत्व प्रस्थापित केले.
+          </p>
+        </div>
+        <div class="economy-cards">
+          <div class="economy-card">
+            <svg aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scales"></use></svg>
+            <h4><span class="lang-en">Direct Revenue</span><span class="lang-mr-text deva">थेट महसूल</span></h4>
+            <p class="lang-en">Abolished exploitative zamindari middlemen. Revenue was assessed on actual productivity — fair, direct, accountable.</p>
+            <p class="lang-mr-text deva-body">जमीन मोजमापावर आधारित थेट महसूल प्रणाली. शेतकऱ्यांवरील अन्यायकारक मध्यस्थांचे उच्चाटन.</p>
+          </div>
+          <div class="economy-card">
+            <svg aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scroll"></use></svg>
+            <h4><span class="lang-en">Cash Salaries</span><span class="lang-mr-text deva">रोख वेतन</span></h4>
+            <p class="lang-en">Feudal jagirs replaced by strict cash salaries across the army, preventing commanders from building independent power bases.</p>
+            <p class="lang-mr-text deva-body">जहागीरदारी पद्धत बंद करून सैनिक, सरदार यांना रोख वेतन दिले, ज्यामुळे सरंजामशाहीला आळा बसला.</p>
+          </div>
+          <div class="economy-card">
+            <div class="coin-badge">₹</div>
+            <h4><span class="lang-en">Shivrai Copper &amp; Gold Hon</span><span class="lang-mr-text deva">शिवराई व होन</span></h4>
+            <p class="lang-en">State-minted coins — the copper <em>Shivrai</em> for daily commerce and the gold <em>Hon</em> for trade. Swarajya's own currency.</p>
+            <p class="lang-mr-text deva-body">तांब्याची शिवराई नाणी आणि सोन्याचे होन — स्वराज्याचे स्वतंत्र चलन.</p>
+          </div>
+          <div class="economy-card">
+            <svg aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scales"></use></svg>
+            <h4><span class="lang-en">Trade &amp; Ports</span><span class="lang-mr-text deva">व्यापार व बंदरे</span></h4>
+            <p class="lang-en">The Konkan coast ports at Kalyan, Bhivandi, Chaul, and Rajapur boosted indigenous maritime trade, reducing reliance on European merchants.</p>
+            <p class="lang-mr-text deva-body">कल्याण, भिवंडी, चौल व राजापूर बंदरांमुळे देशी व्यापाराला चालना मिळाली आणि परकीय व्यापाऱ्यांची मक्तेदारी मोडली.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         MILITARY STRATEGY
+    ═══════════════════════════════════════════════ -->
+    <section id="military">
+      <div class="military-layout">
+        <div class="military-intro">
+          <div class="plaque">
+            <span class="lang-en">Military Strategy</span>
+            <span class="lang-mr-text deva">युद्ध कौशल्य</span>
+          </div>
+          <h2>
+            <span class="lang-en">WARFARE FROM BASALT</span>
+            <span class="lang-mr-text deva">कणखर युद्धनीती</span>
+          </h2>
+          <span class="military-subhead">Speed · Terrain · Intelligence</span>
+          <p class="lang-en">
+            Unable to match the numerical might of Mughal or Adilshahi empires in open battle, Shivaji Maharaj developed a <strong>revolutionary military doctrine</strong>. He weaponized the Sahyadri geography itself — its gorges, forests, and monsoon mist — using speed, deception, and superior intelligence to neutralise armies ten times his size.
+          </p>
+          <p class="lang-mr-text deva-body" style="margin-top:1rem;">
+            मुघल व आदिलशाहीच्या प्रचंड सैन्याशी थेट युद्ध टाळत, महाराजांनी गनिमी काव्याची क्रांतिकारी युद्धपद्धत विकसित केली. सह्याद्रीच्या दऱ्याखोऱ्यांचा उपयोग करत, वेग, बुद्धिमत्ता आणि गुप्तहेर यंत्रणेने त्यांनी शत्रूला नेहमीच धक्का दिला.
+          </p>
+        </div>
+
+        <div class="military-grid">
+          <div class="strategy-card">
+            <svg class="strategy-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-crossed-swords"></use></svg>
+            <h3 class="strategy-card__title">
+              <span class="lang-en">Guerrilla Tactics (Ganimi Kava)</span>
+              <span class="lang-mr-text deva">गनिमी कावा</span>
+            </h3>
+            <p class="lang-en">Sudden ambushes, rapid withdrawals, night raids on supply lines — always fighting on chosen terrain, never on the enemy's terms. A revolutionary doctrine centuries before modern asymmetric warfare theory.</p>
+            <p class="lang-mr-text deva-body">अचानक हल्ला, जलद माघार, रसद तोडणे — सदैव स्वतःच्या भूमीवर युद्ध. आधुनिक छापामार युद्धनीतीचे मूळ.</p>
+          </div>
+          <div class="strategy-card">
+            <svg class="strategy-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-horse-rider"></use></svg>
+            <h3 class="strategy-card__title">
+              <span class="lang-en">Elite Light Cavalry</span>
+              <span class="lang-mr-text deva">बारगीर घोडदळ</span>
+            </h3>
+            <p class="lang-en">Highly mobile Bargir cavalry capable of covering fifty miles in a single day without supply trains. Armed with speed, not sheer numbers — they were the rapid-strike force of Swarajya.</p>
+            <p class="lang-mr-text deva-body">एका दिवसात ५० मैल अंतर कापणारे हलके, चपळ घोडदळ. रसद न घेता स्वतंत्रपणे कार्यरत असलेले स्वराज्याचे अग्रदल.</p>
+          </div>
+          <div class="strategy-card">
+            <svg class="strategy-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-fortress"></use></svg>
+            <h3 class="strategy-card__title">
+              <span class="lang-en">Fort Network (Tri-Domain)</span>
+              <span class="lang-mr-text deva">दुर्ग साखळी</span>
+            </h3>
+            <p class="lang-en">300+ forts classified into three domains — <em>Giridurg</em> (hill), <em>Jaladurg</em> (sea), and <em>Bhuidurg</em> (land) — each self-sustaining with grain, water, and arms, forming an interlocking defensive web.</p>
+            <p class="lang-mr-text deva-body">गिरीदुर्ग, जलदुर्ग व भुईकोट अशा तीन प्रकारचे किल्ले — प्रत्येक स्वयंपूर्ण धान्य, जल व शस्त्रसाठ्यासह, संरक्षण साखळी निर्माण करणारे.</p>
+          </div>
+          <div class="strategy-card">
+            <svg class="strategy-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-magnifier"></use></svg>
+            <h3 class="strategy-card__title">
+              <span class="lang-en">Intelligence Network</span>
+              <span class="lang-mr-text deva">गुप्तहेर यंत्रणा</span>
+            </h3>
+            <p class="lang-en">Led by the legendary <strong>Bahirji Naik</strong>, Swarajya's intelligence wing penetrated every enemy court and camp, supplying precise troop counts, patrol routes, and strategic vulnerabilities before every campaign.</p>
+            <p class="lang-mr-text deva-body">बहिर्जी नाईक यांच्या नेतृत्वाखालील अचूक गुप्तहेर यंत्रणा शत्रूच्या प्रत्येक छावणीत पोहोचत असे आणि प्रत्येक मोहिमेपूर्वी अचूक माहिती पुरवत असे.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         MARATHA NAVY
+    ═══════════════════════════════════════════════ -->
+    <section id="navy">
+      <div class="navy-layout">
+
+        <div class="navy-content">
+          <div class="plaque" style="color:var(--antique-gold); border-color:var(--gold-30);">
+            <span class="lang-en">Maratha Navy</span>
+            <span class="lang-mr-text deva">मराठा आरमार</span>
+          </div>
+          <h2>
+            <span class="lang-en">FATHER OF THE INDIAN NAVY</span>
+            <span class="lang-mr-text deva">भारतीय नौदलाचे जनक</span>
+          </h2>
+          <p class="lang-en">
+            In an era when no Indian kingdom had a serious navy, Shivaji Maharaj built a <strong>formidable indigenous fleet</strong> to secure the 720-km Konkan coastline. Commanded by admirals like <strong>Maynak Bhandari</strong> and later the legendary <strong>Kanhoji Angre</strong>, his navy repelled the Siddis, Portuguese, and British — asserting that the sea belonged to no foreign power.
+          </p>
+          <p class="lang-mr-text deva-body">
+            ज्या काळात कोणत्याही भारतीय राज्याकडे सक्षम आरमार नव्हते, त्या काळी महाराजांनी मयनाक भंडारी व नंतर कान्होजी आंग्रे यांच्या नेतृत्वाखाली ७२० किमीच्या कोकण किनारपट्टीचे रक्षण करणारे आरमार उभे केले आणि सिद्दी, पोर्तुगीज व इंग्रजांना तोंड दिले.
+          </p>
+          <div class="navy-quote">
+            <em>"जलमेव यस्य, बलमेव तस्य।"<br>He who commands the sea is all-powerful.</em>
+            <cite>Shivaji Maharaj's maritime philosophy</cite>
+          </div>
+          <p class="lang-en" style="margin-top:1.5rem; font-size:0.9rem; opacity:0.8;">
+            In 2022, the Indian Navy formally adopted a new ensign incorporating <strong>Shivaji Maharaj's octagonal Rajmudra seal</strong>, officially acknowledging him as the father of Indian naval power.
+          </p>
+        </div>
+
+        <div class="navy-image-wrap">
+          <div class="navy-ship-img"></div>
+          <div class="navy-stats">
+            <div class="navy-stat-card">
+              <svg class="navy-stat-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-anchor"></use></svg>
+              <div class="navy-stat-card__title">
+                <span class="lang-en">Naval Bases</span>
+                <span class="lang-mr-text deva">जलदुर्ग</span>
+              </div>
+              <p class="lang-en" style="font-size:0.75rem; margin:0; opacity:0.75;">Kolaba, Vijaydurg, Sindhudurg — strategic island fortresses.</p>
+            </div>
+            <div class="navy-stat-card">
+              <svg class="navy-stat-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-ship"></use></svg>
+              <div class="navy-stat-card__title">
+                <span class="lang-en">Warship Types</span>
+                <span class="lang-mr-text deva">जहाजे</span>
+              </div>
+              <p class="lang-en" style="font-size:0.75rem; margin:0; opacity:0.75;">Gurab, Galbat, and Pal — purpose-built for coastal dominance.</p>
+            </div>
+            <div class="navy-stat-card">
+              <svg class="navy-stat-card__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scales"></use></svg>
+              <div class="navy-stat-card__title">
+                <span class="lang-en">Trade Security</span>
+                <span class="lang-mr-text deva">व्यापार</span>
+              </div>
+              <p class="lang-en" style="font-size:0.75rem; margin:0; opacity:0.75;">Freed coastal trade from European extortion and Siddi piracy.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         RELIGIOUS TOLERANCE
+    ═══════════════════════════════════════════════ -->
+    <section id="tolerance">
+      <div class="tolerance-inner">
+
+        <div class="tolerance-text">
+          <div class="plaque">
+            <span class="lang-en">सर्वधर्मसमभाव · Equal Respect</span>
+            <span class="lang-mr-text deva">सर्वधर्मसमभाव</span>
+          </div>
+          <h2>
+            <span class="lang-en">RELIGIOUS HARMONY</span>
+            <span class="lang-mr-text deva">धार्मिक सहिष्णुता</span>
+          </h2>
+          <p class="lang-en">
+            Though he established a Hindu kingdom, Shivaji Maharaj was profoundly secular in governance. His code of conduct — <em>the Rajniti</em> — strictly forbade the destruction of any mosque, church, or place of worship. Muslim officers served in his army, navy, and secretariat at the highest ranks.
+          </p>
+          <p class="lang-mr-text deva-body">
+            शिवरायांचे स्वराज्य खऱ्या अर्थाने धर्मनिरपेक्ष होते. त्यांच्या राजनीतीत कोणत्याही मशीद, चर्च वा देवालयाची हानी करण्यास सक्त मनाई होती. त्यांच्या सैन्यात, आरमारात आणि प्रशासनात अनेक उच्चपदस्थ मुस्लिम अधिकारी होते.
+          </p>
+          <p class="lang-en">
+            He personally showed reverence to Muslim saints and holy men, translated the Quran, and was known to say: <em>"There is no difference between a Hindu and a Muslim in my sight — they are both children of God."</em>
+          </p>
+        </div>
+
+        <div class="tolerance-facts">
+          <div class="tolerance-fact">
+            <svg class="tolerance-fact__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-mosque-temple"></use></svg>
+            <div>
+              <h4><span class="lang-en">All Shrines Protected</span><span class="lang-mr-text deva">सर्व धर्मस्थळे सुरक्षित</span></h4>
+              <p class="lang-en">His Rajniti explicitly protected mosques, churches, and temples from any damage during military campaigns — a written law of conduct for every soldier.</p>
+            </div>
+          </div>
+          <div class="tolerance-fact">
+            <svg class="tolerance-fact__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scroll"></use></svg>
+            <div>
+              <h4><span class="lang-en">Muslim Officers in Key Roles</span><span class="lang-mr-text deva">मुस्लिम अधिकारी महत्त्वाच्या पदावर</span></h4>
+              <p class="lang-en">Darya Sarang commanded the navy. Ibrahim Khan commanded artillery. Siddi Hilal led elite cavalry. Faith was never a barrier to rank or merit in Swarajya.</p>
+            </div>
+          </div>
+          <div class="tolerance-fact">
+            <svg class="tolerance-fact__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scales"></use></svg>
+            <div>
+              <h4><span class="lang-en">Justice Without Bias</span><span class="lang-mr-text deva">निःपक्षपाती न्याय</span></h4>
+              <p class="lang-en">The Hazar Majlis court, presided over by the King himself, dispensed justice equally. Even his own kin were punished for misconduct — his own son was severely reprimanded for disrespecting a woman.</p>
+            </div>
+          </div>
+          <div class="tolerance-fact">
+            <svg class="tolerance-fact__icon" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scroll"></use></svg>
+            <div>
+              <h4><span class="lang-en">Women's Dignity — A Royal Law</span><span class="lang-mr-text deva">महिला सन्मान — राजकीय कायदा</span></h4>
+              <p class="lang-en">His code strictly punished any soldier or commander who dishonoured a woman — captured or otherwise. Rare for any 17th-century ruler, this was written policy, not just intent.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         CULTURE & SAINTS
+    ═══════════════════════════════════════════════ -->
+    <section id="culture">
+      <div class="culture-layout">
+        <div>
+          <div class="plaque" style="color:var(--antique-gold); border-color:var(--gold-30);">
+            <span class="lang-en">Cultural Milieu</span>
+            <span class="lang-mr-text deva">सांस्कृतिक वारसा</span>
+          </div>
+          <h2>
+            <span class="lang-en">LANGUAGE &amp; BHAKTI SAINTS</span>
+            <span class="lang-mr-text deva">भाषा आणि संत चळवळ</span>
+          </h2>
+          <p class="lang-en">
+            Shivaji Maharaj commissioned the <em>Rajyavyavahar Kosh</em> — a lexicon replacing thousands of Persian administrative terms with Sanskrit and Marathi equivalents. This was a deliberate act of cultural reclamation, giving the state an indigenous identity in language as well as governance.
+          </p>
+          <p class="lang-en" style="margin-top:1rem;">
+            The broader intellectual atmosphere was shaped by the Bhakti movement. <strong>Sant Tukaram's</strong> egalitarian abhangas and <strong>Samarth Ramdas's</strong> call to action — <em>"Udyogachi Manase Jagi Pahat Ahe"</em> — gave the Maratha psyche its moral core and its hunger for self-determination.
+          </p>
+          <p class="lang-mr-text deva-body">
+            महाराजांनी राज्यव्यवहार कोष तयार करवून फारसी शब्दांना संस्कृत व मराठी पर्याय दिले. संत तुकारामांचे अभंग आणि समर्थ रामदासांची 'उद्योगाची माणसे जगी पाहतो' ही शिकवण मराठा मनाचा नैतिक आधार बनली.
+          </p>
+        </div>
+        <div class="culture-quote-box">
+          <svg class="culture-quote-box__diamond" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-diamond"></use></svg>
+          <h4 class="lang-en">Samarth Ramdas to Shivaji Maharaj</h4>
+          <blockquote class="lang-en">
+            "You have shown the world what one determined man can achieve for his people. The flame you have lit will never be extinguished."
+          </blockquote>
+          <blockquote class="lang-mr-text deva-body" style="margin-top:1rem; font-size:0.9rem; opacity:0.85;">
+            "एका निश्चयी माणसाने आपल्या जनतेसाठी काय साध्य करता येते हे तुम्ही जगाला दाखवले. तुम्ही पेटवलेली ज्योत कधीही विझणार नाही."
+          </blockquote>
+          <p style="font-family:var(--font-ui); font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--bhagwa-saffron); margin-top:1.5rem;">— Samarth Ramdas Swami</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         LEGACY TODAY — Modern Impact
+    ═══════════════════════════════════════════════ -->
+    <section id="legacy-today">
+      <div class="legacy-today-inner">
+        <div class="legacy-today-header">
+          <div class="plaque" style="color:var(--antique-gold); border-color:var(--gold-30);">
+            <span class="lang-en">Living Legacy</span>
+            <span class="lang-mr-text deva">जिवंत वारसा</span>
+          </div>
+          <h2>
+            <span class="lang-en">HIS LEGACY, TODAY</span>
+            <span class="lang-mr-text deva">आजचा वारसा</span>
+          </h2>
+          <p class="lang-en">
+            Centuries after his death, Chhatrapati Shivaji Maharaj continues to shape modern India — from the Navy's ensign to constitutional values of federalism and equal justice.
+          </p>
+        </div>
+        <div class="legacy-today-grid">
+
+          <div class="legacy-today-card">
+            <div class="legacy-today-card__img" style="background-image:url('assets/img/raigad-coronation.jpg');">
+              <div class="legacy-today-card__img-overlay"></div>
+            </div>
+            <div class="legacy-today-card__body">
+              <p class="legacy-today-card__tag lang-en">Indian Navy · 2022</p>
+              <h3><span class="lang-en">The New Naval Ensign</span><span class="lang-mr-text deva">नवीन नौदल ध्वज</span></h3>
+              <p class="lang-en">In September 2022, the Indian Navy replaced its colonial-era ensign with one bearing <strong>Shivaji Maharaj's octagonal Rajmudra seal</strong>, formally honouring him as the father of Indian naval power.</p>
+              <p class="lang-mr-text deva-body">सप्टेंबर 2022 मध्ये भारतीय नौदलाने आपला औपनिवेशिक ध्वज बदलून छत्रपतींच्या राजमुद्रेने अंकित नवीन ध्वज स्वीकारला.</p>
             </div>
           </div>
 
-          <!-- Surrounding Nodes -->
-          <!-- Node 1: Peshwa (Top) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">१</div>
-            <span class="honeycomb__node-label">Peshwa</span>
-            <span class="honeycomb__node-role">PRIME MINISTER</span>
-          </div>
-          <!-- Node 2: Amatya (Top-Right) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">२</div>
-            <span class="honeycomb__node-label">Amatya</span>
-            <span class="honeycomb__node-role">FINANCE</span>
-          </div>
-          <!-- Node 3: Sachiv (Right) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">३</div>
-            <span class="honeycomb__node-label">Sachiv</span>
-            <span class="honeycomb__node-role">SECRETARY</span>
-          </div>
-          <!-- Node 4: Mantri (Bottom-Right) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">४</div>
-            <span class="honeycomb__node-label">Mantri</span>
-            <span class="honeycomb__node-role">INTERIOR</span>
-          </div>
-          <!-- Node 5: Senapati (Bottom) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">५</div>
-            <span class="honeycomb__node-label">Senapati</span>
-            <span class="honeycomb__node-role">COMMANDER</span>
-          </div>
-          <!-- Node 6: Sumant (Bottom-Left) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">६</div>
-            <span class="honeycomb__node-label">Sumant</span>
-            <span class="honeycomb__node-role">FOREIGN</span>
-          </div>
-          <!-- Node 7: Nyayadhish / Panditrao (Left) -->
-          <div class="honeycomb__node">
-            <div class="oct-badge oct-badge--lg">७</div>
-            <span class="honeycomb__node-label">Nyayadhish</span>
-            <span class="honeycomb__node-role">LAW & JUSTICE</span>
+          <div class="legacy-today-card">
+            <div class="legacy-today-card__img" style="background-image:url('assets/img/raigad-thumb.jpg');">
+              <div class="legacy-today-card__img-overlay"></div>
+            </div>
+            <div class="legacy-today-card__body">
+              <p class="legacy-today-card__tag lang-en">UNESCO · World Heritage</p>
+              <h3><span class="lang-en">Maratha Military Forts</span><span class="lang-mr-text deva">मराठा किल्ले — युनेस्को</span></h3>
+              <p class="lang-en">In 2024, India nominated the <strong>Maratha Military Landscapes</strong> — a network of 12 forts — as a UNESCO World Heritage Site, recognizing Shivaji Maharaj's unique fortification genius for the world.</p>
+              <p class="lang-mr-text deva-body">2024 मध्ये 12 मराठा किल्ल्यांना युनेस्को जागतिक वारसा स्थळाचा दर्जा मिळाला, ज्यात महाराजांच्या अद्वितीय दुर्गस्थापत्याची जागतिक मान्यता आहे.</p>
+            </div>
           </div>
 
-          <svg class="honeycomb__seal" aria-hidden="true" style="color: var(--rajwadi-maroon);">
-            <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Right Column: Illustration -->
-      <div class="ashtapradhan-illustration">
-        <div class="ashtapradhan-illustration__image" style="background-image: url('assets/img/ashtapradhan-illustration.jpg'); background-size: cover; background-position: center;">
-        </div>
-        <p class="lang-en" style="font-family: var(--font-body); font-style: italic; font-size: var(--fs-small); text-align: center; opacity: 0.85;">
-          Miniature painting representation of the Royal Sadar.
-        </p>
-        <p class="lang-mr-text deva-body" style="font-style: italic; font-size: var(--fs-small); text-align: center; opacity: 0.85;">
-          राजसभेचे लघू चित्र रेखांकन.
-        </p>
-      </div>
-      
-    </div>
-  </section>
-
-  <!-- SECTION 11.5 — ECONOMY & REVENUE -->
-  <section id="economy" style="background-color: var(--basalt-charcoal); color: var(--parchment-ivory); padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);">
-    <div style="max-width: var(--max-content); margin: 0 auto;">
-      <div style="text-align: center; margin-bottom: 3rem;">
-        <div class="plaque">
-          <span class="lang-en">Economy & Revenue</span>
-          <span class="lang-mr-text deva">अर्थव्यवस्था आणि महसूल</span>
-        </div>
-        <h2 style="color: var(--antique-gold); margin-top: 1rem;">
-          <span class="lang-en">DIRECT ASSESSMENT & CURRENCY</span>
-          <span class="lang-mr-text deva">थेट महसूल आणि चलन</span>
-        </h2>
-        <p class="lang-en" style="max-width: 700px; margin: 1rem auto 0; opacity: 0.9;">
-          Land revenue was the main state income. He abolished the middle-men, implementing a <strong>direct land-revenue assessment</strong> where peasants paid the state directly based on cultivation and productivity. To maintain loyalty and avoid feudalism, cash salaries completely replaced jagirs (land grants).
-        </p>
-      </div>
-
-      <div class="icon-row icon-row--light" style="width: 100%; max-width: 800px; margin: 0 auto; display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem;">
-        <div style="text-align: center; max-width: 200px;">
-          <svg style="width: 48px; height: 48px; color: var(--bhagwa-saffron); margin-bottom: 1rem;" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scales"></use></svg>
-          <h4 style="font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase;">Direct Revenue</h4>
-          <p style="font-size: 0.85rem; opacity: 0.8;">Assessments tracked cultivation and productivity directly.</p>
-        </div>
-        <div style="text-align: center; max-width: 200px;">
-          <svg style="width: 48px; height: 48px; color: var(--bhagwa-saffron); margin-bottom: 1rem;" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-scroll"></use></svg>
-          <h4 style="font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase;">Cash Salaries</h4>
-          <p style="font-size: 0.85rem; opacity: 0.8;">Feudal jagirs were replaced by strict cash salaries to centralize power.</p>
-        </div>
-        <div style="text-align: center; max-width: 200px;">
-          <div class="oct-badge oct-badge--gold" style="width: 48px; height: 48px; margin-bottom: 1rem; border-radius: 50%; font-size: 1.5rem;">₹</div>
-          <h4 style="font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 0.5rem; letter-spacing: 0.1em; text-transform: uppercase;">Shivrai & Hon</h4>
-          <p style="font-size: 0.85rem; opacity: 0.8;">State-minted copper Shivrai paisa and gold Hons circulated widely.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 12 — MILITARY STRATEGY -->
-  <section id="military">
-    <div class="military-layout">
-      <!-- Intro Column -->
-      <div class="military-intro">
-        <div class="plaque">
-          <span class="lang-en">Military Strategy</span>
-          <span class="lang-mr-text deva">युद्ध कौशल्य</span>
-        </div>
-        <h2>
-          <span class="lang-en">WARFARE FROM BASALT</span>
-          <span class="lang-mr-text deva">कणखर युद्धनीती</span>
-        </h2>
-        <span class="military-subhead">Speed. Terrain. Intelligence.</span>
-        <p class="lang-en" style="margin-top: 1.5rem;">Shivaji Maharaj developed a revolutionary military doctrine. Realizing he could not match the numerical strength of the Mughal or Adilshahi empires, he utilized the rugged Sahyadri geography as a force multiplier, making speed and deception his principal weapons.</p>
-        <p class="lang-mr-text deva-body" style="margin-top: 1.5rem;">शिवाजी महाराजांची युद्धनीती क्रांतिकारी होती. अफाट मुघल व आदिलशाही सैन्याला हरवण्यासाठी त्यांनी 'गनिमी कावा' ही वेगवान युद्धपद्धत विकसित केली, ज्यामध्ये भौगोलिक परिस्थिती महत्त्वाची ठरली.</p>
-      </div>
-
-      <!-- Strategy Grid -->
-      <div class="military-grid">
-        <div class="strategy-card">
-          <svg class="strategy-card__icon" aria-hidden="true">
-            <use href="assets/icons/sprite.svg#icon-crossed-swords"></use>
-          </svg>
-          <h3 class="strategy-card__title">
-            <span class="lang-en">Guerrilla Tactics</span>
-            <span class="lang-mr-text deva">गनिमी कावा</span>
-          </h3>
-          <p class="lang-en">Avoided open battles; executed sudden, devastating ambushes and rapid retreats before enemy forces could gather.</p>
-          <p class="lang-mr-text deva-body">थेट युद्ध टाळून अचानक शत्रूवर हल्ला करणे आणि जंगलात/डोंगरात पळून जाणे.</p>
-        </div>
-
-        <div class="strategy-card">
-          <svg class="strategy-card__icon" aria-hidden="true">
-            <use href="assets/icons/sprite.svg#icon-horse-rider"></use>
-          </svg>
-          <h3 class="strategy-card__title">
-            <span class="lang-en">Elite Cavalry</span>
-            <span class="lang-mr-text deva">बारगीर व शिलेदार</span>
-          </h3>
-          <p class="lang-en">Highly mobile light cavalry forces (Bargirs) capable of marching fifty miles a day without heavy supply trains.</p>
-          <p class="lang-mr-text deva-body">अतिशय चपळ आणि हलके घोडदळ जे एका दिवसात ५० मैल अंतर सहज कापू शकत असे.</p>
-        </div>
-
-        <div class="strategy-card">
-          <svg class="strategy-card__icon" aria-hidden="true">
-            <use href="assets/icons/sprite.svg#icon-fortress"></use>
-          </svg>
-          <h3 class="strategy-card__title">
-            <span class="lang-en">Fort Network</span>
-            <span class="lang-mr-text deva">दुर्ग रचना</span>
-          </h3>
-          <p class="lang-en">Classified into Giridurg (hill), Jaladurg (sea), and Bhuidurg (land), functioning as self-sustaining defense anchors.</p>
-          <p class="lang-mr-text deva-body">गिरीदूर्ग, जलदूर्ग व भुईकोट यांची उत्कृष्ट सांगड घालत रक्षण साखळी उभारली.</p>
-        </div>
-
-        <div class="strategy-card">
-          <svg class="strategy-card__icon" aria-hidden="true">
-            <use href="assets/icons/sprite.svg#icon-magnifier"></use>
-          </svg>
-          <h3 class="strategy-card__title">
-            <span class="lang-en">Intelligence Net</span>
-            <span class="lang-mr-text deva">गुप्तहेर खाते</span>
-          </h3>
-          <p class="lang-en">Led by Bahirji Naik, providing detailed maps, patrol schedules, and troop numbers before any campaign.</p>
-          <p class="lang-mr-text deva-body">बहिर्जी नाईक यांच्या नेतृत्वाखालील अचूक आणि चतुर गुप्तहेर यंत्रणा.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 13 — MARATHA NAVY -->
-  <section id="navy">
-    <div class="navy-layout">
-      
-      <!-- Navy Content -->
-      <div class="navy-content">
-        <div class="plaque" style="color: var(--antique-gold); border-color: var(--gold-30);">
-          <span class="lang-en">Maratha Navy</span>
-          <span class="lang-mr-text deva">मराठा आरमार</span>
-        </div>
-        <h2 style="color: var(--parchment-ivory); margin-top: 1rem;">
-          <span class="lang-en">FATHER OF THE INDIAN NAVY</span>
-          <span class="lang-mr-text deva">आरमाराचे जनक</span>
-        </h2>
-        <p class="lang-en" style="color: var(--parchment-ivory); opacity: 0.9;">He built a <strong>small but highly effective navy</strong> to secure the Konkan coast against the Siddis, Portuguese, and British. Commanded by early admirals like <strong>Maynak Bhandari</strong>, this indigenous fleet secured vital maritime trade paths and coastal territories.</p>
-        <p class="lang-mr-text deva-body" style="color: var(--parchment-ivory); opacity: 0.9;">कोकण किनारपट्टीच्या रक्षणासाठी त्यांनी मयनाक भंडारींसारख्या दर्यासारंगांच्या नेतृत्वाखाली एक लहान पण अतिशय प्रभावी आरमार उभे केले.</p>
-        
-        <!-- Rope Knot Icon Decoration -->
-        <div class="navy-decoration" aria-hidden="true">
-          <svg style="width: 64px; height: 64px; color: var(--antique-gold); opacity: 0.4;">
-            <use href="assets/icons/sprite.svg#icon-rope-knot"></use>
-          </svg>
-        </div>
-      </div>
-
-      <!-- Navy Image Column (Ship Placeholder) -->
-      <div class="navy-image-container">
-        <div class="navy-ship" style="background-image: url('assets/img/warship.jpg'); background-size: cover; background-position: center;">
-        </div>
-        
-        <!-- Three Stats Cards -->
-        <div class="navy-stats">
-          <div class="navy-stat-card">
-            <svg class="navy-stat-card__icon" aria-hidden="true">
-              <use href="assets/icons/sprite.svg#icon-anchor"></use>
-            </svg>
-            <h4 class="navy-stat-card__title">
-              <span class="lang-en">Naval Bases</span>
-              <span class="lang-mr-text deva">जलदुर्ग</span>
-            </h4>
-            <p class="lang-en" style="font-size: 0.8rem; margin:0;">Strategic island and coastal bases established at <strong>Kolaba, Vijaydurg, and Sindhudurg</strong>.</p>
-            <p class="lang-mr-text deva-body" style="font-size: 0.8rem; margin:0;">कुलाबा, विजयदुर्ग आणि सिंधुदुर्ग यांसारखे मजबूत सागरी तळ.</p>
-          </div>
-          
-          <div class="navy-stat-card">
-            <svg class="navy-stat-card__icon" aria-hidden="true">
-              <use href="assets/icons/sprite.svg#icon-ship"></use>
-            </svg>
-            <h4 class="navy-stat-card__title">
-              <span class="lang-en">Warships</span>
-              <span class="lang-mr-text deva">जहाजे</span>
-            </h4>
-            <p class="lang-en" style="font-size: 0.8rem; margin:0;">The fleet consisted of formidable <strong>gurab, galbat, and pal</strong> vessel types built for coastal superiority.</p>
-            <p class="lang-mr-text deva-body" style="font-size: 0.8rem; margin:0;">गुराब, गलबत आणि पाल यांसारखी लढाऊ जहाजे.</p>
+          <div class="legacy-today-card">
+            <div class="legacy-today-card__img" style="background-image:url('assets/img/shivaji-statue.jpg');">
+              <div class="legacy-today-card__img-overlay"></div>
+            </div>
+            <div class="legacy-today-card__body">
+              <p class="legacy-today-card__tag lang-en">Governance · Constitution</p>
+              <h3><span class="lang-en">Governance Philosophy</span><span class="lang-mr-text deva">प्रशासन तत्त्वज्ञान</span></h3>
+              <p class="lang-en">Scholars of constitutional law cite the Ashtapradhan's separation of powers, direct accountability, and protection of citizens as a precursor to modern democratic federal governance principles in India's Constitution.</p>
+              <p class="lang-mr-text deva-body">अष्टप्रधानाची सत्तापृथक्करण आणि थेट जबाबदारीची संकल्पना भारतीय संविधानातील लोकशाही तत्त्वांचा पूर्वज मानली जाते.</p>
+            </div>
           </div>
 
-          <div class="navy-stat-card">
-            <svg class="navy-stat-card__icon" aria-hidden="true">
-              <use href="assets/icons/sprite.svg#icon-scales"></use>
-            </svg>
-            <h4 class="navy-stat-card__title">
-              <span class="lang-en">Trade Security</span>
-              <span class="lang-mr-text deva">व्यापार संरक्षण</span>
-            </h4>
-            <p class="lang-en" style="font-size: 0.8rem; margin:0;">Secured the coastline, allowing local trade to flourish free from European extortion.</p>
-            <p class="lang-mr-text deva-body" style="font-size: 0.8rem; margin:0;">स्थानिक व्यापाराला संरक्षण दिले आणि परकीय मक्तेदारी मोडून काढली.</p>
+          <div class="legacy-today-card">
+            <div class="legacy-today-card__img" style="background-image:url('assets/img/prologue-raigad-sunset.jpg');">
+              <div class="legacy-today-card__img-overlay"></div>
+            </div>
+            <div class="legacy-today-card__body">
+              <p class="legacy-today-card__tag lang-en">INS Shivaji · Military Training</p>
+              <h3><span class="lang-en">INS Shivaji &amp; INS Angre</span><span class="lang-mr-text deva">आय.एन.एस. शिवाजी</span></h3>
+              <p class="lang-en">The Indian Navy's premier engineering and technical training establishment is named <strong>INS Shivaji</strong>. The Western Naval Command's administrative hub is named <strong>INS Angre</strong>, after Kanhoji Angre — the great Maratha Admiral who held the Konkan coast for decades.</p>
+              <p class="lang-mr-text deva-body">भारतीय नौदलाची प्रमुख प्रशिक्षण संस्था आय.एन.एस. शिवाजी आणि आय.एन.एस. आंग्रे — कान्होजी आंग्रे यांच्या नावाने — हे महाराजांच्या वारशाची जिवंत स्मारके आहेत.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         PHOTO RETROSPECTIVE
+    ═══════════════════════════════════════════════ -->
+    <section id="legacy-retro">
+      <div class="retro-inner">
+        <div class="retro-header">
+          <div class="plaque">
+            <span class="lang-en">Historical Retrospective</span>
+            <span class="lang-mr-text deva">ऐतिहासिक विहंगावलोकन</span>
+          </div>
+          <h2>
+            <span class="lang-en">THE ENDURING INSPIRATION</span>
+            <span class="lang-mr-text deva">अखंड प्रेरणास्रोत</span>
+          </h2>
+        </div>
+
+        <div class="legacy-photos">
+          <div class="legacy-photo">
+            <div class="legacy-photo__image" style="background-image:url('assets/img/shivaji-statue.jpg');"></div>
+            <span class="legacy-photo__caption">
+              <span class="lang-en">Statue at Raigad</span>
+              <span class="lang-mr-text deva">रायगडावरील पुतळा</span>
+            </span>
+          </div>
+          <div class="legacy-photo">
+            <div class="legacy-photo__image" style="background-image:url('assets/img/raigad-unesco.jpg');"></div>
+            <span class="legacy-photo__caption">
+              <span class="lang-en">Raigad Fort (UNESCO)</span>
+              <span class="lang-mr-text deva">रायगड — युनेस्को</span>
+            </span>
+          </div>
+          <div class="legacy-photo">
+            <div class="legacy-photo__image" style="background-image:url('assets/img/torna-sketch.jpg');"></div>
+            <span class="legacy-photo__caption">
+              <span class="lang-en">Modi Script Correspondence</span>
+              <span class="lang-mr-text deva">मोडी लिपी पत्रव्यवहार</span>
+            </span>
+          </div>
+          <div class="legacy-photo">
+            <div class="legacy-photo__image" style="background-image:url('assets/img/gold-hon-coin.jpg');"></div>
+            <span class="legacy-photo__caption">
+              <span class="lang-en">Shivrai &amp; Gold Hon Coins</span>
+              <span class="lang-mr-text deva">शिवराई व सोन्याचे होन</span>
+            </span>
           </div>
         </div>
-      </div>
 
-    </div>
-  </section>
+        <div class="retro-flame">
+          <svg aria-hidden="true"><use href="assets/icons/sprite.svg#icon-torch"></use></svg>
+          <p class="lang-en">
+            "His administrative structure and military disciplines established a standard of native governance that stands as a beacon of resistance, dignity, and self-determination for all who come after."
+          </p>
+          <p class="lang-mr-text deva-body" style="font-style:italic; opacity:0.75; max-width:560px; margin:1rem auto 0; line-height:1.8;">
+            "महाराजांचे सुशासन, सैन्यशिस्त आणि स्वाभिमानी राज्यकारभार हे नंतर येणाऱ्या प्रत्येक पिढीसाठी प्रेरणेचा अखंड दीपस्तंभ आहे."
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <!-- SECTION 14 — RELIGIOUS TOLERANCE (No Reference Screenshot) -->
-  <section id="tolerance" style="background-color: var(--parchment-ivory); color: var(--basalt-charcoal); padding: var(--space-2xl) clamp(2rem, 4vw, 4rem);">
-    <div class="tolerance-layout" style="max-width: var(--max-content); margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center;">
-      <div class="plaque">
-        <span class="lang-en">सर्वधर्मसमभाव · EQUAL RESPECT</span>
-        <span class="lang-mr-text deva">सर्वधर्मसमभाव</span>
-      </div>
-      <h2 class="section-title-dark" style="margin-top: 1rem;">
-        <span class="lang-en">RELIGIOUS HARMONY</span>
-        <span class="lang-mr-text deva">धार्मिक सहिष्णुता</span>
-      </h2>
-      <div class="section-body-dark" style="max-width: 700px; margin-bottom: 3rem;">
-        <p class="lang-en">Though establishing a Hindu kingdom, Chhatrapati Shivaji Maharaj was deeply secular. He respected all religious books and shrines. His administration employed Muslim officers in key army, navy, and secretariat roles, and his code of conduct strictly forbade the destruction of places of worship.</p>
-        <p class="lang-mr-text deva-body">शिवरायांचे स्वराज्य धर्मनिरपेक्ष आणि न्याय्य होते. त्यांनी मशीद आणि कुराण या दोन्हीचा आदर केला. त्यांच्या सैन्यात, आरमारात आणि प्रशासनात अनेक निष्ठावंत मुस्लिम अधिकारी कार्यरत होते.</p>
-      </div>
-      
-      <div class="icon-row icon-row--dark" style="width: 100%; max-width: 600px;">
-        <div class="icon-row__item">
-          <svg class="icon-row__icon" aria-hidden="true" style="color: var(--rajwadi-maroon);">
-            <use href="assets/icons/sprite.svg#icon-mosque-temple"></use>
-          </svg>
-          <span class="icon-row__label">Shrines</span>
-          <span class="icon-row__desc">PROTECTED ALL WORSHIP</span>
-        </div>
-        <div class="icon-row__item">
-          <svg class="icon-row__icon" aria-hidden="true" style="color: var(--rajwadi-maroon);">
-            <use href="assets/icons/sprite.svg#icon-scroll"></use>
-          </svg>
-          <span class="icon-row__label">Code</span>
-          <span class="icon-row__desc">STRICT ETHICAL ORDERS</span>
-        </div>
-        <div class="icon-row__item">
-          <svg class="icon-row__icon" aria-hidden="true" style="color: var(--rajwadi-maroon);">
-            <use href="assets/icons/sprite.svg#icon-scales"></use>
-          </svg>
-          <span class="icon-row__label">Equality</span>
-          <span class="icon-row__desc">JUSTICE WITHOUT BIAS</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION 15 — CULTURE & SAINTS -->
-  <section id="culture">
-    <div class="culture-layout">
-      <div>
-        <div class="plaque" style="color: var(--antique-gold); border-color: var(--gold-30);">
-          <span class="lang-en">Cultural Milieu</span>
-          <span class="lang-mr-text deva">सांस्कृतिक वारसा</span>
-        </div>
-        <h2 style="color: var(--parchment-ivory); margin-top: 1rem;">
-          <span class="lang-en">LANGUAGE & BHAKTI SAINTS</span>
-          <span class="lang-mr-text deva">भाषा आणि संत चळवळ</span>
-        </h2>
-        <p class="lang-en" style="margin-top: 1rem; opacity: 0.9;">
-          His administration actively promoted a <strong>Sanskritized/Marathi state language</strong> to replace Persianized terminology in governance, culminating in the creation of the <em>Rajyavyavahar Kosh</em>, a structured lexicon of administrative terms tied to his court tradition.
-        </p>
-        <p class="lang-en" style="margin-top: 1rem; opacity: 0.9;">
-          Simultaneously, the broader intellectual atmosphere of the Maratha era was shaped profoundly by Bhakti saints such as <strong>Sant Tukaram</strong> and <strong>Samarth Ramdas</strong>, whose egalitarian teachings fostered a unified cultural identity and moral grounding.
-        </p>
-      </div>
-      <div class="culture-quote-box">
-        <svg class="culture-quote-box__diamond" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-diamond"></use></svg>
-        <h4 style="font-family: var(--font-ui); color: var(--antique-gold); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.1em;">The Intellectual Awakening</h4>
-        <p style="font-family: var(--font-body); font-style: italic; font-size: 0.95rem; opacity: 0.85;">"The era's intellectual atmosphere, guided by the saints, created a moral awakening—laying the psychological groundwork for Swarajya."</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- LEGACY RETROSPECTIVE -->
-  <section id="legacy-retro" style="background-color: var(--parchment-ivory); color: var(--basalt-charcoal); padding: var(--space-2xl) clamp(2rem, 4vw, 4rem); border-top: 1px solid var(--gold-10);">
-    <div style="max-width: var(--max-content); margin: 0 auto;">
-      <div style="text-align: center; margin-bottom: 3rem;">
-        <div class="plaque">
-          <span class="lang-en">Historical Retrospective</span>
-          <span class="lang-mr-text deva">ऐतिहासिक विहंगावलोकन</span>
-        </div>
-        <h2 class="section-title-dark" style="margin-top: 1rem;">
-          <span class="lang-en">THE ENDURING INSPIRATION</span>
-          <span class="lang-mr-text deva">अखंड प्रेरणास्रोत</span>
-        </h2>
-      </div>
-
-      <!-- 4 Photo Grid -->
-      <div class="legacy-photos">
-        <div class="legacy-photo">
-          <div class="legacy-photo__image" style="background-image: url('assets/img/shivaji-statue.jpg'); background-size: cover; background-position: center;"></div>
-          <span class="legacy-photo__caption">
-            <span class="lang-en">Statue at Raigad</span>
-            <span class="lang-mr-text deva">रायगडावरील भव्य पुतळा</span>
-          </span>
-        </div>
-        
-        <div class="legacy-photo">
-          <div class="legacy-photo__image" style="background-image: url('assets/img/raigad-unesco.jpg'); background-size: cover; background-position: center;"></div>
-          <span class="legacy-photo__caption">
-            <span class="lang-en">UNESCO Tentative Site</span>
-            <span class="lang-mr-text deva">युनेस्को जागतिक वारसा जागा</span>
-          </span>
-        </div>
-
-        <div class="legacy-photo">
-          <div class="legacy-photo__image" style="background-image: url('assets/img/torna-sketch.jpg'); background-size: cover; background-position: center;"></div>
-          <span class="legacy-photo__caption">
-            <span class="lang-en">Modi Script Letters</span>
-            <span class="lang-mr-text deva">मोडी लिपीतील पत्रव्यवहार</span>
-          </span>
-        </div>
-
-        <div class="legacy-photo">
-          <div class="legacy-photo__image" style="background-image: url('assets/img/ashtapradhan-illustration.jpg'); background-size: cover; background-position: center;"></div>
-          <span class="legacy-photo__caption">
-            <span class="lang-en">Shivrai Copper Coins</span>
-            <span class="lang-mr-text deva">तांब्याची शिवराई नाणी</span>
-          </span>
-        </div>
-      </div>
-
-      <!-- Flame emblem decoration -->
-      <div style="text-align: center; margin-top: 4rem;">
-        <svg style="width: 48px; height: 48px; color: var(--bhagwa-saffron);" aria-hidden="true">
-          <use href="assets/icons/sprite.svg#icon-torch"></use>
-        </svg>
-      </div>
-    </div>
-  </section>
+  </main>
 
   <!-- SITE FOOTER -->
-  <footer class="site-footer">
+    <footer class="site-footer">
     <div class="footer-main">
       <div class="footer-seal-container">
-        <svg class="footer-seal" aria-hidden="true">
-          <use href="assets/icons/sprite.svg#icon-rajmudra"></use>
-        </svg>
+        <svg class="footer-seal" aria-hidden="true"><use href="assets/icons/sprite.svg#icon-rajmudra"></use></svg>
       </div>
-      
       <div class="footer-center">
-        <h3 class="deva">श्रीमंत योगी छत्रपती शिवाजी महाराज</h3>
-        <p class="footer-subtitle">FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680</p>
-        <p class="deva-body" style="font-size: 0.9rem; opacity: 0.7; max-width: 400px; margin: 1rem auto 0;">
+        <h3 class="deva" style="font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.8rem); color: var(--antique-gold); margin-bottom: 0.5rem; line-height: 1.1;">छत्रपती शिवाजी महाराज</h3>
+        <p class="footer-subtitle" style="font-family: var(--font-ui); font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--parchment-ivory); opacity: 0.8; margin-bottom: 0.5rem;">FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680</p>
+        <p class="deva-body" style="font-size: 0.9rem; opacity: 0.7; max-width: 400px; margin: 0 auto; color: var(--parchment-ivory);">
           प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते ।
         </p>
       </div>
-      
       <div class="footer-reflection">
-        <p class="lang-en">"His administrative structure and military disciplines established a standard of native governance that would stand as a beacon of resistance for centuries."</p>
-        <p class="lang-mr-text deva-body">"महाराजांचे सुशासन, सैन्यशिस्त आणि स्वतंत्र आरमार उभे करण्याची जिद्द शतकांनुशतके राष्ट्रउभारणीसाठी प्रेरणा देत राहील."</p>
+        <p class="lang-en">"Praised by Friends and Respected by Foes — the standard of a truly great King."</p>
+        <p class="lang-mr-text deva-body">"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली."</p>
       </div>
     </div>
-    
     <div class="footer-bottom">
       <div class="footer-social">
         <a href="index.html"><span class="lang-en">The Life</span><span class="lang-mr-text deva">जीवन</span></a>
-        <a href="legacy.html" class="active"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a>
+        <a href="legacy.html"><span class="lang-en">The Legacy</span><span class="lang-mr-text deva">वारसा</span></a>
         <a href="galleries.html"><span class="lang-en">Forts</span><span class="lang-mr-text deva">किल्ले</span></a>
         <a href="timeline.html"><span class="lang-en">Timeline</span><span class="lang-mr-text deva">कालपट</span></a>
         <a href="letters.html"><span class="lang-en">Sources</span><span class="lang-mr-text deva">साधने</span></a>
       </div>
-      
       <div class="footer-quote">
         <span class="lang-en">✦ Praised by Friends and Respected by Foes ✦</span>
         <span class="lang-mr-text deva">✦ शत्रूनेही आदर करावा असे आदर्श राजे ✦</span>
       </div>
-      
       <div class="footer-legal">
         <span>© 2026 Tribute.</span>
-        <svg style="width: 14px; height: 14px; color: var(--antique-gold); vertical-align: middle; margin-left: 5px;" aria-hidden="true">
+        <svg style="width:14px; height:14px; color:var(--antique-gold); vertical-align:middle; margin-left:5px;" aria-hidden="true">
           <use href="assets/icons/sprite.svg#icon-diamond"></use>
         </svg>
       </div>
@@ -509,47 +1097,53 @@
 
   <!-- Scripts -->
   <script src="scripts/main.js"></script>
-  
-  <!-- GSAP & ScrollTrigger CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  
-  <!-- Simple GSAP Animation Setup -->
   <script>
     (function() {
       'use strict';
-      
-      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        return;
-      }
-      
+      if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
       gsap.registerPlugin(ScrollTrigger);
-      
-      // Honeycomb node animations
-      gsap.from('.honeycomb__node', {
-        opacity: 0,
-        scale: 0.8,
-        y: 20,
-        stagger: 0.1,
-        duration: 0.8,
-        ease: "back.out(1.2)",
-        scrollTrigger: {
-          trigger: '.honeycomb',
-          start: "top 75%"
-        }
+
+      // Hero entrance
+      gsap.from('.legacy-hero__kicker, .legacy-hero__title, .legacy-hero__divider, .legacy-hero__desc', {
+        opacity: 0, y: 30, duration: 0.9, stagger: 0.15, ease: 'power2.out', delay: 0.2
       });
 
-      // Strategy cards reveal
+      // Impact stats
+      gsap.from('.impact-stat', {
+        opacity: 0, y: 20, stagger: 0.1, duration: 0.7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.impact-band', start: 'top 80%' }
+      });
+
+      // Honeycomb nodes
+      gsap.from('.honeycomb__node', {
+        opacity: 0, scale: 0.8, y: 20, stagger: 0.1, duration: 0.8, ease: 'back.out(1.2)',
+        scrollTrigger: { trigger: '.honeycomb', start: 'top 75%' }
+      });
+
+      // Strategy cards
       gsap.from('.strategy-card', {
-        opacity: 0,
-        y: 30,
-        stagger: 0.15,
-        duration: 0.7,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: '.military-grid',
-          start: "top 80%"
-        }
+        opacity: 0, y: 30, stagger: 0.15, duration: 0.7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.military-grid', start: 'top 80%' }
+      });
+
+      // Tolerance facts
+      gsap.from('.tolerance-fact', {
+        opacity: 0, x: 30, stagger: 0.12, duration: 0.7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.tolerance-facts', start: 'top 80%' }
+      });
+
+      // Legacy today cards
+      gsap.from('.legacy-today-card', {
+        opacity: 0, y: 40, stagger: 0.15, duration: 0.8, ease: 'power2.out',
+        scrollTrigger: { trigger: '.legacy-today-grid', start: 'top 80%' }
+      });
+
+      // Photo grid
+      gsap.from('.legacy-photo', {
+        opacity: 0, scale: 0.95, stagger: 0.12, duration: 0.7, ease: 'power2.out',
+        scrollTrigger: { trigger: '.legacy-photos', start: 'top 80%' }
       });
     })();
   </script>
