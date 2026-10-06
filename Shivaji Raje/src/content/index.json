@@ -1,0 +1,4285 @@
+{
+  "content": [
+    {
+      "tag": "section",
+      "props": {
+        "id": "prologue",
+        "className": "split"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__image artwork"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/sahyadri-sunrise",
+                "alt": "Dawn over the Sahyadri and Maval valleys",
+                "className": "artwork-image"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "caption-box"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Sunrise over the Sahyadri Ranges"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "सह्याद्री पर्वतरांगांवरील सूर्योदय"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__panel split__panel--maroon"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Prologue"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "प्रस्तावना"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {
+                "className": "prologue-headline"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "WHY SWARAJYA MATTERS"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "स्वराज्याचे महत्त्व"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "prologue-body"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Before the middle of the seventeenth century, the land of Maharashtra lay divided, oppressed, and bleeding under three decades of foreign rule. Tyranny sat unchecked upon imperial thrones, suppressing local customs, language, and the basic human right to self-determination."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "It was against this absolute darkness that a spark of sovereignty arose. 'Swarajya' was not merely the replacement of one ruler with another; it was a profound revolution of self-rule, religious tolerance, and civil governance, built upon the sweat, basalt, and blood of ordinary Mavals."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "सत्रव्या शतकाच्या मध्यापूर्वी, महाराष्ट्र परकीय जुलमी राजवटींच्या मगरमिठीत अडकलेला होता. रयतेवर अन्याय, अत्याचार होत होते, स्वतःच्या संस्कृती आणि भाषेचा संकोच होत होता. अशा घोर अंधकारात 'स्वराज्य' ही संकल्पना उदयाला आली."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "स्वराज्य म्हणजे केवळ सत्तेचे हस्तांतरण नव्हते, तर ते लोककल्याणकारी, धार्मिक सहिष्णुता राखणारे आणि रयतेला सन्मान देणारे स्वशासनाचे एक महान पर्व होते, ज्याची पायाभरणी अठरापगड जातींच्या मावळ्यांनी सह्याद्रीच्या दऱ्याखोऱ्यात केली."
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "prologue-closing"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "\"A sovereign state formed by the people, of the people, and for the preservation of Hindavi values.\""
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "\"रयतेचे कल्याण आणि धर्मसंस्थापना ध्येय ठेवून उभारलेले लोककल्याणकारी राज्य.\""
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "prologue-scroll-bar"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Explore the Origins"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "उत्पत्ती जाणून घ्या"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "svg",
+          "props": {
+            "className": "seal-straddle",
+            "aria-hidden": "true"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "use",
+              "props": {
+                "href": "icons/sprite.svg#icon-rajmudra"
+              },
+              "children": []
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "birth",
+        "className": "split"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__image artwork"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/shivneri",
+                "alt": "Shivneri Fort — Shivneri, a 17th-century fort near Junnar, India",
+                "className": "artwork-image"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "caption-box"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Shivneri Fort — Birthplace of the Legend"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "शिवनेरी किल्ला — शिवरायांचे जन्मस्थान"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__panel split__panel--ivory"
+          },
+          "children": [
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "birth-sub-block"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "19 February 1630"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "१९ फेब्रुवारी १६३०"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h2",
+                  "props": {
+                    "className": "section-title-dark"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "THE BIRTH OF A VISIONARY"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "युगपुरुषाचा जन्म"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "section-body-dark"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "On the high battlements of Shivneri Fort, near Junnar, Shivaji Raje was born to Jijabai and Shahaji Raje Bhosale. Named after the local deity Goddess Shivai, his birth brought hope to a weary land. His father, a brilliant general serving the Deccan Sultanates, was often away, leaving his formative years entirely under his mother's profound custody."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        "जुन्नर जवळील शिवनेरी किल्ल्यावर जिजाबाई आणि शहाजीराजे भोसले यांच्या पोटी शिवरायांचा जन्म झाला. स्थानिक देवी शिवाईच्या नावावरून त्यांचे नाव 'शिवाजी' ठेवण्यात आले. त्यांचे वडील शहाजीराजे दक्षिणेतील आदिलशाहीत सरदार असल्याने शिवरायांच्या बालपणाची संपूर्ण जबाबदारी माता जिजाऊंवर पडली."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "childhood-block"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "childhood-medallion",
+                    "role": "img",
+                    "aria-label": "Mother and Child Silhouette"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "childhood-icon",
+                        "aria-hidden": "true"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-mother-child"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "childhood-text"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "h3",
+                      "props": {
+                        "className": "sub-title-dark"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Nurtured by Jijabai"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "माता जिजाऊंचे संस्कार"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "section-body-dark"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Jijabai was the primary architect of his character. She raised him on the heroic tales of the Ramayana and Mahabharata, instilling a deep sense of justice, duty, and pride in self-rule. Under her guidance, Pune was rebuilt, and Shivaji Raje learned the art of administration and warfare."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "जिजाबाई शिवरायांच्या व्यक्तिमत्त्वाच्या शिल्पकार होत्या. त्यांनी शिवरायांवर रामायण, महाभारतातील शौर्यकथांचे संस्कार केले. अन्यायविरुद्ध लढण्याची आणि लोककल्याणकारी बनण्याची प्रेरणा दिली. त्यांच्याच मार्गदर्शनाखाली पुण्याचा पुनर्विकास झाला."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "lineage-block"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "sub-title-dark"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Lineage of Bhosale Clan"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "भोसले घराण्याची वंशावळ"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "lineage-chart"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "lineage-node"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-title"
+                          },
+                          "children": [
+                            "Shahaji Raje"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-subtitle"
+                          },
+                          "children": [
+                            "Father"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "lineage-node node-center"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-title"
+                          },
+                          "children": [
+                            "Jijabai"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-subtitle"
+                          },
+                          "children": [
+                            "Mother"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "lineage-node"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-title"
+                          },
+                          "children": [
+                            "Lukhoji Jadhav"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-subtitle"
+                          },
+                          "children": [
+                            "Grandfather (Maternal)"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "lineage-node node-hero"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-title"
+                          },
+                          "children": [
+                            "SHIVAJI MAHARAJ"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "node-subtitle"
+                          },
+                          "children": [
+                            "Chatrapati"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "panel-seal-mini",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-rajmudra"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "torna",
+        "className": "split"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__image artwork"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/torna",
+                "alt": "Torna Fort — Torna Fort",
+                "className": "artwork-image"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "pull-quote pull-quote--overlay"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "\"The divine wish is that we must establish Hindavi Swarajya.\""
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "\"हिंदवी स्वराज्य व्हावे, हीच श्रींची इच्छा.\""
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "caption-box"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Torna Fort — Captured at age 16"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "तोरणा किल्ला — वयाच्या १६ व्या वर्षी घेतलेला ताबा"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__panel split__panel--ivory"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "1646 · The Oath"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "१६४६ · स्वराज्य शपथ"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {
+                "className": "section-title-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "SEEDS OF SWARAJYA"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "स्वराज्याचे बीजारोपण"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "section-body-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "At the age of sixteen, Shivaji Raje gathered his trusted Maval companions at the temple of Raireshwar. Cutting his finger, he offered blood upon the Shivlinga, taking a sacred vow to establish an independent kingdom. This was followed by his first military masterstroke: the bloodless capture of the massive Torna Fort."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "वयाच्या सोळाव्या वर्षी, शिवरायांनी रायरेश्वराच्या मंदिरात मावळ्यांसोबत रक्ताभिषेक करत स्वतंत्र स्वराज्याची शपथ घेतली. यानंतर लगेचच त्यांनी तोरणा किल्ला जिंकून स्वराज्याचे पहिले तोरण बांधले."
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "gold-divider"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {},
+                  "children": [
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "bi-icon",
+                        "aria-hidden": "true"
+                      },
+                      "children": [
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/bootstrap.svg#diamond"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "oath-row"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "wax-seal",
+                    "aria-label": "Royal Wax Seal representing the Oath"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "deva"
+                      },
+                      "children": [
+                        " रायरेश्वर",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "शपथ "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "oath-text"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "oath-flag-icon",
+                        "aria-hidden": "true"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-flag"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h4",
+                      "props": {
+                        "className": "sub-title-dark"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "The Oath of Raireshwar"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "रायरेश्वर पठारावरील नवस"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "A sacred pledge of absolute resistance against foreign lords, binding the Mavals to a unified, righteous cause under a single standard."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        "परकीय जुलूमाविरुद्ध पुकारलेले बंड आणि एका समान ध्येयासाठी सर्व मावळ्यांचे संघटन."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "info-cards"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "info-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "h4",
+                      "props": {
+                        "className": "info-card-title"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Fort Expansion"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ल्यांचा विस्तार"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/torna-plan",
+                            "alt": "Torna ridge diagram — interpretive illustration",
+                            "className": " image-contain"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Gold treasure discovered during repairs on Torna was immediately used to build the impregnable Rajgad Fort, which served as the first capital."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        "तोरण्यावर सापडलेल्या गुप्तधनाचा उपयोग शिवरायांनी शेजारील मुरुंबदेवाच्या डोंगरावर राजगड नावाचा?... कादंबरीबद्ध किल्ला उभारण्यासाठी केला."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "info-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "h4",
+                      "props": {
+                        "className": "info-card-title"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Strategic Passages"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "रणधुरंधर रचना"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "mini-map-area",
+                        "aria-label": "Sketch Map of Torna and Rajgad Region"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-point"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "point-label"
+                              },
+                              "children": [
+                                "Torna"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-point"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "point-label"
+                              },
+                              "children": [
+                                "Rajgad"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-legend"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {},
+                              "children": [
+                                "Swarajya"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The high ridges allowed rapid garrison movement, turning the rugged landscape into a natural weapon against heavier Adilshahi armies."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        "डोंगराळ प्रदेशाचा नैसर्गिक ढाल म्हणून वापर करून कमी सैन्यातही शत्रूवर नियंत्रण मिळवणे शक्य झाले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "ribbon"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "ribbon-icon",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-mountain"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "ribbon-text"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "SECURED THE HIGHEST PEAK · FORGED THE INITIAL BOUNDS"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सर्वोच्च शिखरे पादाक्रांत केली · स्वराज्याची पहिली सीमा आखली"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "ribbon-icon",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-warrior-procession"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "building"
+      },
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/rajgad",
+                    "alt": "Rajgad — This is a photo of ASI monument number",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Rajgad Fort — The Capital for 26 Years"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "राजगड किल्ला — २६ वर्षे स्वराज्याची राजधानी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--maroon"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "First Capital"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पहिली राजधानी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "RAJGAD: THE SEAT OF POWER"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "राजगड: सत्तेचे मुख्य केंद्र"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Built on the hill of Murumbdev, Rajgad was specifically designed to be impregnable. With three massive machis (terraces) and a sheer citadel (Bale Killa), it stood as the administrative nerve center where Shivaji Maharaj planned the expansion of Swarajya."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "मुरुंबदेवाच्या डोंगरावर बांधलेला राजगड किल्ला अत्यंत अभेद्य असा होता. संजीवनी, सुवेळा आणि पद्मावती या तीन माच्या आणि बालेकिल्ला असलेला हा किल्ला स्वराज्याचे पहिले मुख्य राजकीय केंद्र होता."
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "icon-row"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-fortress"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Bale Killa"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "CITADEL OF SAFETY"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-governance"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Sadar"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "OFFICIAL COURT"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-economy"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Kothar"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "GRANARY STORES"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band band--reverse"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--ivory"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sentinel of Pune"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पुण्याचा रक्षक"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "SINHAGAD: THE STRONGHOLD"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सिंहगड: बलाढ्य गड"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Guarding the southern approaches to Pune, Kondhana Fort (later renamed Sinhagad) was a vital shield. Its sheer cliffs and high walls made it a prize disputed by all powers in the Deccan, ultimately captured in several legendary actions."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "पुण्याच्या संरक्षणासाठी सिंहगड (पूर्वीचा कोंढाणा) अतिशय महत्त्वाचा होता. त्याच्या अवाढव्य कड्यांमुळे हा किल्ला दख्खनमधील सर्वच सत्तांसाठी प्रतिष्ठेचा विषय बनला होता."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "icon-row icon-row--dark"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-lion"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Tanaji"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "THE LION PATH"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-flag"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Kalyan Darwaza"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "MAIN PORTAL"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/sinhagad",
+                    "alt": "Sinhagad — A Photo of Sinhagad",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sinhagad Fort — The Lion's Fort"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सिंहगड किल्ला — सिंहाचा गड"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/sahyadri-sunrise",
+                    "alt": "Dawn over the Sahyadri and Maval valleys",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Valleys of Maval — Cradle of Warriors"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "मावळचे खोरे — मावळ्यांचे उगमस्थान"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--maroon"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The People"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "रयत"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "THE MAVALS: SOUL OF SWARAJYA"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "मावळे: स्वराज्याचा प्राण"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "The rugged hills of Maval produced hardy, loyal, and agile men. Shivaji Maharaj traversed these valleys, winning the hearts of the local youths. These farmers-turned-soldiers became the core of his infantry, specializing in rapid hill movements and guerrilla tactics."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "मावळच्या डोंगररांगांमध्ये कष्टाळू आणि प्रामाणिक लोक राहत असत. शिवरायांनी त्यांच्याशी घट्ट नाते जोडले. हे शेतकरीच पुढे स्वराज्याचे निष्ठावंत मावळे आणि सैनिक बनले."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "icon-row"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-crossed-swords"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Guerrilla"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "GANIMI KAVA"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-shield"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Loyalty"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "FAITH IN STATE"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-compass"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Terrain"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "HILLS AS DEFENSE"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "icon-row__item"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "icon-row__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-flag"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__label"
+                          },
+                          "children": [
+                            "Patriotism"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "icon-row__desc"
+                          },
+                          "children": [
+                            "HINDAVI PRIDE"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "commanders.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Meet the Commanders"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "शिलेदारांना भेटा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "kingdom-summary"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "kingdom-summary__quadrant"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "kingdom-summary__icon",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-fortress"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h4",
+                  "props": {
+                    "className": "deva kingdom-summary__label"
+                  },
+                  "children": [
+                    "३६०+ किल्ले"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en kingdom-summary__desc"
+                  },
+                  "children": [
+                    "Over 360 hill, land, and sea forts secured under a single defensive grid."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body kingdom-summary__desc"
+                  },
+                  "children": [
+                    "स्वराज्याकडे ३६० पेक्षा जास्त डोंगरी, भुईकोट व जलदुर्ग होते."
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "svg",
+              "props": {
+                "className": "kingdom-summary__seal",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-rajmudra"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "kingdom-summary__quadrant"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "kingdom-summary__icon",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-crossed-swords"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h4",
+                  "props": {
+                    "className": "deva kingdom-summary__label"
+                  },
+                  "children": [
+                    "मावळा पत्ती"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en kingdom-summary__desc"
+                  },
+                  "children": [
+                    "A disciplined standing army, paid cash wages directly from the royal treasury."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body kingdom-summary__desc"
+                  },
+                  "children": [
+                    "नगद वेतन घेणारे शिस्तबद्ध सैन्य आणि गुप्तहेर खाते."
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "ribbon"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "svg",
+              "props": {
+                "className": "ribbon-icon",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-flag"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "ribbon-text"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "ESTABLISHED RIGID MILITARY DISCIPLINE · PROTECTED THE TILLERS OF THE SOIL"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "कडक लष्करी शिस्त लागू केली · रयतेच्या पिकाला आणि जीवाला अभय दिले"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "svg",
+              "props": {
+                "className": "ribbon-icon",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-flag"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "conflicts"
+      },
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/pratapgad",
+                    "alt": "Pratapgad — This is a photo of ASI monument number",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Pratapgad Fort — Site of the Historic Meeting"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगड किल्ला — ऐतिहासिक भेटीचे ठिकाण"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--maroon"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "10 November 1659"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "१० नोव्हेंबर १६५९"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "PRATAPGAD: DEFEATING TYRANNY"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगड: अफझलखान वध"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "The Adilshahi general Afzal Khan marched to Pratapgad with a massive army to crush Swarajya. In a tense personal meeting, Khan attempted to assassinate Shivaji Maharaj. Prepared and wearing steel chainmail, Maharaj slew the giant general using the famous tiger claws (Wagh-nakha), routing the foreign army in the forest below."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "विजापूरचा बलाढ्य सरदार अफझलखान मोठ्या फौजेनिशी प्रतापगडावर चालून आला. भेटीच्या वेळी खानाने दगाफटका करण्याचा प्रयत्न केला, तेव्हा शिवरायांनी अत्यंत चपळाईने वाघनखे खानाच्या पोटात खुपसून त्याचा वध केला आणि विजापूरच्या सैन्याचा दारुण पराभव केला."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "conflict-weapon",
+                    "aria-label": "Wagh-nakha Claw weapon illustration"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-wagh-nakha"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "deva"
+                      },
+                      "children": [
+                        "वाघनखे"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "conflict-seal-divider",
+            "role": "presentation"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "svg",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-rajmudra"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band band--reverse"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--ivory"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "5 April 1663"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "५ एप्रिल १६६३"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "LAL MAHAL: SURPRISE STRIKE"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "लाल महाल: धाडसी हल्ला"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Mughal Viceroy Shaista Khan occupied Pune and took residence in Maharaj's childhood home, Lal Mahal. In a daring night raid, Shivaji Maharaj led a small band of soldiers disguised as a wedding procession into Pune. They infiltrated the palace, surprised Shaista Khan, and severed his fingers as he escaped out a window."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "मुघल सरदार शाईस्तेखान पुण्यात याऊन शिवरायांच्या बालपणीच्या वाड्यात म्हणजेच लाल महालात मुक्काम ठोकून होता. शिवरायांनी लग्नाच्या वरातीचा वेष परिधान करून रात्रीच्या वेळी महालात प्रवेश केला आणि खान खिडकीतून पळून जात असताना त्याची तीन बोटे छाटली."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "conflict-weapon",
+                    "aria-label": "Arched Window illustration"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-arched-window"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "deva"
+                      },
+                      "children": [
+                        "लाल महाल खिडकी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/lal-mahal",
+                    "alt": "Lal Mahal — In the year 1630 AD, Shivaji Maharaja's Father Shahaji Raje Bhosale, established the Lal Mahal for his wife Jijabai and son. Shivaji Maharaj stayed here for several years until he ",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Lal Mahal, Pune — Reconstructed site"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "लाल महाल, पुणे — पुनर्निर्मित वास्तू"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/purandar",
+                    "alt": "Purandar Fort — Purandar Fort, Pune district, Maharashtra",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Purandar Fort — Scene of the Siege"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पुरंदर किल्ला — वेढ्याचे ऐतिहासिक ठिकाण"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--ivory"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "1665 – 1666"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "१६६५ – १६६६"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "band-headline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "TREATY & TEST OF HONOUR"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पुरंदरचा तह आणि आग्रा सुटका"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Faced with Mirza Raja Jai Singh's relentless campaign, Maharaj signed the Treaty of Purandar, temporarily surrendering 23 forts to preserve his people. This led to his visit to Agra, where he was put under house arrest by Aurangzeb. Using supreme intellect, Maharaj escaped hidden in sweet baskets, returning to Maharashtra to launch a massive recapture campaign."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "मिर्झाराजे जयसिंग यांनी टाकलेल्या वेढ्यामुळे रयतेची हानी टाळण्यासाठी शिवरायांनी पुरंदरचा तह केला आणि २३ किल्ले मुघलांना दिले. यानंतर त्यांना आग्र्याला जावे लागले, जिथे औरंगजेबाने त्यांना नजरकैदेत ठेवले. अत्यंत चातुर्याने ते मिठाईच्या पेटाऱ्यातून निसटले आणि महाराष्ट्रात परतले."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "conflict-weapon",
+                    "aria-label": "Gateway and jailbreak representation"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-gateway"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "deva"
+                      },
+                      "children": [
+                        "आग्र्याहून सुटका"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "ribbon"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "svg",
+              "props": {
+                "className": "ribbon-icon",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-lion"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "ribbon-text"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "DEFIED THE ENTIRE IMPERIAL WEIGHT · RECUPERATED AND SURGED AGAIN"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "संपूर्ण पातशाही सत्तेला टक्कर दिली · पुन्हा उसळी मारून सर्व किल्ले जिंकले"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "svg",
+              "props": {
+                "className": "ribbon-icon",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "use",
+                  "props": {
+                    "href": "icons/sprite.svg#icon-lion"
+                  },
+                  "children": []
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "coronation",
+        "className": "split"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__panel split__panel--ivory"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "6 June 1674"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "६ जून १६७४"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {
+                "className": "section-title-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "THE CORONATION AT RAIGAD"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "राज्याभिषेक सोहळा"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "section-body-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "To establish absolute sovereignty and remove the label of a mere vassal rebel, Shivaji Maharaj was formally crowned Hindu King (Chatrapati) at Raigad Fort. The grand ceremony, led by Gaga Bhatt, declared Hindavi Swarajya a legal sovereign state. He instituted a new era (Rajyabhisheka Shaka) and minted his own coinage."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "स्वराज्याला सार्वभौम राजा मिळावा आणि परकीय सत्तांना आव्हान देणारा अधिकृत सम्राट घोषित व्हावा म्हणून रायगडावर शिवरायांचा राज्याभिषेक सोहळा संपन्न झाला. गागाभट्टांच्या नेतृत्वाखाली झालेल्या या सोहळ्याने शिवरायांना 'छत्रपती' ही पदवी प्रदान केली."
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "artifact-row"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "artifact-item"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "artifact-item__image artwork"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/gold-throne",
+                            "alt": "Gold ceremonial throne — artistic reconstruction",
+                            "className": "artwork-image"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "artifact-item__caption"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Gold Throne"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सुवर्ण सिंहासन"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "artifact-item"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "artifact-item__image artwork"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/rajmudra",
+                            "alt": "Rajmudra Sanskrit inscription — recreated seal",
+                            "className": "artwork-image image-contain"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "artifact-item__caption"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Rajmudra"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "राजमुद्रा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "artifact-item"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "artifact-item__image artwork"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/coins",
+                            "alt": "Shivrai gold Hon — exhibition photograph",
+                            "className": "artwork-image image-contain"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "artifact-item__caption"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Shivrai Hon"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सुवर्ण होन"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "seal-interactive",
+                    "aria-hidden": "true",
+                    "title": "Click to press the Royal Seal",
+                    "role": "button",
+                    "tabIndex": "0"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-rajmudra"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "seal-interactive-label"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Press the Rajmudra"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "राजमुद्रा दाबा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "campaign.html",
+                    "className": "btn-outline"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Southern Campaign"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "दक्षिणेतील मोहीम"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "split__image artwork"
+          },
+          "children": [
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/raigad",
+                "alt": "Raigad Fort — This is a photo of ASI monument number",
+                "className": "artwork-image"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "pull-quote pull-quote--overlay"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "\"Thus began a new era of absolute sovereignty, self-determination, and justice.\""
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "\"अशा प्रकारे एका स्वतंत्र, न्याय्य आणि सार्वभौम युगाचा उदय झाला.\""
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "caption-box"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Raigad Fort — Coronation Durbar site"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "रायगड किल्ला — राज्याभिषेक दरबार जागा"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "final-years"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "final-card"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "3 April 1680 · Raigad"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "३ एप्रिल १६८० · रायगड"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {
+                "className": "section-title-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "THE DEPARTURE"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "शिवरायांचा स्वर्गवास"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "section-body-dark"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "After a brief illness, Chhatrapati Shivaji Maharaj breathed his last on the heights of Raigad Fort, leaving behind a sovereign nation, an inspired population, and an undefeated military machine. Though the flame of his physical life was extinguished, the spirit of Swarajya he created would endure for generations, resisting imperial onslaughts for decades to come."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    "दीर्घ आजारपणानंतर, छत्रपती शिवाजी महाराजांनी रायगडावर अखेरचा श्वास घेतला. त्यांनी मागे एक स्वतंत्र राष्ट्र, शिस्तबद्ध लष्कर आणि अन्यायाविरुद्ध पेटलेली ज्योत सोडली. जरी त्यांची प्राणज्योत मालवली, तरी स्वराज्याचा विचार कधीही संपला नाही."
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-torch"
+                      },
+                      "children": []
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "deva-body"
+                },
+                "children": [
+                  " प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते । "
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-reflection"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  "\"Praised by Friends and Respected by Foes — the standard of a truly great King.\""
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-mr-text deva-body"
+                },
+                "children": [
+                  "\"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली.\""
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Life"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "जीवन"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Legacy"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "वारसा"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Forts"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "किल्ले"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Timeline"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "कालपट"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Sources"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "साधने"
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-quote"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " Praised by Friends and Respected by Foes ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-mr-text deva"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " शत्रूनेही आदर करावा असे आदर्श राजे ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  " ",
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-diamond"
+                    },
+                    "children": []
+                  },
+                  " "
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

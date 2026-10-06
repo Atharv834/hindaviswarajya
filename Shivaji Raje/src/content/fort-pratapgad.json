@@ -1,0 +1,358 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/pratapgad",
+                    "alt": "Pratapgad — This is a photo of ASI monument number",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Pratapgad Fort — The Mountain Fortress"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगड किल्ला — एक अभेद्य दुर्ग"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--ivory"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Valor"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "शौर्य"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "PRATAPGAD FORT"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ले प्रतापगड"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " Rising from the dense forests of Jawali, Pratapgad holds unparalleled significance in Maratha history. It was built under the guidance of Moropant Trimbak Pingle to secure the route to the Konkan region. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " The fort is best remembered for the Battle of Pratapgad (1659), where Chhatrapati Shivaji Maharaj masterfully defeated the Adilshahi general Afzal Khan. To commemorate this monumental victory, the ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Afzal Buruj"
+                      ]
+                    },
+                    " (Afzal Khan Tower) was constructed, and Khan's tomb lies at the base of the fort, a testament to Maharaj's courage and strategic brilliance. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " जावळीच्या घनदाट जंगलात वसलेला प्रतापगड मराठा इतिहासात अत्यंत महत्त्वाचा मानला जातो. कोकणातील मार्ग सुरक्षित करण्यासाठी मोरोपंत पिंगळे यांच्या मार्गदर्शनाखाली याची उभारणी करण्यात आली. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " १६५९ च्या प्रतापगडाच्या युद्धात महाराजांनी अफझलखानाचा वध करून स्वराज्यावरील मोठे संकट परतवून लावले. या ऐतिहासिक विजयाचे प्रतीक म्हणून ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "अफझल बुरूज"
+                      ]
+                    },
+                    " बांधण्यात आला असून, गडाच्या पायथ्याशी खानाची कबर महाराजांच्या शौर्याची साक्ष देते. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/sindhudurg-walls",
+                    "alt": "Sea walls of Sindhudurg Fort",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sindhudurg Fort — The Naval Fortress"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सिंधुदुर्ग किल्ला — स्वराज्याची जलदुर्ग शक्ती"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--maroon"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sea Fort"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "जलदुर्ग"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "SINDHUDURG FORT"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ले सिंधुदुर्ग"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " Recognizing the critical importance of a naval force, Chhatrapati Shivaji Maharaj ordered the construction of Sindhudurg off the coast of Malvan in 1664. It was built atop a small rocky island called Kurte to defend the Konkan coast from foreign navies and local pirates. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " A marvel of civil engineering, over 4000 pounds of lead were used to lay its foundations in the Arabian Sea. Miraculously, despite being surrounded by salty seawater, the fort contains three fresh-water wells named ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Dudh (Milk), Dahi (Curd), and Sakhar (Sugar)"
+                      ]
+                    },
+                    ", ensuring survival during long sieges. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " स्वराज्याला मजबूत आरमाराची गरज ओळखून महाराजांनी १६६४ मध्ये मालवणच्या समुद्रात कुरटे नावाच्या बेटावर सिंधुदुर्ग किल्ल्याची उभारणी केली. कोकण किनारपट्टीचे संरक्षण हा यामागील प्रमुख उद्देश होता. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " अरबी समुद्रात या किल्ल्याचा पाया घालण्यासाठी ४००० खंडी शिसे वापरले गेले. खऱ्या अर्थाने निसर्गाचा चमत्कार म्हणजे, चारही बाजूंनी खारे पाणी असूनही गडावर ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "दूध, दही आणि साखर"
+                      ]
+                    },
+                    " नावाच्या तीन गोड्या पाण्याच्या विहिरी आहेत, ज्या आजही तशाच आहेत. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

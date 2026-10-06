@@ -1,0 +1,358 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/shivneri",
+                    "alt": "Shivneri Fort — Shivneri, a 17th-century fort near Junnar, India",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Shivneri Fort — The Birthplace"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "शिवनेरी किल्ला — जन्मस्थान"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--charcoal"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Origins"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "उदय"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "SHIVNERI FORT"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ले शिवनेरी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " Located near Junnar in the Pune district, Shivneri is revered as the birthplace of Chhatrapati Shivaji Maharaj. It is a formidable fortress featuring steep rock faces and seven massive successive gates designed to halt invading armies. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " On February 19, 1630, a legend was born within its secure walls. Inside the fort is the ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Shivai Temple"
+                      ]
+                    },
+                    ", dedicated to the Goddess Shivai, after whom Jijabai named her illustrious son. The fort remains a sacred pilgrimage site for millions who draw inspiration from Maharaj's beginnings. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " पुणे जिल्ह्यातील जुन्नर जवळ वसलेला शिवनेरी किल्ला म्हणजे छत्रपती शिवाजी महाराजांचे जन्मस्थान. उंच कडे आणि सलग सात प्रवेशद्वारे यामुळे हा किल्ला शत्रूंसाठी अभेद्य मानला जात असे. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " १९ फेब्रुवारी १६३० रोजी याच गडावर महाराजांचा जन्म झाला. गडावरील ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "शिवाई देवीच्या मंदिरात"
+                      ]
+                    },
+                    " जिजाबाईंनी देवीला साकडे घातले होते आणि म्हणूनच त्यांनी आपल्या पुत्राचे नाव 'शिवाजी' ठेवले. शिवनेरी हे आज प्रत्येक शिवभक्ताचे एक पवित्र तीर्थस्थान बनले आहे. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

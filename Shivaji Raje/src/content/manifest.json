@@ -1,0 +1,54 @@
+{
+  "campaign": {
+    "title": "Chhatrapati Shivaji Maharaj — The Southern Campaign",
+    "description": "Explore the Dakshin Digvijay, the historic Southern Campaign of Chhatrapati Shivaji Maharaj."
+  },
+  "commanders": {
+    "title": "Chhatrapati Shivaji Maharaj — The Loyal Commanders",
+    "description": "Meet the legendary Mavalas who fought for Swarajya."
+  },
+  "fort-panhala": {
+    "title": "Chhatrapati Shivaji Maharaj — Panhala Fort",
+    "description": "Explore Panhala Fort, the site of the legendary siege and escape."
+  },
+  "fort-pratapgad": {
+    "title": "Chhatrapati Shivaji Maharaj — Pratapgad Fort",
+    "description": "Explore Pratapgad Fort, the site of the legendary confrontation with Afzal Khan."
+  },
+  "fort-raigad": {
+    "title": "Chhatrapati Shivaji Maharaj — Raigad Fort",
+    "description": "Explore Raigad Fort, the capital of Hindavi Swarajya."
+  },
+  "fort-shivneri": {
+    "title": "Chhatrapati Shivaji Maharaj — Shivneri Fort",
+    "description": "Explore Shivneri Fort, the birthplace of Chhatrapati Shivaji Maharaj."
+  },
+  "fort-sindhudurg": {
+    "title": "Chhatrapati Shivaji Maharaj — Sindhudurg Fort",
+    "description": "Explore Sindhudurg Fort, the naval pride of Swarajya."
+  },
+  "fort-sinhagad": {
+    "title": "Chhatrapati Shivaji Maharaj — Sinhagad Fort",
+    "description": "Explore Sinhagad Fort and the legendary sacrifice of Tanaji Malusare."
+  },
+  "galleries": {
+    "title": "Chhatrapati Shivaji Maharaj — Forts & Gallery",
+    "description": "A premium tribute site dedicated to Chhatrapati Shivaji Maharaj. Explore his forts and gallery."
+  },
+  "index": {
+    "title": "Chhatrapati Shivaji Maharaj — The Life",
+    "description": "A premium tribute site dedicated to Chhatrapati Shivaji Maharaj, the legendary founder of Hindavi Swarajya. Explore his life, forts, and legacy."
+  },
+  "legacy": {
+    "title": "Chhatrapati Shivaji Maharaj — The Legacy",
+    "description": "Explore the enduring legacy of Chhatrapati Shivaji Maharaj — his Ashtapradhan council, guerrilla warfare doctrine, Maratha Navy, religious harmony, and his living impact on modern India."
+  },
+  "letters": {
+    "title": "Chhatrapati Shivaji Maharaj — Quotes & Sources",
+    "description": "A premium tribute site dedicated to Chhatrapati Shivaji Maharaj. Explore his words and historical sources."
+  },
+  "timeline": {
+    "title": "Chhatrapati Shivaji Maharaj — Timeline",
+    "description": "A premium tribute site dedicated to Chhatrapati Shivaji Maharaj. Explore the timeline of his life."
+  }
+}

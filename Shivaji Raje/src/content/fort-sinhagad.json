@@ -1,0 +1,374 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/sinhagad",
+                    "alt": "Sinhagad — A Photo of Sinhagad",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "caption-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sinhagad Fort — The Lion's Fortress"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सिंहगड — सिंहाचा किल्ला"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--charcoal"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sacrifice"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "बलिदान"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "SINHAGAD FORT"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ले सिंहगड"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " Originally known as Kondhana, this massive fort near Pune holds profound emotional weight. In 1670, it was the site of a legendary battle when Chhatrapati Shivaji Maharaj tasked his trusted commander, ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Tanaji Malusare"
+                      ]
+                    },
+                    ", with recapturing it from the Mughals. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " Tanaji fought fiercely and conquered the fort, but lost his life in the struggle. Upon hearing the news, a grief-stricken Maharaj proclaimed, ",
+                    {
+                      "tag": "em",
+                      "props": {},
+                      "children": [
+                        "\"Gad aala, pan Sinha gela\""
+                      ]
+                    },
+                    " (The fort is won, but the lion is lost), renaming it Sinhagad in honor of Tanaji's sacrifice. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " पुण्याजवळील या प्रचंड किल्ल्याचे मूळ नाव कोंढाणा होते. १६७० मध्ये महाराजांनी आपला शूर आणि विश्वासू सरदार ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "तानाजी मालुसरे"
+                      ]
+                    },
+                    " याच्यावर हा किल्ला मुघलांकडून परत मिळवण्याची जबाबदारी सोपवली. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " तानाजीने अत्यंत चिवट लढा देऊन किल्ला सर केला, परंतु या लढाईत त्याला वीरमरण आले. ही दुःखद वार्ता ऐकून महाराजांच्या मुखातून उद्गार बाहेर पडले, ",
+                    {
+                      "tag": "em",
+                      "props": {},
+                      "children": [
+                        "\"गड आला, पण सिंह गेला!\""
+                      ]
+                    },
+                    " आणि त्याच्या बलिदानाच्या स्मरणार्थ या किल्ल्याचे नाव 'सिंहगड' असे ठेवण्यात आले. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

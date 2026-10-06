@@ -1,0 +1,568 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {},
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Dakshin Digvijay"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "दक्षिण दिग्विजय"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h1",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "THE SOUTHERN CAMPAIGN"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "दक्षिणेतील मोहीम"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-en"
+              },
+              "children": [
+                " A strategic masterpiece spanning hundreds of miles, expanding the boundaries of Swarajya deep into the southern peninsula of India. "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-mr-text deva-body"
+              },
+              "children": [
+                " स्वराज्याच्या सीमांचा विस्तार करणारी महाराजांची ही एक अत्यंत मुत्सद्दी आणि धाडसी मोहीम होती. "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/jinji",
+                    "alt": "Gingee Fort — Gingee Fort Hill view from road",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--charcoal"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Strategic Expansion"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "विस्तार"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h2",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "JINJI AND VELLORE"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "जिंजी आणि वेल्लोर"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " In 1677, Chhatrapati Shivaji Maharaj embarked on his legendary southward campaign. Supported by a robust diplomatic background—including strategic understandings with the Qutb Shahi dynasty of Golconda—his forces marched deep into the Carnatic region. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " The campaign achieved massive success. The Maratha forces reached and captured the formidable strongholds of ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Jinji"
+                      ]
+                    },
+                    " and ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "Vellore"
+                      ]
+                    },
+                    ". Shivaji Maharaj recognized the strategic depth these territories provided, choosing to retain the Jinji territory and its surrounding forts as a southern anchor for the Maratha Empire. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " १६७७ मध्ये महाराजांनी दक्षिणेकडील मोहिमेला सुरुवात केली. गोवळकोंड्याच्या कुतुबशाहीशी मुत्सद्दी वाटाघाटी करून त्यांनी कर्नाटकात प्रवेश केला. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " या मोहिमेत त्यांनी ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "जिंजी"
+                      ]
+                    },
+                    " आणि ",
+                    {
+                      "tag": "strong",
+                      "props": {},
+                      "children": [
+                        "वेल्लोर"
+                      ]
+                    },
+                    " यांसारखे अभेद्य किल्ले जिंकले. स्वराज्याच्या संरक्षणासाठी जिंजीचा प्रदेश त्यांनी आपल्या ताब्यात ठेवला. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "band band--campaign"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__panel band__panel--ivory"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Diplomacy"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "मुत्सद्देगिरी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h2",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "THE ARRANGEMENT WITH VYANKOJI"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "व्यंकोजी राजांसोबतची वाटाघाटी"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " A key aspect of the southern campaign involved his step-brother, Vyankoji (Ekoji) Bhosale, who ruled Thanjavur. Rather than engaging in a protracted civil war, Shivaji Maharaj executed a masterful diplomatic and military maneuver. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    " While asserting Maratha claims and retaining the crucial northern portions of the conquered territories (like Jinji), historical archives indicate that the lands south of the Kolerun river were ultimately left to Vyankoji. This pragmatic arrangement secured Swarajya's southern flanks without destroying familial domains. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " या मोहिमेचा एक महत्त्वाचा भाग म्हणजे त्यांचे सावत्र भाऊ व्यंकोजीराजे भोसले यांच्यासोबतचा समझोता. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " महाराजांनी जिंजी व उत्तरेकडील प्रदेश स्वतःकडे ठेवला आणि कोळेरून नदीच्या दक्षिणेकडील प्रदेश व्यंकोजी राजांकडे सोपवून एक मुत्सद्दी समझोता घडवून आणला. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "band__image artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/thanjavur",
+                    "alt": "Thanjavur Maratha Palace — Thanjavur Maratha Palace",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

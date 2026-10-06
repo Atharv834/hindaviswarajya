@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SVG Sprite — Chhatrapati Shivaji Maharaj Tribute Site
+  All icons use currentColor so CSS can control colour.
+  Usage:  <svg><use href="sprite.svg#icon-rajmudra"/></svg>
+-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- ============================================================
+       1. RAJMUDRA — Regular octagon with double ring border
+       ============================================================ -->
+  <symbol id="icon-rajmudra" viewBox="0 0 24 24">
+    <!-- Outer octagon -->
+    <polygon
+      points="7.03,1.5 16.97,1.5 22.5,7.03 22.5,16.97 16.97,22.5 7.03,22.5 1.5,16.97 1.5,7.03"
+      fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+    <!-- Inner octagon (double border) -->
+    <polygon
+      points="8.2,3.5 15.8,3.5 20.5,8.2 20.5,15.8 15.8,20.5 8.2,20.5 3.5,15.8 3.5,8.2"
+      fill="none" stroke="currentColor" stroke-width="0.6" stroke-linejoin="round"/>
+    <!-- Center dot — placeholder for Devanagari text overlay -->
+    <circle cx="12" cy="12" r="1" fill="currentColor" opacity="0.25"/>
+  </symbol>
+
+  <!-- ============================================================
+       2. MOUNTAIN — Three-peak mountain range silhouette
+       ============================================================ -->
+  <symbol id="icon-mountain" viewBox="0 0 24 24">
+    <path d="M2 20 L7 8 L9.5 12 L12 5 L14.5 12 L17 8 L22 20 Z"
+          fill="currentColor"/>
+  </symbol>
+
+  <!-- ============================================================
+       3. FLAG — Maratha-style swallowtail pennant on a pole
+       ============================================================ -->
+  <symbol id="icon-flag" viewBox="0 0 24 24">
+    <!-- Pole -->
+    <line x1="4" y1="2" x2="4" y2="22" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Swallowtail pennant -->
+    <path d="M4,3 L20,6 L16,9 L20,12 L4,9 Z" fill="currentColor"/>
+    <!-- Pole finial -->
+    <circle cx="4" cy="2" r="1" fill="currentColor"/>
+  </symbol>
+
+  <!-- ============================================================
+       4. TRISHUL — Trident with ornamental shaft
+       ============================================================ -->
+  <symbol id="icon-trishul" viewBox="0 0 24 24">
+    <!-- Shaft -->
+    <line x1="12" y1="10" x2="12" y2="23" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Centre prong -->
+    <path d="M12,1 L12,10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Left prong -->
+    <path d="M12,10 Q8,8 6,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Right prong -->
+    <path d="M12,10 Q16,8 18,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Prong tips (leaf shapes) -->
+    <ellipse cx="6" cy="2" rx="0.8" ry="1.5" fill="currentColor" transform="rotate(-15 6 2)"/>
+    <ellipse cx="12" cy="1.5" rx="0.8" ry="1.5" fill="currentColor"/>
+    <ellipse cx="18" cy="2" rx="0.8" ry="1.5" fill="currentColor" transform="rotate(15 18 2)"/>
+    <!-- Ornamental band -->
+    <rect x="10.5" y="11" width="3" height="1.5" rx="0.5" fill="currentColor" opacity="0.6"/>
+  </symbol>
+
+  <!-- ============================================================
+       5. LION — Heraldic lion silhouette in profile, rampant
+       ============================================================ -->
+  <symbol id="icon-lion" viewBox="0 0 24 24">
+    <path d="M6,21 L6,16 L4,14 L4,11 Q4,8 7,7 L7,5 Q7,3 9,2.5 Q11,2 12,3
+             L13,4 Q14,3 15,3.5 Q17,4 17,6 L17,7 Q20,8 20,11 L20,13 L18,15
+             L18,17 L19,21 L17,21 L16,17 L14,15 L14,17 L14,21 L12,21 L12,16
+             L10,14 L10,16 L10,21 L8,21 L8,16 Z"
+          fill="currentColor"/>
+    <!-- Tail -->
+    <path d="M17,7 Q21,4 20,2 Q19,3 18,5" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       6. SHIP — Historical Maratha Navy gallivat-style vessel
+       ============================================================ -->
+  <symbol id="icon-ship" viewBox="0 0 24 24">
+    <!-- Hull -->
+    <path d="M1,17 L4,20 L20,20 L23,17 L19,17 Q18,14 12,14 Q6,14 5,17 Z"
+          fill="currentColor"/>
+    <!-- Mast -->
+    <line x1="12" y1="4" x2="12" y2="14" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <!-- Main sail -->
+    <path d="M12,5 Q17,8 15,13 L12,13 Z" fill="currentColor" opacity="0.7"/>
+    <!-- Fore sail -->
+    <path d="M12,5 Q8,7 9,12 L12,12 Z" fill="currentColor" opacity="0.5"/>
+    <!-- Flag at mast top -->
+    <path d="M12,4 L16,3.5 L12,3 Z" fill="currentColor"/>
+    <!-- Bow decoration -->
+    <path d="M4,20 L2,19" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       7. ANCHOR — Traditional anchor with rope detail
+       ============================================================ -->
+  <symbol id="icon-anchor" viewBox="0 0 24 24">
+    <!-- Ring at top -->
+    <circle cx="12" cy="3.5" r="1.5" fill="none" stroke="currentColor" stroke-width="1"/>
+    <!-- Shank (vertical) -->
+    <line x1="12" y1="5" x2="12" y2="19" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Cross bar (stock) -->
+    <line x1="7" y1="8" x2="17" y2="8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Left fluke -->
+    <path d="M12,19 Q8,20 5,17" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M5,17 L6,15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Right fluke -->
+    <path d="M12,19 Q16,20 19,17" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M19,17 L18,15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Rope detail -->
+    <path d="M12,2 Q14,1.5 14.5,2.5 Q15,3.5 13,4" fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       8. FORTRESS — Fort silhouette with battlements and gateway
+       ============================================================ -->
+  <symbol id="icon-fortress" viewBox="0 0 24 24">
+    <!-- Main wall -->
+    <rect x="3" y="10" width="18" height="12" fill="currentColor"/>
+    <!-- Battlements -->
+    <rect x="3" y="8" width="2.5" height="2" fill="currentColor"/>
+    <rect x="7.5" y="8" width="2.5" height="2" fill="currentColor"/>
+    <rect x="14" y="8" width="2.5" height="2" fill="currentColor"/>
+    <rect x="18.5" y="8" width="2.5" height="2" fill="currentColor"/>
+    <!-- Central tower -->
+    <rect x="9" y="4" width="6" height="6" fill="currentColor"/>
+    <rect x="9" y="2" width="2" height="2" fill="currentColor"/>
+    <rect x="13" y="2" width="2" height="2" fill="currentColor"/>
+    <!-- Gateway arch (cut-out) -->
+    <path d="M10,22 L10,16 Q12,13 14,16 L14,22" fill="var(--bg, #fff)"/>
+  </symbol>
+
+  <!-- ============================================================
+       9. COMPASS — Compass rose with N/S/E/W points
+       ============================================================ -->
+  <symbol id="icon-compass" viewBox="0 0 24 24">
+    <!-- Outer ring -->
+    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Inner ring -->
+    <circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="0.5"/>
+    <!-- North point -->
+    <polygon points="12,2.5 13.2,10 10.8,10" fill="currentColor"/>
+    <!-- South point -->
+    <polygon points="12,21.5 13.2,14 10.8,14" fill="currentColor" opacity="0.5"/>
+    <!-- East point -->
+    <polygon points="21.5,12 14,13.2 14,10.8" fill="currentColor" opacity="0.5"/>
+    <!-- West point -->
+    <polygon points="2.5,12 10,13.2 10,10.8" fill="currentColor"/>
+    <!-- Centre dot -->
+    <circle cx="12" cy="12" r="1" fill="currentColor"/>
+    <!-- Tick marks -->
+    <line x1="12" y1="2" x2="12" y2="3" stroke="currentColor" stroke-width="0.6"/>
+    <line x1="12" y1="21" x2="12" y2="22" stroke="currentColor" stroke-width="0.6"/>
+    <line x1="2" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="0.6"/>
+    <line x1="21" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="0.6"/>
+  </symbol>
+
+  <!-- ============================================================
+       10. CROSSED SWORDS — Two talwar-style curved swords crossed
+       ============================================================ -->
+  <symbol id="icon-crossed-swords" viewBox="0 0 24 24">
+    <!-- Sword 1 (top-left to bottom-right) -->
+    <path d="M4,2 Q10,6 20,20" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Blade curve 1 -->
+    <path d="M4,2 Q3,3 4,4 Q10,8 19,19" fill="none" stroke="currentColor" stroke-width="0.5"/>
+    <!-- Guard 1 -->
+    <path d="M6,6 Q5,8 7,8" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <!-- Sword 2 (top-right to bottom-left) -->
+    <path d="M20,2 Q14,6 4,20" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Blade curve 2 -->
+    <path d="M20,2 Q21,3 20,4 Q14,8 5,19" fill="none" stroke="currentColor" stroke-width="0.5"/>
+    <!-- Guard 2 -->
+    <path d="M18,6 Q19,8 17,8" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       11. SCALES — Scales of justice, balanced
+       ============================================================ -->
+  <symbol id="icon-scales" viewBox="0 0 24 24">
+    <!-- Central pillar -->
+    <line x1="12" y1="3" x2="12" y2="20" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Base -->
+    <line x1="8" y1="20" x2="16" y2="20" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Beam -->
+    <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Fulcrum triangle -->
+    <polygon points="12,3 10.5,6 13.5,6" fill="currentColor"/>
+    <!-- Left chain -->
+    <line x1="3" y1="6" x2="3" y2="12" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Left pan -->
+    <path d="M0.5,12 Q3,15 5.5,12" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <!-- Right chain -->
+    <line x1="21" y1="6" x2="21" y2="12" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Right pan -->
+    <path d="M18.5,12 Q21,15 23.5,12" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       12. SHIELD — Heraldic shield shape
+       ============================================================ -->
+  <symbol id="icon-shield" viewBox="0 0 24 24">
+    <path d="M12,1.5 L21,5 L21,12 Q21,19 12,22.5 Q3,19 3,12 L3,5 Z"
+          fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Inner detail line -->
+    <path d="M12,4 L18,6.5 L18,12 Q18,17 12,20 Q6,17 6,12 L6,6.5 Z"
+          fill="none" stroke="currentColor" stroke-width="0.5" stroke-linejoin="round" opacity="0.5"/>
+  </symbol>
+
+  <!-- ============================================================
+       13. TORCH — Flaming torch, vertical
+       ============================================================ -->
+  <symbol id="icon-torch" viewBox="0 0 24 24">
+    <!-- Handle -->
+    <path d="M10.5,12 L10.5,21 Q10.5,22 12,22 Q13.5,22 13.5,21 L13.5,12"
+          fill="currentColor"/>
+    <!-- Cup / head -->
+    <path d="M9,12 L15,12 L14,10 L10,10 Z" fill="currentColor"/>
+    <!-- Flame outer -->
+    <path d="M12,1 Q15,4 14,7 Q13.5,9 14,10 L10,10 Q10.5,9 10,7 Q9,4 12,1 Z"
+          fill="currentColor" opacity="0.8"/>
+    <!-- Flame inner -->
+    <path d="M12,3 Q13.5,5 13,7 L11,7 Q10.5,5 12,3 Z"
+          fill="currentColor" opacity="0.4"/>
+  </symbol>
+
+  <!-- ============================================================
+       14. ROPE KNOT — Nautical figure-eight knot
+       ============================================================ -->
+  <symbol id="icon-rope-knot" viewBox="0 0 24 24">
+    <path d="M8,2 Q4,4 4,7 Q4,10 8,11 Q4,12 4,15 Q4,18 8,20
+             L12,22 L16,20 Q20,18 20,15 Q20,12 16,11 Q20,10 20,7
+             Q20,4 16,2 L12,2 Z"
+          fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Cross detail -->
+    <path d="M10,8 Q12,11 14,8" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <path d="M10,16 Q12,13 14,16" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Rope texture lines -->
+    <line x1="8" y1="2" x2="16" y2="2" stroke="currentColor" stroke-width="0.5"/>
+    <line x1="8" y1="11" x2="16" y2="11" stroke="currentColor" stroke-width="0.5"/>
+    <line x1="8" y1="20" x2="16" y2="20" stroke="currentColor" stroke-width="0.5"/>
+  </symbol>
+
+  <!-- ============================================================
+       15. WAGH NAKHA — Tiger claw weapon (curved blades on a bar)
+       ============================================================ -->
+  <symbol id="icon-wagh-nakha" viewBox="0 0 24 24">
+    <!-- Cross bar (palm grip) -->
+    <rect x="4" y="10" width="16" height="3" rx="1.5" fill="currentColor" opacity="0.6"/>
+    <!-- Finger rings -->
+    <circle cx="6" cy="11.5" r="1.8" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <circle cx="18" cy="11.5" r="1.8" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Claws (4 curved blades) -->
+    <path d="M7,10 Q6,5 4,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M10,10 Q9.5,5 8,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M14,10 Q14.5,5 16,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M17,10 Q18,5 20,2" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- Claw tips -->
+    <circle cx="4" cy="2" r="0.5" fill="currentColor"/>
+    <circle cx="8" cy="2" r="0.5" fill="currentColor"/>
+    <circle cx="16" cy="2" r="0.5" fill="currentColor"/>
+    <circle cx="20" cy="2" r="0.5" fill="currentColor"/>
+  </symbol>
+
+  <!-- ============================================================
+       16. ARCHED WINDOW — Mughal/Maratha jharokha style
+       ============================================================ -->
+  <symbol id="icon-arched-window" viewBox="0 0 24 24">
+    <!-- Outer frame -->
+    <path d="M4,22 L4,8 Q4,2 12,2 Q20,2 20,8 L20,22"
+          fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Inner arch -->
+    <path d="M7,22 L7,9 Q7,5 12,5 Q17,5 17,9 L17,22"
+          fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/>
+    <!-- Cusped arch detail -->
+    <path d="M7,9 Q9.5,12 12,9 Q14.5,12 17,9"
+          fill="none" stroke="currentColor" stroke-width="0.6"/>
+    <!-- Sill -->
+    <line x1="3" y1="22" x2="21" y2="22" stroke="currentColor" stroke-width="1.2"/>
+    <!-- Lattice lines -->
+    <line x1="12" y1="9" x2="12" y2="22" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+    <line x1="7" y1="15" x2="17" y2="15" stroke="currentColor" stroke-width="0.4" opacity="0.5"/>
+  </symbol>
+
+  <!-- ============================================================
+       17. HORSE RIDER — Rider on horseback in motion, silhouette
+       ============================================================ -->
+  <symbol id="icon-horse-rider" viewBox="0 0 24 24">
+    <!-- Horse body -->
+    <path d="M5,20 L6,15 L5,12 Q4,10 6,9 L8,8 L10,9 L14,9 L16,8 Q18,7 19,9
+             L20,11 L21,10 L22,11 L20,13 L19,15 L20,20 L18,20 L17,16 L15,14
+             L13,14 L11,16 L10,20 L8,20 L7,16 Z"
+          fill="currentColor"/>
+    <!-- Horse head -->
+    <path d="M19,9 L21,7 L22,7.5 L21,10" fill="currentColor"/>
+    <!-- Rider torso -->
+    <path d="M12,9 L11,5 L13,3 L15,5 L14,9" fill="currentColor"/>
+    <!-- Rider head -->
+    <circle cx="13" cy="2.5" r="1.5" fill="currentColor"/>
+    <!-- Horse legs (front gap) -->
+    <path d="M18.5,15 L19,18" stroke="currentColor" stroke-width="0.6"/>
+  </symbol>
+
+  <!-- ============================================================
+       18. MAGNIFIER — Magnifying glass
+       ============================================================ -->
+  <symbol id="icon-magnifier" viewBox="0 0 24 24">
+    <circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <!-- Glare -->
+    <path d="M7,7 Q8,5 10,5" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+    <!-- Handle -->
+    <line x1="15" y1="15" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       19. MOSQUE-TEMPLE — Side-by-side dome & shikhara silhouettes
+       ============================================================ -->
+  <symbol id="icon-mosque-temple" viewBox="0 0 24 24">
+    <!-- Mosque dome (left) -->
+    <path d="M2,22 L2,14 Q2,8 6,8 Q10,8 10,14 L10,22 Z" fill="currentColor" opacity="0.8"/>
+    <!-- Crescent finial -->
+    <path d="M5.5,7 Q7,5.5 6,7" fill="none" stroke="currentColor" stroke-width="0.7"/>
+    <line x1="6" y1="7" x2="6" y2="8" stroke="currentColor" stroke-width="0.6"/>
+    <!-- Minaret hint -->
+    <rect x="1" y="12" width="1.5" height="10" fill="currentColor" opacity="0.5"/>
+
+    <!-- Temple shikhara (right) -->
+    <path d="M14,22 L14,12 L16,10 L18,8 L19,6 L18.5,4 L19,3 L19.5,4 L19,6
+             L20,8 L22,10 L24,12 L24,22 Z" fill="currentColor" opacity="0.8"/>
+    <!-- Kalasha finial -->
+    <circle cx="19" cy="2.5" r="0.8" fill="currentColor"/>
+    <line x1="19" y1="3.3" x2="19" y2="4" stroke="currentColor" stroke-width="0.6"/>
+    <!-- Temple tiers -->
+    <line x1="15" y1="14" x2="23" y2="14" stroke="currentColor" stroke-width="0.4" opacity="0.3"/>
+    <line x1="16" y1="11" x2="22" y2="11" stroke="currentColor" stroke-width="0.4" opacity="0.3"/>
+
+    <!-- Shared base -->
+    <line x1="1" y1="22" x2="24" y2="22" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Gap / divider -->
+    <line x1="12" y1="22" x2="12" y2="14" stroke="currentColor" stroke-width="0.3" stroke-dasharray="1,1" opacity="0.3"/>
+  </symbol>
+
+  <!-- ============================================================
+       20. SCROLL — Unfurled scroll / document
+       ============================================================ -->
+  <symbol id="icon-scroll" viewBox="0 0 24 24">
+    <!-- Top roll -->
+    <ellipse cx="12" cy="3.5" rx="8" ry="1.5" fill="none" stroke="currentColor" stroke-width="1"/>
+    <!-- Bottom roll -->
+    <ellipse cx="12" cy="20.5" rx="8" ry="1.5" fill="none" stroke="currentColor" stroke-width="1"/>
+    <!-- Left edge -->
+    <line x1="4" y1="3.5" x2="4" y2="20.5" stroke="currentColor" stroke-width="1"/>
+    <!-- Right edge -->
+    <line x1="20" y1="3.5" x2="20" y2="20.5" stroke="currentColor" stroke-width="1"/>
+    <!-- Text lines -->
+    <line x1="7" y1="7" x2="17" y2="7" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+    <line x1="7" y1="9.5" x2="17" y2="9.5" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+    <line x1="7" y1="12" x2="17" y2="12" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+    <line x1="7" y1="14.5" x2="14" y2="14.5" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+    <line x1="7" y1="17" x2="15" y2="17" stroke="currentColor" stroke-width="0.5" opacity="0.5"/>
+  </symbol>
+
+  <!-- ============================================================
+       21. CROWN — Royal crown / mukut
+       ============================================================ -->
+  <symbol id="icon-crown" viewBox="0 0 24 24">
+    <!-- Crown body -->
+    <path d="M3,18 L5,9 L8,13 L12,7 L16,13 L19,9 L21,18 Z"
+          fill="currentColor"/>
+    <!-- Crown band -->
+    <rect x="3" y="18" width="18" height="3" rx="0.5" fill="currentColor"/>
+    <!-- Jewel accents -->
+    <circle cx="12" cy="15" r="1" fill="currentColor" opacity="0.3"/>
+    <circle cx="8" cy="16" r="0.7" fill="currentColor" opacity="0.3"/>
+    <circle cx="16" cy="16" r="0.7" fill="currentColor" opacity="0.3"/>
+    <!-- Point tips -->
+    <circle cx="5" cy="9" r="0.8" fill="currentColor"/>
+    <circle cx="12" cy="7" r="0.8" fill="currentColor"/>
+    <circle cx="19" cy="9" r="0.8" fill="currentColor"/>
+  </symbol>
+
+  <!-- ============================================================
+       22. GATEWAY — Ornamental arch / darwaza
+       ============================================================ -->
+  <symbol id="icon-gateway" viewBox="0 0 24 24">
+    <!-- Left pillar -->
+    <rect x="2" y="4" width="4" height="18" fill="currentColor"/>
+    <!-- Right pillar -->
+    <rect x="18" y="4" width="4" height="18" fill="currentColor"/>
+    <!-- Arch -->
+    <path d="M6,22 L6,10 Q6,4 12,4 Q18,4 18,10 L18,22"
+          fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <!-- Decorative arch top -->
+    <path d="M2,4 L6,2 L12,1 L18,2 L22,4" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Keystone -->
+    <polygon points="11,4 13,4 12.5,2.5 11.5,2.5" fill="currentColor"/>
+    <!-- Base line -->
+    <line x1="1" y1="22" x2="23" y2="22" stroke="currentColor" stroke-width="1"/>
+  </symbol>
+
+  <!-- ============================================================
+       23. COIN — Circular coin with octagonal inner stamp
+       ============================================================ -->
+  <symbol id="icon-coin" viewBox="0 0 24 24">
+    <!-- Outer circle -->
+    <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <!-- Inner circle -->
+    <circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="0.5"/>
+    <!-- Inner octagon stamp -->
+    <polygon
+      points="9.5,4.5 14.5,4.5 18,8 18,16 14.5,19.5 9.5,19.5 6,16 6,8"
+      fill="none" stroke="currentColor" stroke-width="0.8" stroke-linejoin="round"/>
+    <!-- Centre dot -->
+    <circle cx="12" cy="12" r="1.5" fill="currentColor" opacity="0.3"/>
+  </symbol>
+
+  <!-- ============================================================
+       24. CHEVRON DOWN — Simple downward-pointing chevron
+       ============================================================ -->
+  <symbol id="icon-chevron-down" viewBox="0 0 24 24">
+    <polyline points="6,9 12,15 18,9"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       25. DIAMOND — Small rhombus for decorative dividers
+       ============================================================ -->
+  <symbol id="icon-diamond" viewBox="0 0 24 24">
+    <polygon points="12,2 22,12 12,22 2,12" fill="currentColor"/>
+  </symbol>
+
+  <!-- ============================================================
+       26. FEATHER — Writing quill
+       ============================================================ -->
+  <symbol id="icon-feather" viewBox="0 0 24 24">
+    <!-- Quill shaft -->
+    <path d="M20,2 Q16,6 6,20 L4,22" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <!-- Feather vane (right) -->
+    <path d="M20,2 Q22,4 20,8 Q18,12 14,14 Q10,16 8,18"
+          fill="currentColor" opacity="0.6"/>
+    <!-- Feather vane (left) -->
+    <path d="M20,2 Q17,3 15,6 Q13,9 10,12 Q8,14 6,16"
+          fill="currentColor" opacity="0.4"/>
+    <!-- Nib split -->
+    <path d="M5,21 L4,22 L3.5,21.5" fill="none" stroke="currentColor" stroke-width="0.6"/>
+    <!-- Midrib detail -->
+    <path d="M20,2 L6,20" fill="none" stroke="currentColor" stroke-width="0.3" opacity="0.5"/>
+  </symbol>
+
+  <!-- ============================================================
+       27. BOOK — Open book
+       ============================================================ -->
+  <symbol id="icon-book" viewBox="0 0 24 24">
+    <!-- Left page -->
+    <path d="M12,5 Q8,4 2,5 L2,19 Q8,18 12,19 Z"
+          fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+    <!-- Right page -->
+    <path d="M12,5 Q16,4 22,5 L22,19 Q16,18 12,19 Z"
+          fill="none" stroke="currentColor" stroke-width="1" stroke-linejoin="round"/>
+    <!-- Spine -->
+    <line x1="12" y1="5" x2="12" y2="19" stroke="currentColor" stroke-width="0.8"/>
+    <!-- Left page lines -->
+    <line x1="5" y1="8" x2="10" y2="7.5" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="5" y1="10.5" x2="10" y2="10" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="5" y1="13" x2="10" y2="12.5" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="5" y1="15.5" x2="9" y2="15" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <!-- Right page lines -->
+    <line x1="14" y1="7.5" x2="19" y2="8" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="14" y1="10" x2="19" y2="10.5" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="14" y1="12.5" x2="19" y2="13" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+    <line x1="14" y1="15" x2="18" y2="15.5" stroke="currentColor" stroke-width="0.4" opacity="0.4"/>
+  </symbol>
+
+  <!-- ============================================================
+       28. MOTHER-CHILD — Silhouette of Jijabai with young child
+       ============================================================ -->
+  <symbol id="icon-mother-child" viewBox="0 0 24 24">
+    <!-- Mother figure -->
+    <!-- Head -->
+    <circle cx="9" cy="4" r="2.5" fill="currentColor"/>
+    <!-- Body / sari drape -->
+    <path d="M6,7 Q5,10 5,14 L5,22 L13,22 L13,14 Q13,10 12,7 Z"
+          fill="currentColor"/>
+    <!-- Pallu / head covering -->
+    <path d="M7,4 Q6,6 5,8" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.3"/>
+
+    <!-- Child figure -->
+    <!-- Head -->
+    <circle cx="17" cy="8" r="2" fill="currentColor"/>
+    <!-- Body -->
+    <path d="M15,10 Q14.5,13 14.5,16 L14.5,22 L19.5,22 L19.5,16 Q19.5,13 19,10 Z"
+          fill="currentColor"/>
+    <!-- Arm reaching to mother -->
+    <path d="M15,12 L13,13" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+    <!-- Mother's arm around child -->
+    <path d="M13,10 Q14,11 15,11" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- ============================================================
+       29. FORT ARCH — Fort entrance arch with steps
+       ============================================================ -->
+  <symbol id="icon-fort-arch" viewBox="0 0 24 24">
+    <!-- Left wall -->
+    <rect x="1" y="3" width="5" height="19" fill="currentColor"/>
+    <!-- Right wall -->
+    <rect x="18" y="3" width="5" height="19" fill="currentColor"/>
+    <!-- Arch -->
+    <path d="M6,22 L6,10 Q6,4 12,4 Q18,4 18,10 L18,22"
+          fill="none" stroke="currentColor" stroke-width="1.2"/>
+    <!-- Battlements on top -->
+    <rect x="1" y="1" width="2.5" height="2" fill="currentColor"/>
+    <rect x="4.5" y="1" width="2.5" height="2" fill="currentColor"/>
+    <rect x="17" y="1" width="2.5" height="2" fill="currentColor"/>
+    <rect x="20.5" y="1" width="2.5" height="2" fill="currentColor"/>
+    <!-- Steps -->
+    <rect x="7" y="20" width="10" height="2" fill="currentColor" opacity="0.5"/>
+    <rect x="8" y="18" width="8" height="2" fill="currentColor" opacity="0.4"/>
+    <rect x="9" y="16" width="6" height="2" fill="currentColor" opacity="0.3"/>
+  </symbol>
+
+  <!-- ============================================================
+       30. MAP PIN — Location pin marker
+       ============================================================ -->
+  <symbol id="icon-map-pin" viewBox="0 0 24 24">
+    <path d="M12,2 Q5,2 5,9 Q5,14 12,22 Q19,14 19,9 Q19,2 12,2 Z"
+          fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <circle cx="12" cy="9" r="3" fill="currentColor" opacity="0.4"/>
+  </symbol>
+
+  <!-- ============================================================
+       31. GOVERNANCE — Administrative pillar icon
+       ============================================================ -->
+  <symbol id="icon-governance" viewBox="0 0 24 24">
+    <!-- Pediment (triangle) -->
+    <polygon points="12,2 2,8 22,8" fill="currentColor"/>
+    <!-- Entablature beam -->
+    <rect x="2" y="8" width="20" height="1.5" fill="currentColor" opacity="0.7"/>
+    <!-- Pillars -->
+    <rect x="4" y="9.5" width="2" height="10" fill="currentColor"/>
+    <rect x="9" y="9.5" width="2" height="10" fill="currentColor"/>
+    <rect x="13" y="9.5" width="2" height="10" fill="currentColor"/>
+    <rect x="18" y="9.5" width="2" height="10" fill="currentColor"/>
+    <!-- Base / steps -->
+    <rect x="1" y="19.5" width="22" height="1.5" fill="currentColor"/>
+    <rect x="0" y="21" width="24" height="1.5" fill="currentColor" opacity="0.7"/>
+  </symbol>
+
+  <!-- ============================================================
+       32. ECONOMY — Stacked coins / granary
+       ============================================================ -->
+  <symbol id="icon-economy" viewBox="0 0 24 24">
+    <!-- Stack 1 (left, tallest) -->
+    <ellipse cx="7" cy="8" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="7" cy="11" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="7" cy="14" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="7" cy="17" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="7" cy="20" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <line x1="2.5" y1="8" x2="2.5" y2="20" stroke="currentColor" stroke-width="0.8"/>
+    <line x1="11.5" y1="8" x2="11.5" y2="20" stroke="currentColor" stroke-width="0.8"/>
+
+    <!-- Stack 2 (right, shorter) -->
+    <ellipse cx="17" cy="14" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="17" cy="17" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <ellipse cx="17" cy="20" rx="4.5" ry="1.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+    <line x1="12.5" y1="14" x2="12.5" y2="20" stroke="currentColor" stroke-width="0.8"/>
+    <line x1="21.5" y1="14" x2="21.5" y2="20" stroke="currentColor" stroke-width="0.8"/>
+  </symbol>
+
+  <!-- ============================================================
+       33. WARRIOR PROCESSION — Wide-format marching warriors
+       ============================================================ -->
+  <symbol id="icon-warrior-procession" viewBox="0 0 200 24">
+    <g fill="currentColor">
+      <!-- Warrior 1 — flag bearer -->
+      <circle cx="12" cy="5" r="3"/>
+      <path d="M9,8 L9,22 L15,22 L15,8 Z"/>
+      <!-- Flag -->
+      <line x1="10" y1="2" x2="10" y2="8" stroke="currentColor" stroke-width="1"/>
+      <path d="M10,2 L2,4 L10,5 Z"/>
+
+      <!-- Warrior 2 — sword raised -->
+      <circle cx="38" cy="5" r="3"/>
+      <path d="M35,8 L35,22 L41,22 L41,8 Z"/>
+      <line x1="41" y1="4" x2="46" y2="1" stroke="currentColor" stroke-width="1.2"/>
+
+      <!-- Warrior 3 — spear -->
+      <circle cx="64" cy="5" r="3"/>
+      <path d="M61,8 L61,22 L67,22 L67,8 Z"/>
+      <line x1="63" y1="2" x2="63" y2="22" stroke="currentColor" stroke-width="0.8"/>
+      <polygon points="63,0 61.5,3 64.5,3"/>
+
+      <!-- Warrior 4 — shield bearer -->
+      <circle cx="90" cy="5" r="3"/>
+      <path d="M87,8 L87,22 L93,22 L93,8 Z"/>
+      <ellipse cx="85" cy="13" rx="3" ry="4" fill="none" stroke="currentColor" stroke-width="1"/>
+
+      <!-- Warrior 5 — marching -->
+      <circle cx="116" cy="5" r="3"/>
+      <path d="M113,8 L113,22 L119,22 L119,8 Z"/>
+
+      <!-- Warrior 6 — drummer -->
+      <circle cx="142" cy="5" r="3"/>
+      <path d="M139,8 L139,22 L145,22 L145,8 Z"/>
+      <ellipse cx="148" cy="13" rx="3" ry="3.5" fill="none" stroke="currentColor" stroke-width="0.8"/>
+      <line x1="146" y1="10" x2="150" y2="11" stroke="currentColor" stroke-width="0.6"/>
+
+      <!-- Warrior 7 — horseback -->
+      <circle cx="172" cy="4" r="2.5"/>
+      <path d="M168,7 L168,14 L176,14 L176,7 Z"/>
+      <!-- Horse simplified -->
+      <path d="M165,14 L163,18 L163,22 L165,22 L166,18 L170,18 L171,22 L173,22 L173,18
+               L177,18 L178,22 L180,22 L180,18 L181,14 L183,12 L184,12.5 L183,14 L181,14 Z"/>
+      <path d="M183,12 L186,10 L187,11 L184,12.5" fill="currentColor"/>
+    </g>
+  </symbol>
+
+</svg>

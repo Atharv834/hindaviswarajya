@@ -1,0 +1,1136 @@
+{
+  "assets/img/.jpg": {
+    "variants": [
+      {
+        "src": "images/.jpg-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/.jpg-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/.jpg-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/ashtapradhan-illustration.jpg": {
+    "variants": [
+      {
+        "src": "images/ashtapradhan-illustration-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/ashtapradhan-illustration-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/ashtapradhan-illustration-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/coronation-seal.jpg": {
+    "variants": [
+      {
+        "src": "images/coronation-seal-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/coronation-seal-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/coronation-seal-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/coronation-seat.jpg": {
+    "variants": [
+      {
+        "src": "images/coronation-seat-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/coronation-seat-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/coronation-seat-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/gold-hon-coin.jpg": {
+    "variants": [
+      {
+        "src": "images/gold-hon-coin-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/gold-hon-coin-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/gold-hon-coin-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/hero-raigad.jpg": {
+    "variants": [
+      {
+        "src": "images/hero-raigad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/hero-raigad-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/hero-raigad-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 3240,
+    "height": 4050
+  },
+  "assets/img/lal-mahal.jpg": {
+    "variants": [
+      {
+        "src": "images/lal-mahal-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/lal-mahal-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/lal-mahal-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/map-sketch.jpg": {
+    "variants": [
+      {
+        "src": "images/map-sketch-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/map-sketch-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/map-sketch-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/maval-valleys.jpg": {
+    "variants": [
+      {
+        "src": "images/maval-valleys-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/maval-valleys-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/maval-valleys-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/panhala-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/panhala-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/panhala-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/panhala-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/pratapgad-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/pratapgad-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/pratapgad-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/pratapgad-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/prologue-raigad-sunset.jpg": {
+    "variants": [
+      {
+        "src": "images/prologue-raigad-sunset-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/prologue-raigad-sunset-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/prologue-raigad-sunset-1600.webp",
+        "width": 1254
+      }
+    ],
+    "width": 1254,
+    "height": 1254
+  },
+  "assets/img/purandar-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/purandar-fort-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/purandar-fort-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/purandar-fort-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/raigad-coronation.jpg": {
+    "variants": [
+      {
+        "src": "images/raigad-coronation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/raigad-coronation-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/raigad-coronation-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/raigad-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/raigad-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/raigad-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/raigad-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/raigad-unesco.jpg": {
+    "variants": [
+      {
+        "src": "images/raigad-unesco-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/raigad-unesco-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/raigad-unesco-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/rajgad-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/rajgad-fort-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/rajgad-fort-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/rajgad-fort-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/shivaji-statue.jpg": {
+    "variants": [
+      {
+        "src": "images/shivaji-statue-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/shivaji-statue-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/shivaji-statue-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/shivneri-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/shivneri-fort-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/shivneri-fort-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/shivneri-fort-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/shivneri-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/shivneri-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/shivneri-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/shivneri-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/sindhudurg-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/sindhudurg-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/sindhudurg-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/sindhudurg-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/sinhagad-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/sinhagad-fort-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/sinhagad-fort-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/sinhagad-fort-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/sinhagad-thumb.jpg": {
+    "variants": [
+      {
+        "src": "images/sinhagad-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/sinhagad-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/sinhagad-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1630.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1630-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1630-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1630-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1646.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1646-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1646-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1646-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1659.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1659-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1659-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1659-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1665.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1665-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1665-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1665-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1674.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1674-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1674-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1674-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/timeline-1680.jpg": {
+    "variants": [
+      {
+        "src": "images/timeline-1680-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/timeline-1680-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/timeline-1680-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/torna-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/torna-fort-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/torna-fort-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/torna-fort-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/torna-sketch.jpg": {
+    "variants": [
+      {
+        "src": "images/torna-sketch-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/torna-sketch-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/torna-sketch-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/warship.jpg": {
+    "variants": [
+      {
+        "src": "images/warship-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/warship-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/warship-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "assets/img/pratapgad-fort.jpg": {
+    "variants": [
+      {
+        "src": "images/pratapgad-thumb-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/pratapgad-thumb-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/pratapgad-thumb-1600.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1024
+  },
+  "curated/sahyadri-sunrise": {
+    "variants": [
+      {
+        "src": "images/curated-sahyadri-sunrise-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-sahyadri-sunrise-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-sahyadri-sunrise-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/coronation": {
+    "variants": [
+      {
+        "src": "images/curated-coronation-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-coronation-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-coronation-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/maratha-navy": {
+    "variants": [
+      {
+        "src": "images/curated-maratha-navy-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-maratha-navy-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-maratha-navy-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/maval-cavalry": {
+    "variants": [
+      {
+        "src": "images/curated-maval-cavalry-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-maval-cavalry-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-maval-cavalry-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/maval-arms": {
+    "variants": [
+      {
+        "src": "images/curated-maval-arms-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-maval-arms-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-maval-arms-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/shivneri": {
+    "variants": [
+      {
+        "src": "images/curated-shivneri-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-shivneri-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-shivneri-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1776,
+    "height": 1072
+  },
+  "curated/sinhagad": {
+    "variants": [
+      {
+        "src": "images/curated-sinhagad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-sinhagad-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-sinhagad-1600.webp",
+        "width": 1296
+      }
+    ],
+    "width": 1296,
+    "height": 972
+  },
+  "curated/pratapgad": {
+    "variants": [
+      {
+        "src": "images/curated-pratapgad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-pratapgad-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-pratapgad-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1920,
+    "height": 1277
+  },
+  "curated/rajgad": {
+    "variants": [
+      {
+        "src": "images/curated-rajgad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-rajgad-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-rajgad-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1920,
+    "height": 1282
+  },
+  "curated/torna": {
+    "variants": [
+      {
+        "src": "images/curated-torna-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-torna-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-torna-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1920,
+    "height": 1080
+  },
+  "curated/purandar": {
+    "variants": [
+      {
+        "src": "images/curated-purandar-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-purandar-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-purandar-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1920,
+    "height": 1440
+  },
+  "curated/sindhudurg": {
+    "variants": [
+      {
+        "src": "images/curated-sindhudurg-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-sindhudurg-960.webp",
+        "width": 725
+      },
+      {
+        "src": "images/curated-sindhudurg-1600.webp",
+        "width": 725
+      }
+    ],
+    "width": 725,
+    "height": 345
+  },
+  "curated/raigad": {
+    "variants": [
+      {
+        "src": "images/curated-raigad-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-raigad-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-raigad-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1728,
+    "height": 1152
+  },
+  "curated/lal-mahal": {
+    "variants": [
+      {
+        "src": "images/curated-lal-mahal-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-lal-mahal-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-lal-mahal-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 4368,
+    "height": 3456
+  },
+  "curated/panhala": {
+    "variants": [
+      {
+        "src": "images/curated-panhala-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-panhala-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-panhala-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 4000,
+    "height": 3232
+  },
+  "curated/naval-ensign": {
+    "variants": [
+      {
+        "src": "images/curated-naval-ensign-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-naval-ensign-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-naval-ensign-1600.webp",
+        "width": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 600
+  },
+  "curated/coins": {
+    "variants": [
+      {
+        "src": "images/curated-coins-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-coins-960.webp",
+        "width": 625
+      },
+      {
+        "src": "images/curated-coins-1600.webp",
+        "width": 625
+      }
+    ],
+    "width": 625,
+    "height": 626
+  },
+  "curated/modi-letter": {
+    "variants": [
+      {
+        "src": "images/curated-modi-letter-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-modi-letter-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-modi-letter-1600.webp",
+        "width": 1477
+      }
+    ],
+    "width": 1477,
+    "height": 2528
+  },
+  "curated/sindhudurg-walls": {
+    "variants": [
+      {
+        "src": "images/curated-sindhudurg-walls-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-sindhudurg-walls-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-sindhudurg-walls-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 3648,
+    "height": 2736
+  },
+  "curated/raigad-statue": {
+    "variants": [
+      {
+        "src": "images/curated-raigad-statue-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-raigad-statue-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-raigad-statue-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 3975,
+    "height": 5794
+  },
+  "curated/ins-shivaji": {
+    "variants": [
+      {
+        "src": "images/curated-ins-shivaji-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-ins-shivaji-960.webp",
+        "width": 834
+      },
+      {
+        "src": "images/curated-ins-shivaji-1600.webp",
+        "width": 834
+      }
+    ],
+    "width": 834,
+    "height": 1098
+  },
+  "curated/jinji": {
+    "variants": [
+      {
+        "src": "images/curated-jinji-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-jinji-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-jinji-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 5184,
+    "height": 3456
+  },
+  "curated/thanjavur": {
+    "variants": [
+      {
+        "src": "images/curated-thanjavur-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-thanjavur-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-thanjavur-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 4000,
+    "height": 6000
+  },
+  "curated/fort-map": {
+    "variants": [
+      {
+        "src": "images/curated-fort-map.svg",
+        "width": 480
+      },
+      {
+        "src": "images/curated-fort-map.svg",
+        "width": 960
+      },
+      {
+        "src": "images/curated-fort-map.svg",
+        "width": 1600
+      }
+    ],
+    "width": 800,
+    "height": 1000
+  },
+  "curated/torna-plan": {
+    "variants": [
+      {
+        "src": "images/curated-torna-plan.svg",
+        "width": 480
+      },
+      {
+        "src": "images/curated-torna-plan.svg",
+        "width": 960
+      },
+      {
+        "src": "images/curated-torna-plan.svg",
+        "width": 1600
+      }
+    ],
+    "width": 1000,
+    "height": 650
+  },
+  "curated/rajmudra": {
+    "variants": [
+      {
+        "src": "images/curated-rajmudra.svg",
+        "width": 480
+      },
+      {
+        "src": "images/curated-rajmudra.svg",
+        "width": 960
+      },
+      {
+        "src": "images/curated-rajmudra.svg",
+        "width": 1600
+      }
+    ],
+    "width": 800,
+    "height": 800
+  },
+  "curated/gold-throne": {
+    "variants": [
+      {
+        "src": "images/curated-gold-throne-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-gold-throne-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-gold-throne-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/ashtapradhan-council": {
+    "variants": [
+      {
+        "src": "images/curated-ashtapradhan-council-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-ashtapradhan-council-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-ashtapradhan-council-1600.webp",
+        "width": 1536
+      }
+    ],
+    "width": 1536,
+    "height": 1024
+  },
+  "curated/ins-training": {
+    "variants": [
+      {
+        "src": "images/curated-ins-training-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-ins-training-960.webp",
+        "width": 700
+      },
+      {
+        "src": "images/curated-ins-training-1600.webp",
+        "width": 700
+      }
+    ],
+    "width": 700,
+    "height": 466
+  },
+  "curated/bhavani-alt": {
+    "variants": [
+      {
+        "src": "images/curated-bhavani-alt-480.webp",
+        "width": 480
+      },
+      {
+        "src": "images/curated-bhavani-alt-960.webp",
+        "width": 960
+      },
+      {
+        "src": "images/curated-bhavani-alt-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1936,
+    "height": 2592
+  }
+}

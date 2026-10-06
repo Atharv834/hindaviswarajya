@@ -1,0 +1,1487 @@
+{
+  "content": [
+    {
+      "tag": "section",
+      "props": {
+        "id": "quotes-module"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "quotes-header"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Words That Endure"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "अमर विचार"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h1",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "WISDOM OF THE KING"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "महाराजांची शिकवण"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Profound instructions, letters, and recorded statements that highlight his focus on justice, military discipline, and the welfare of his subjects."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "महाराजांची पत्रे आणि आज्ञापत्रे त्यांच्या न्यायबुद्धीची, लष्करी शिस्तीची आणि रयतेविषयीच्या काळजीची साक्ष देतात."
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "quotes-layout"
+          },
+          "children": [
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "quotes-grid"
+              },
+              "children": [
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "quote-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-mark"
+                      },
+                      "children": [
+                        "\""
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-deva"
+                      },
+                      "children": [
+                        " रयतेच्या भाजीच्या देठालाही हात लावू नका. "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-english"
+                      },
+                      "children": [
+                        " \"Do not even touch a stem of vegetable belonging to the subjects without paying for it.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-attribution"
+                      },
+                      "children": [
+                        " — Royal Edict to the Army "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "quote-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-mark"
+                      },
+                      "children": [
+                        "\""
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-deva"
+                      },
+                      "children": [
+                        " हिंदवी स्वराज्य व्हावे, हीच श्रींची इच्छा. "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-english"
+                      },
+                      "children": [
+                        " \"It is the Almighty's wish that this Hindavi Swarajya should be established.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-attribution"
+                      },
+                      "children": [
+                        " — Letter to Dadaji Naras Prabhu "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "quote-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-mark"
+                      },
+                      "children": [
+                        "\""
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-deva"
+                      },
+                      "children": [
+                        " स्त्रियांना माता समान मानणे, त्यांच्या सुरक्षिततेची जबाबदारी आपली आहे. "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-english"
+                      },
+                      "children": [
+                        " \"Women should be treated as mothers; their protection is our foremost duty.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-attribution"
+                      },
+                      "children": [
+                        " — Code of Conduct "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "quote-card"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-mark"
+                      },
+                      "children": [
+                        "\""
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-deva"
+                      },
+                      "children": [
+                        " किल्ले म्हणजे राज्याचे प्राण. "
+                      ]
+                    },
+                    " ",
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-english"
+                      },
+                      "children": [
+                        " \"Forts are the very soul of the kingdom.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "quote-attribution"
+                      },
+                      "children": [
+                        " — Adnyapatra (Ramchandra Pant Amatya) "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "aside",
+              "props": {
+                "className": "credibility-sidebar"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "credibility-sidebar__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Historical Authenticity"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "ऐतिहासिक सत्यता"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "credibility-section"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__header"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "credibility-section__icon"
+                          },
+                          "children": [
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "bi-icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/bootstrap.svg#file-earmark-text"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "credibility-section__label"
+                          },
+                          "children": [
+                            "Bakhars"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__desc"
+                      },
+                      "children": [
+                        " Historical chronicles written in Marathi during and after his reign, providing profound insights into the administrative and military setup. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "hr",
+                  "props": {
+                    "className": "credibility-divider"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "credibility-section"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__header"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "credibility-section__icon"
+                          },
+                          "children": [
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "bi-icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/bootstrap.svg#envelope"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "credibility-section__label"
+                          },
+                          "children": [
+                            "Original Letters"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__desc"
+                      },
+                      "children": [
+                        " Direct correspondence bearing the Royal Seal (Rajmudra) verifying his decrees for civilian protection and religious tolerance. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "hr",
+                  "props": {
+                    "className": "credibility-divider"
+                  },
+                  "children": []
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "credibility-section"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__header"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "credibility-section__icon"
+                          },
+                          "children": [
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "bi-icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/bootstrap.svg#globe2"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "credibility-section__label"
+                          },
+                          "children": [
+                            "Foreign Records"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "credibility-section__desc"
+                      },
+                      "children": [
+                        " Accounts from British, Portuguese, and Dutch merchants corroborate his genius in naval warfare and formidable presence. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "sources-module"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "sources-header"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Dive Deeper"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "अधिक माहिती"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "SOURCES & READING"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "साहित्य व संदर्भ"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "sources-grid"
+          },
+          "children": [
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "sources-column"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-column__header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-column__icon"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "bi-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/bootstrap.svg#bookshelf"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "sources-column__title"
+                      },
+                      "children": [
+                        "Primary Texts"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-list"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Shivabharat"
+                          ]
+                        },
+                        " by Kavindra Paramanand"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Sabhasad Bakhar"
+                          ]
+                        },
+                        " by Krishnaji Anant Sabhasad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Adnyapatra"
+                          ]
+                        },
+                        " by Ramchandra Pant Amatya"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "sources-column"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-column__header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-column__icon"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "bi-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/bootstrap.svg#book"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "sources-column__title"
+                      },
+                      "children": [
+                        "Modern Authors"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-list"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Shivaji and His Times"
+                          ]
+                        },
+                        " by Jadunath Sarkar"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Raja Shivchatrapati"
+                          ]
+                        },
+                        " by Babasaheb Purandare"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Chhatrapati Shivaji"
+                          ]
+                        },
+                        " by Setu Madhavrao Pagdi"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "sources-column"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-column__header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-column__icon"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "bi-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/bootstrap.svg#bank"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "sources-column__title"
+                      },
+                      "children": [
+                        "Archives"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "sources-list"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "#"
+                          },
+                          "children": [
+                            "Bharat Itihas Sanshodhak Mandal"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "#"
+                          },
+                          "children": [
+                            "Deccan College Research Institute"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "sources-list__item"
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "props": {
+                            "href": "#"
+                          },
+                          "children": [
+                            "National Archives of India"
+                          ]
+                        }
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "sources-encouragement"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "oct-badge oct-badge--sm oct-badge--gold",
+                "aria-hidden": "true"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {},
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-magnifier"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-en"
+              },
+              "children": [
+                "\"History is not just to be remembered, but to be understood. Explore these records to truly comprehend the magnitude of Swarajya.\""
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-mr-text deva-body"
+              },
+              "children": [
+                "\"इतिहास केवळ वाचण्यासाठी नाही, तर समजून घेण्यासाठी आहे. स्वराज्याचे महत्त्व खऱ्या अर्थाने जाणण्यासाठी या संदर्भांचा अभ्यास करा.\""
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "deva-body"
+                },
+                "children": [
+                  " प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते । "
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-reflection"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  "\"Praised by Friends and Respected by Foes — the standard of a truly great King.\""
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-mr-text deva-body"
+                },
+                "children": [
+                  "\"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली.\""
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Life"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "जीवन"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Legacy"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "वारसा"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Forts"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "किल्ले"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Timeline"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "कालपट"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Sources"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "साधने"
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-quote"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " Praised by Friends and Respected by Foes ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-mr-text deva"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " शत्रूनेही आदर करावा असे आदर्श राजे ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  " ",
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-diamond"
+                    },
+                    "children": []
+                  },
+                  " "
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

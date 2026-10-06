@@ -1,0 +1,2014 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "commanders-hero"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "The Mavalas"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "मावळे"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h1",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "THE LOYAL COMMANDERS"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "स्वराज्याचे शिलेदार"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-en"
+              },
+              "children": [
+                " Swarajya was built on the unmatched loyalty and sacrifice of the Mavalas. These commanders shed their blood so that an independent nation could breathe free. "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {
+                "className": "lang-mr-text deva-body"
+              },
+              "children": [
+                " स्वराज्य हे मावळ्यांच्या अफाट निष्ठेवर आणि बलिदानावर उभे राहिले. त्यांनी सांडलेल्या रक्तामुळेच हा देश स्वतंत्र श्वास घेऊ शकला. "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "commanders-grid"
+          },
+          "children": [
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-crossed-swords"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Tanaji Malusare"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "तानाजी मालुसरे"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Lion of Sinhagad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सिंहगडाचा सिंह"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Famous for the daring 1670 capture of Kondhana. He lost his life in the fierce battle, prompting Shivaji Maharaj to say, ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"Gad aala, pan Sinha gela\""
+                          ]
+                        },
+                        " (The fort is won, but the lion is lost). The fort was renamed Sinhagad in honor of his supreme sacrifice."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "कोंढाणा किल्ला जिंकण्यासाठी त्यांनी आपल्या प्राणांची आहुती दिली. त्यांच्या बलिदानामुळेच महाराजांनी किल्ल्याचे नाव बदलून 'सिंहगड' ठेवले आणि उद्गार काढले, ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"गड आला, पण सिंह गेला!\""
+                          ]
+                        }
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-shield"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Baji Prabhu Deshpande"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "बाजीप्रभू देशपांडे"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Defender of Pavan Khind"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पावनखिंडीचे रक्षक"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "He held the narrow Ghodkhind pass against a massive Adilshahi pursuit, fighting fiercely while mortally wounded, just long enough to ensure Shivaji Maharaj safely escaped to Vishalgad. The pass was sanctified by his blood and renamed Pavan Khind."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "महाराजांना विशाळगडावर सुखरूप पोहोचवण्यासाठी त्यांनी घोडखिंड प्राणपणाने लढवली. त्यांच्या रक्ताने पावन झालेल्या या खिंडीला 'पावनखिंड' असे नाव दिले गेले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-fortress"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Murarbaji Deshpande"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "मुरारबाजी देशपांडे"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Guardian of Purandar"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पुरंदरचा वीर"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The commander who fiercely defended Purandar fort against Diler Khan's massive Mughal army. Rejecting bribes of wealth and rank, he fought relentlessly until he was struck down, epitomizing the unbreakable Maratha spirit."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "दिलेरखानाच्या प्रचंड मुघल सैन्याविरुद्ध त्यांनी पुरंदर किल्ला प्राणपणाने लढवला. मोहाच्या आमिषांना बळी न पडता शेवटच्या श्वासापर्यंत ते लढले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-scroll"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Jiva Mahala"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "जिवा महाला"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Bodyguard at Pratapgad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगडावरील रक्षक"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "During the deadly confrontation with Afzal Khan at Pratapgad, it was Jiva Mahala who swiftly struck down Khan's bodyguard Syed Banda, saving Shivaji Maharaj's life. This gave birth to the proverb, ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"Hota Jiva, mhanun vachla Shiva\""
+                          ]
+                        },
+                        "."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगडावर अफझलखान भेटीच्या वेळी सय्यद बंडाचा वार परतून त्यांनी महाराजांचे प्राण वाचवले. म्हणूनच ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"होता जिवा म्हणून वाचला शिवा\""
+                          ]
+                        },
+                        " ही म्हण रूढ झाली."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-magnifier"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Shiva Kashid"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "शिवा काशिद"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Loyal Decoy"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "एकनिष्ठ मावळा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "A brave barber who bore a strong resemblance to the King. During the siege of Panhala, he volunteered to impersonate Shivaji Maharaj in a decoy palanquin, knowingly marching to his death to allow the real king to escape safely."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पन्हाळगडाच्या वेढ्यातून महाराजांची सुटका व्हावी म्हणून महाराजांचा वेष धारण करून ते मृत्यूच्या दारी गेले. त्यांच्या या सर्वोच्च बलिदानाने स्वराज्य सुरक्षित राहिले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-horse-rider"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Hambirrao Mohite"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "हंबीरराव मोहिते"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Valiant Senapati"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे सरसेनापती"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The illustrious second Commander-in-Chief of the Maratha army. Known for his aggressive cavalry maneuvers and bravery, he won crucial battles against massive Mughal and Adilshahi forces (like the Battle of Koppal), securing Swarajya's borders."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे दुसरे सरसेनापती. त्यांनी मुघल आणि आदिलशाहीविरुद्ध अनेक मोहिमा यशस्वी केल्या. कोप्पळच्या लढाईत आणि इतर अनेक युद्धांत त्यांनी अतुलनीय शौर्य दाखवून स्वराज्याच्या सीमांचे रक्षण केले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-magnifier"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Bahirji Naik"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "बहीर्जी नाईक"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Master Spy"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "गुप्तहेर प्रमुख"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The legendary head of Swarajya's intelligence wing. Possessing incredible disguise skills, he infiltrated enemy lines to extract precise info, serving as the strategic spine for surprise campaigns like Lal Mahal and Surat."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याच्या गुप्तहेर खात्याचे प्रमुख. वेशांतर करण्यात ते अत्यंत पटाईत होते. त्यांनी शत्रूच्या गोटातून काढलेली माहिती महाराजांच्या धाडसी मोहिमांचा (उदा. लाल महाल हल्ला, सुरत लुटणे) मूळ आधार होती."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-gateway"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Hiroji Indulkar"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "हिरोजी इंदुलकर"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Royal Architect"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ले रचनाकार व वास्तुविशारद"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The brilliant architect who constructed the grand capital on Raigad Fort. He designed the court, palaces, bazaar, and fortifications, demonstrating supreme dedication by selling his own lands when treasury funds ran low."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याची अभेद्य राजधानी रायगड किल्ल्याचे मुख्य शिल्पकार आणि वास्तुविशारद. महाराजांच्या दरबारापासून ते तलाव आणि बाजारपेठेपर्यंत सर्व रचना त्यांनीच केली; काम पूर्ण करण्यासाठी त्यांनी स्वतःचे घरदारही विकले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-crossed-swords"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Yesaji Kank"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "येसाजी कंक"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Iron Arm of the Mavala Infantry"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "मावळा पायदळाचा बाहुबली"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "One of Shivaji Maharaj's earliest and most trusted swordsmen. A legendary warrior of immense strength, he commanded the Mavala infantry in the thick of battle. His devotion to Swarajya from its very inception made him an irreplaceable pillar of the army."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "महाराजांच्या जवळच्या विश्वासू मावळ्यांपैकी एक. मावळा पायदळाचे कुशल नेतृत्व करणारे येसाजी कंक त्यांच्या दांडपट्ट्याच्या कसबासाठी प्रसिद्ध होते. स्वराज्याच्या उभारणीपासूनच ते महाराजांच्या पाठीशी ठामपणे उभे राहिले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-horse-rider"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Netaji Palkar"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "नेताजी पालकर"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The First Senapati of Swarajya"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे पहिले सरसेनापती"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The first ever Commander-in-Chief (Senapati) of the Maratha army. A commander of exceptional cavalry tactics, he launched bold raids deep into enemy territory. His story is one of the most complex — captured by Aurangzeb and converted, yet he eventually returned and reconverted to Hinduism under Shivaji Maharaj."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे पहिले सरसेनापती. घोडदळाच्या अभूतपूर्व डावपेचांसाठी ते प्रसिद्ध होते. औरंगजेबाने त्यांना कैद करून धर्मांतरित केले, परंतु ते परत आले आणि महाराजांनी त्यांना पुन्हा हिंदू धर्मात घेतले — हे स्वराज्याच्या सर्वसमावेशकतेचे प्रतीक आहे."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-crossed-swords"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Prataprao Gujar"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापराव गुजर"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Fearless Senapati"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "निर्भय सरसेनापती"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The second Senapati of the Maratha Empire, he was fiercely loyal and immensely brave. After releasing the enemy Bahlol Khan against Maharaj's orders, he was rebuked. Consumed by shame, he charged into Bahlol Khan's army with only six companions and died fighting — a death that moved Shivaji Maharaj deeply."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे दुसरे सरसेनापती. बहलोलखानाला सोडल्याबद्दल महाराजांनी त्यांची निर्भर्त्सना केली. मनात लाज बाळगत, केवळ सहा साथीदारांसह ते बहलोलखानाच्या सैन्यावर तुटून पडले आणि रणांगणात धारातीर्थी पडले. त्यांच्या मृत्यूने महाराजांना अत्यंत दुःख झाले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-shield"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Kanhoji Jedhe"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "कान्होजी जेधे"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Trusted Founding Ally"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याच्या उभारणीतील मुख्य आधारस्तंभ"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "One of the very first supporters and allies who stood by the young Shivaji Maharaj from the earliest days of Swarajya. A powerful Deshmukh chieftain from the Maval region, his early allegiance and resources were fundamental to establishing the foundation of an independent kingdom."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "तरुण शिवाजी महाराजांच्या स्वराज्याच्या स्वप्नावर सर्वप्रथम विश्वास ठेवणाऱ्या मोजक्या सरदारांपैकी एक. मावळ प्रांतातील हे शक्तिशाली देशमुख, त्यांची शक्ती, साधने आणि निष्ठा यांनी स्वराज्याच्या पायाभरणीत मोलाचे योगदान दिले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-fortress"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Firangoji Narsala"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "फिरंगोजी नरसाळा"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Iron Killedar of Chakan"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "चाकणच्या किल्ल्याचा लोखंडी किल्लेदार"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The legendary Killedar (fort commander) of Chakan fort. With an incredibly small garrison, he held the fort against the mighty army of Shaista Khan for over 50 days before the walls were finally breached. His defiance was a testament to the indomitable Maratha warrior spirit."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "चाकण किल्ल्याचे पराक्रमी किल्लेदार. थोड्याशा शिबंदीनिशी त्यांनी शाइस्तेखानाच्या प्रचंड सैन्याला तब्बल ५० दिवसांहून अधिक काळ तोंड दिले. त्यांचे हे धाडस मराठा वीरतेचे जिवंत प्रतीक ठरले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-crossed-swords"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Suryaji Malusare"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "सूर्याजी मालुसरे"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Brother Who Avenged Sinhagad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "तानाजींचा रणातील बंधू"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The brother of the legendary Tanaji Malusare. When Tanaji fell during the assault on Sinhagad (Kondana), it was Suryaji who rallied the grieving Mavala soldiers and led the final victorious charge, completing the mission his brother had started. Sinhagad was won that night by the sacrifice of both brothers."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पराक्रमी तानाजी मालुसरे यांचे बंधू. तानाजींचे वीरमरण झाल्यावर शोकाकुल मावळ्यांना धीर देऊन सूर्याजींनी अंतिम हल्ल्याचे नेतृत्व केले आणि कोंढाणा जिंकला. त्या रात्री हे दोन्ही बंधू सिंहगडाचे खरे विजेते ठरले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "commander-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "svg",
+                  "props": {
+                    "className": "commander-icon"
+                  },
+                  "children": [
+                    {
+                      "tag": "use",
+                      "props": {
+                        "href": "icons/sprite.svg#icon-scroll"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "commander-title"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Sambhaji Kavji"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "संभाजी काव्हजी"
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "commander-subtitle"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Shadow Warrior of Pratapgad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगडाचा छाया योद्धा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "commander-desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "A trusted lieutenant and covert operator who played a crucial role in the historic meeting with Afzal Khan at Pratapgad. He was among the concealed warriors who neutralised Afzal Khan's personal bodyguards, ensuring the plan unfolded exactly as Shivaji Maharaj had designed, turning the tide of history."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगडावरील अफझलखान भेटीत गुप्त भूमिका बजावणारे विश्वासू सहकारी. खानाच्या रक्षकांना नि:शस्त्र करण्यात त्यांचा सहभाग मोलाचा ठरला. महाराजांनी आखलेल्या या ऐतिहासिक योजनेत त्यांनी आपली कामगिरी अचूकपणे बजावली."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "श्रीमंत योगी छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  "The Life"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  "The Legacy"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  "Forts"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  "Timeline"
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  "Sources"
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

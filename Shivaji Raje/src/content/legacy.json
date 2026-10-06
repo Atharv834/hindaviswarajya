@@ -1,0 +1,4358 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {},
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "className": "legacy-hero"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "legacy-hero__bg artwork"
+              },
+              "children": [
+                {
+                  "tag": "img",
+                  "props": {
+                    "src": "curated/sahyadri-sunrise",
+                    "alt": "Dawn over the Sahyadri and Maval valleys",
+                    "className": "artwork-image"
+                  },
+                  "children": []
+                }
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "legacy-hero__content"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "legacy-hero__kicker"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Enduring Vision · 1630 – 1680 & Beyond"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अमर वारसा · 1630 – 1680 आणि पुढेही"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {
+                    "className": "legacy-hero__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "THE ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "gold"
+                          },
+                          "children": [
+                            "LEGACY"
+                          ]
+                        },
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        "OF SWARAJYA"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचा",
+                        {
+                          "tag": "br",
+                          "props": {},
+                          "children": []
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "gold"
+                          },
+                          "children": [
+                            "अमर वारसा"
+                          ]
+                        }
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "legacy-hero__divider"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "props": {},
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "bi-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/bootstrap.svg#diamond"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "legacy-hero__desc lang-en"
+                  },
+                  "children": [
+                    " He did not merely conquer territory — he built an idea. A philosophy of governance, justice, maritime power, religious harmony, and self-reliance that would echo through centuries and shape the soul of a nation. "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "legacy-hero__desc lang-mr-text deva-body"
+                  },
+                  "children": [
+                    " त्यांनी केवळ भूमी जिंकली नाही — त्यांनी एक विचार जगवला. सुशासन, न्याय, सागरी शक्ती, सर्वधर्मसमभाव आणि स्वावलंबनाचा तो विचार शतकांनंतरही राष्ट्राच्या आत्म्यात प्रवाहित होत आहे. "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "impact-band"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "impact-band__grid"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "impact-stat"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__number"
+                      },
+                      "children": [
+                        "300",
+                        {
+                          "tag": "span",
+                          "props": {},
+                          "children": [
+                            "+"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__label"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Forts Controlled"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ले"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__desc lang-en"
+                      },
+                      "children": [
+                        "At its peak, Swarajya administered over 300 forts across the Deccan and Konkan."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "impact-stat"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__number"
+                      },
+                      "children": [
+                        "8"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__label"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Cabinet Ministers"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "अष्टप्रधान"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__desc lang-en"
+                      },
+                      "children": [
+                        "The Ashtapradhan — eight merit-based ministers overseeing every branch of governance."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "impact-stat"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__number"
+                      },
+                      "children": [
+                        "50",
+                        {
+                          "tag": "span",
+                          "props": {},
+                          "children": [
+                            "+"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__label"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Days — Chakan Siege"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "चाकण वेढा"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__desc lang-en"
+                      },
+                      "children": [
+                        "Firangoji Narsala held Chakan fort against Shaista Khan's entire army for 50+ days."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "impact-stat"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__number"
+                      },
+                      "children": [
+                        "3"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__label"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Types of Forts"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "दुर्गप्रकार"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__desc lang-en"
+                      },
+                      "children": [
+                        "Giridurg (hill), Jaladurg (sea), and Bhuidurg (land) — a revolutionary tri-domain defense."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "impact-stat"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__number"
+                      },
+                      "children": [
+                        "1674"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__label"
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Year of Coronation"
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "राज्याभिषेक वर्ष"
+                          ]
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "impact-stat__desc lang-en"
+                      },
+                      "children": [
+                        "The historic Rajyabhishek at Raigad — a Hindu king on his own independent throne after centuries."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "ashtapradhan"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "ashtapradhan-layout"
+              },
+              "children": [
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "ashtapradhan-intro"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Governance"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "प्रशासन"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "THE ASHTAPRADHAN"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "अष्टप्रधान मंडळ"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Shivaji Maharaj centralized power through ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "merit-based appointments"
+                          ]
+                        },
+                        ", replacing Persian titles with dignified Sanskrit administrative terms. The Ashtapradhan (Eight Ministers) functioned as an advisory council overseeing civil, military, financial, and spiritual affairs — all reporting directly to the Chhatrapati, not to each other. This eliminated feudal fragmentation. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " शिवरायांनी पारसी भाषेतील पदांना संस्कृत नावे देऊन गुणवत्तेवर आधारित प्रशासन उभे केले. अष्टप्रधान मंडळ थेट छत्रपतींना जबाबदार होते, ज्यामुळे सरंजामशाहीचे खंडन झाले आणि केंद्रीकृत, पारदर्शी राज्यव्यवस्था निर्माण झाली. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " His decision to pay all commanders and officers in ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "cash salaries"
+                          ]
+                        },
+                        " rather than land grants (jagirs) was centuries ahead of its time — it kept military loyalty tied to the King, not to the soil. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "honeycomb-wrapper"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "honeycomb"
+                      },
+                      "children": [
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__center"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--xl oct-badge--gold"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "deva"
+                                  },
+                                  "children": [
+                                    "छत्रपती",
+                                    {
+                                      "tag": "br",
+                                      "props": {},
+                                      "children": []
+                                    },
+                                    "शिवराय"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--1"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "१"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Peshwa"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Prime Minister"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--2"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "२"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Amatya"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Finance"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--3"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "३"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Sachiv"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Secretary"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--4"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "४"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Mantri"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Interior"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--5"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "५"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Senapati"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Commander"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--6"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "६"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Sumant"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Foreign"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--7"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "७"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Nyayadhish"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "Law & Justice"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "honeycomb__node honeycomb__node--8"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "oct-badge oct-badge--lg"
+                              },
+                              "children": [
+                                "८"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-label"
+                              },
+                              "children": [
+                                "Panditrao"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "honeycomb__node-role"
+                              },
+                              "children": [
+                                "High Priest"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "honeycomb__seal",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-rajmudra"
+                              },
+                              "children": []
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "figure",
+                  "props": {
+                    "className": "ashtapradhan-image"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "ashtapradhan-image__frame artwork"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/ashtapradhan-council",
+                            "alt": "Shivaji with the Ashtapradhan council — artistic reconstruction",
+                            "className": "artwork-image"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "figcaption",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Miniature representation of the Royal Durbar at Raigad"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "figcaption",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        "रायगडावरील राजसभेचे लघुचित्र"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "economy"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "economy-inner"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "economy-header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Economy & Revenue"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "अर्थव्यवस्था"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "DIRECT ASSESSMENT & OWN CURRENCY"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "थेट महसूल आणि स्वतंत्र चलन"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Land revenue was the state's backbone. He abolished middlemen and implemented ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "direct land-revenue assessment"
+                          ]
+                        },
+                        " — farmers paid the state directly based on actual cultivation. He minted his own coins, asserting complete economic sovereignty. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " जमीन महसूल हाच राज्याचा मुख्य उत्पन्नाचा स्रोत होता. मध्यस्थांना हटवून शेतकऱ्यांकडून थेट महसूल वसुली केली. स्वतःची नाणी पाडून आर्थिक सार्वभौमत्व प्रस्थापित केले. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "economy-cards"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "economy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scales"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h4",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Direct Revenue"
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "थेट महसूल"
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Abolished exploitative zamindari middlemen. Revenue was assessed on actual productivity — fair, direct, accountable."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "जमीन मोजमापावर आधारित थेट महसूल प्रणाली. शेतकऱ्यांवरील अन्यायकारक मध्यस्थांचे उच्चाटन."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "economy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scroll"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h4",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Cash Salaries"
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "रोख वेतन"
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Feudal jagirs replaced by strict cash salaries across the army, preventing commanders from building independent power bases."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "जहागीरदारी पद्धत बंद करून सैनिक, सरदार यांना रोख वेतन दिले, ज्यामुळे सरंजामशाहीला आळा बसला."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "economy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "coin-badge"
+                          },
+                          "children": [
+                            "₹"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h4",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Shivrai Copper & Gold Hon"
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "शिवराई व होन"
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "State-minted coins — the copper ",
+                            {
+                              "tag": "em",
+                              "props": {},
+                              "children": [
+                                "Shivrai"
+                              ]
+                            },
+                            " for daily commerce and the gold ",
+                            {
+                              "tag": "em",
+                              "props": {},
+                              "children": [
+                                "Hon"
+                              ]
+                            },
+                            " for trade. Swarajya's own currency."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "तांब्याची शिवराई नाणी आणि सोन्याचे होन — स्वराज्याचे स्वतंत्र चलन."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "economy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scales"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h4",
+                          "props": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Trade & Ports"
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "व्यापार व बंदरे"
+                              ]
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "The Konkan coast ports at Kalyan, Bhivandi, Chaul, and Rajapur boosted indigenous maritime trade, reducing reliance on European merchants."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "कल्याण, भिवंडी, चौल व राजापूर बंदरांमुळे देशी व्यापाराला चालना मिळाली आणि परकीय व्यापाऱ्यांची मक्तेदारी मोडली."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "military"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "military-layout"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "military-intro"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Military Strategy"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "युद्ध कौशल्य"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "WARFARE FROM BASALT"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "कणखर युद्धनीती"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "military-subhead"
+                      },
+                      "children": [
+                        "Speed · Terrain · Intelligence"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Unable to match the numerical might of Mughal or Adilshahi empires in open battle, Shivaji Maharaj developed a ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "revolutionary military doctrine"
+                          ]
+                        },
+                        ". He weaponized the Sahyadri geography itself — its gorges, forests, and monsoon mist — using speed, deception, and superior intelligence to neutralise armies ten times his size. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " मुघल व आदिलशाहीच्या प्रचंड सैन्याशी थेट युद्ध टाळत, महाराजांनी गनिमी काव्याची क्रांतिकारी युद्धपद्धत विकसित केली. सह्याद्रीच्या दऱ्याखोऱ्यांचा उपयोग करत, वेग, बुद्धिमत्ता आणि गुप्तहेर यंत्रणेने त्यांनी शत्रूला नेहमीच धक्का दिला. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "military-grid"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "strategy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "strategy-card__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-crossed-swords"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "strategy-card__title"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Guerrilla Tactics (Ganimi Kava)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "गनिमी कावा"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Sudden ambushes, rapid withdrawals, night raids on supply lines — always fighting on chosen terrain, never on the enemy's terms. A revolutionary doctrine centuries before modern asymmetric warfare theory."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "अचानक हल्ला, जलद माघार, रसद तोडणे — सदैव स्वतःच्या भूमीवर युद्ध. आधुनिक छापामार युद्धनीतीचे मूळ."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "strategy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "strategy-card__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-horse-rider"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "strategy-card__title"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Elite Light Cavalry"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "बारगीर घोडदळ"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Highly mobile Bargir cavalry capable of covering fifty miles in a single day without supply trains. Armed with speed, not sheer numbers — they were the rapid-strike force of Swarajya."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "एका दिवसात ५० मैल अंतर कापणारे हलके, चपळ घोडदळ. रसद न घेता स्वतंत्रपणे कार्यरत असलेले स्वराज्याचे अग्रदल."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "strategy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "strategy-card__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-fortress"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "strategy-card__title"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Fort Network (Tri-Domain)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "दुर्ग साखळी"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "300+ forts classified into three domains — ",
+                            {
+                              "tag": "em",
+                              "props": {},
+                              "children": [
+                                "Giridurg"
+                              ]
+                            },
+                            " (hill), ",
+                            {
+                              "tag": "em",
+                              "props": {},
+                              "children": [
+                                "Jaladurg"
+                              ]
+                            },
+                            " (sea), and ",
+                            {
+                              "tag": "em",
+                              "props": {},
+                              "children": [
+                                "Bhuidurg"
+                              ]
+                            },
+                            " (land) — each self-sustaining with grain, water, and arms, forming an interlocking defensive web."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "गिरीदुर्ग, जलदुर्ग व भुईकोट अशा तीन प्रकारचे किल्ले — प्रत्येक स्वयंपूर्ण धान्य, जल व शस्त्रसाठ्यासह, संरक्षण साखळी निर्माण करणारे."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "strategy-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "strategy-card__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-magnifier"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "h3",
+                          "props": {
+                            "className": "strategy-card__title"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Intelligence Network"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "गुप्तहेर यंत्रणा"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Led by the legendary ",
+                            {
+                              "tag": "strong",
+                              "props": {},
+                              "children": [
+                                "Bahirji Naik"
+                              ]
+                            },
+                            ", Swarajya's intelligence wing penetrated every enemy court and camp, supplying precise troop counts, patrol routes, and strategic vulnerabilities before every campaign."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "p",
+                          "props": {
+                            "className": "lang-mr-text deva-body"
+                          },
+                          "children": [
+                            "बहिर्जी नाईक यांच्या नेतृत्वाखालील अचूक गुप्तहेर यंत्रणा शत्रूच्या प्रत्येक छावणीत पोहोचत असे आणि प्रत्येक मोहिमेपूर्वी अचूक माहिती पुरवत असे."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "navy"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "navy-layout"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "navy-content"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Maratha Navy"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "मराठा आरमार"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "FATHER OF THE INDIAN NAVY"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "भारतीय नौदलाचे जनक"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " In an era when no Indian kingdom had a serious navy, Shivaji Maharaj built a ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "formidable indigenous fleet"
+                          ]
+                        },
+                        " to secure the 720-km Konkan coastline. Commanded by admirals like ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Maynak Bhandari"
+                          ]
+                        },
+                        " and later the legendary ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Kanhoji Angre"
+                          ]
+                        },
+                        ", his navy repelled the Siddis, Portuguese, and British — asserting that the sea belonged to no foreign power. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " ज्या काळात कोणत्याही भारतीय राज्याकडे सक्षम आरमार नव्हते, त्या काळी महाराजांनी मयनाक भंडारी व नंतर कान्होजी आंग्रे यांच्या नेतृत्वाखाली ७२० किमीच्या कोकण किनारपट्टीचे रक्षण करणारे आरमार उभे केले आणि सिद्दी, पोर्तुगीज व इंग्रजांना तोंड दिले. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "navy-quote"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"जलमेव यस्य, बलमेव तस्य।\"",
+                            {
+                              "tag": "br",
+                              "props": {},
+                              "children": []
+                            },
+                            "He who commands the sea is all-powerful."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "cite",
+                          "props": {},
+                          "children": [
+                            "Shivaji Maharaj's maritime philosophy"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " In 2022, the Indian Navy formally adopted a new ensign incorporating ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Shivaji Maharaj's octagonal Rajmudra seal"
+                          ]
+                        },
+                        ", officially acknowledging him as the father of Indian naval power. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "navy-image-wrap"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "navy-ship-img artwork"
+                      },
+                      "children": [
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/maratha-navy",
+                            "alt": "Maratha coastal fleet — artistic reconstruction",
+                            "className": "artwork-image"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "navy-stats"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "navy-stat-card"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "navy-stat-card__icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/sprite.svg#icon-anchor"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "navy-stat-card__title"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Naval Bases"
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "जलदुर्ग"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Kolaba, Vijaydurg, Sindhudurg — strategic island fortresses."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "navy-stat-card"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "navy-stat-card__icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/sprite.svg#icon-ship"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "navy-stat-card__title"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Warship Types"
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "जहाजे"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Gurab, Galbat, and Pal — purpose-built for coastal dominance."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "navy-stat-card"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "svg",
+                              "props": {
+                                "className": "navy-stat-card__icon",
+                                "aria-hidden": "true"
+                              },
+                              "children": [
+                                {
+                                  "tag": "use",
+                                  "props": {
+                                    "href": "icons/sprite.svg#icon-scales"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "div",
+                              "props": {
+                                "className": "navy-stat-card__title"
+                              },
+                              "children": [
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Trade Security"
+                                  ]
+                                },
+                                " ",
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "व्यापार"
+                                  ]
+                                },
+                                " "
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Freed coastal trade from European extortion and Siddi piracy."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "tolerance"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "tolerance-inner"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "tolerance-text"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "सर्वधर्मसमभाव · Equal Respect"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सर्वधर्मसमभाव"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "RELIGIOUS HARMONY"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "धार्मिक सहिष्णुता"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Though he established a Hindu kingdom, Shivaji Maharaj was profoundly secular in governance. His code of conduct — ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "the Rajniti"
+                          ]
+                        },
+                        " — strictly forbade the destruction of any mosque, church, or place of worship. Muslim officers served in his army, navy, and secretariat at the highest ranks. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " शिवरायांचे स्वराज्य खऱ्या अर्थाने धर्मनिरपेक्ष होते. त्यांच्या राजनीतीत कोणत्याही मशीद, चर्च वा देवालयाची हानी करण्यास सक्त मनाई होती. त्यांच्या सैन्यात, आरमारात आणि प्रशासनात अनेक उच्चपदस्थ मुस्लिम अधिकारी होते. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " He personally showed reverence to Muslim saints and holy men, translated the Quran, and was known to say: ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"There is no difference between a Hindu and a Muslim in my sight — they are both children of God.\""
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "tolerance-facts"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "tolerance-fact"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "tolerance-fact__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-mosque-temple"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            " ",
+                            {
+                              "tag": "h4",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "All Shrines Protected"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "सर्व धर्मस्थळे सुरक्षित"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "His Rajniti explicitly protected mosques, churches, and temples from any damage during military campaigns — a written law of conduct for every soldier."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "tolerance-fact"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "tolerance-fact__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scroll"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            " ",
+                            {
+                              "tag": "h4",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Muslim Officers in Key Roles"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "मुस्लिम अधिकारी महत्त्वाच्या पदावर"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Darya Sarang commanded the navy. Ibrahim Khan commanded artillery. Siddi Hilal led elite cavalry. Faith was never a barrier to rank or merit in Swarajya."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "tolerance-fact"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "tolerance-fact__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scales"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            " ",
+                            {
+                              "tag": "h4",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Justice Without Bias"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "निःपक्षपाती न्याय"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "The Hazar Majlis court, presided over by the King himself, dispensed justice equally. Even his own kin were punished for misconduct — his own son was severely reprimanded for disrespecting a woman."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "tolerance-fact"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "tolerance-fact__icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-scroll"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {},
+                          "children": [
+                            " ",
+                            {
+                              "tag": "h4",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Women's Dignity — A Royal Law"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "महिला सन्मान — राजकीय कायदा"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "His code strictly punished any soldier or commander who dishonoured a woman — captured or otherwise. Rare for any 17th-century ruler, this was written policy, not just intent."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "culture"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "culture-layout"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Cultural Milieu"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सांस्कृतिक वारसा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "LANGUAGE & BHAKTI SAINTS"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "भाषा आणि संत चळवळ"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Shivaji Maharaj commissioned the ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "Rajyavyavahar Kosh"
+                          ]
+                        },
+                        " — a lexicon replacing thousands of Persian administrative terms with Sanskrit and Marathi equivalents. This was a deliberate act of cultural reclamation, giving the state an indigenous identity in language as well as governance. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " The broader intellectual atmosphere was shaped by the Bhakti movement. ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Sant Tukaram's"
+                          ]
+                        },
+                        " egalitarian abhangas and ",
+                        {
+                          "tag": "strong",
+                          "props": {},
+                          "children": [
+                            "Samarth Ramdas's"
+                          ]
+                        },
+                        " call to action — ",
+                        {
+                          "tag": "em",
+                          "props": {},
+                          "children": [
+                            "\"Udyogachi Manase Jagi Pahat Ahe\""
+                          ]
+                        },
+                        " — gave the Maratha psyche its moral core and its hunger for self-determination. "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " महाराजांनी राज्यव्यवहार कोष तयार करवून फारसी शब्दांना संस्कृत व मराठी पर्याय दिले. संत तुकारामांचे अभंग आणि समर्थ रामदासांची 'उद्योगाची माणसे जगी पाहतो' ही शिकवण मराठा मनाचा नैतिक आधार बनली. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "culture-quote-box"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "culture-quote-box__diamond",
+                        "aria-hidden": "true"
+                      },
+                      "children": [
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-diamond"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h4",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Samarth Ramdas to Shivaji Maharaj"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "blockquote",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " \"You have shown the world what one determined man can achieve for his people. The flame you have lit will never be extinguished.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "blockquote",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " \"एका निश्चयी माणसाने आपल्या जनतेसाठी काय साध्य करता येते हे तुम्ही जगाला दाखवले. तुम्ही पेटवलेली ज्योत कधीही विझणार नाही.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {},
+                      "children": [
+                        "— Samarth Ramdas Swami"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "legacy-today"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "legacy-today-inner"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "legacy-today-header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Living Legacy"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "जिवंत वारसा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "HIS LEGACY, TODAY"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "आजचा वारसा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " Centuries after his death, Chhatrapati Shivaji Maharaj continues to shape modern India — from the Navy's ensign to constitutional values of federalism and equal justice. "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "legacy-today-grid"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-today-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__img artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/naval-ensign",
+                                "alt": "Indian Naval Ensign — The ensign consists of the Indian national flag on the upper canton, a blue octagon encasing the national emblem atop an anchor to depict steadfastness, superimposed on a shield wi",
+                                "className": "artwork-image image-contain"
+                              },
+                              "children": []
+                            },
+                            " ",
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__body"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "legacy-today-card__tag lang-en"
+                              },
+                              "children": [
+                                "Indian Navy · 2022"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "The New Naval Ensign"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "नवीन नौदल ध्वज"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "In September 2022, the Indian Navy replaced its colonial-era ensign with one bearing ",
+                                {
+                                  "tag": "strong",
+                                  "props": {},
+                                  "children": [
+                                    "Shivaji Maharaj's octagonal Rajmudra seal"
+                                  ]
+                                },
+                                ", formally honouring him as the father of Indian naval power."
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-mr-text deva-body"
+                              },
+                              "children": [
+                                "सप्टेंबर 2022 मध्ये भारतीय नौदलाने आपला औपनिवेशिक ध्वज बदलून छत्रपतींच्या राजमुद्रेने अंकित नवीन ध्वज स्वीकारला."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-today-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__img artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/raigad",
+                                "alt": "Raigad Fort — This is a photo of ASI monument number",
+                                "className": "artwork-image"
+                              },
+                              "children": []
+                            },
+                            " ",
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__body"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "legacy-today-card__tag lang-en"
+                              },
+                              "children": [
+                                "UNESCO · World Heritage"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Maratha Military Forts"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "मराठा किल्ले — युनेस्को"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "In 2024, India nominated the ",
+                                {
+                                  "tag": "strong",
+                                  "props": {},
+                                  "children": [
+                                    "Maratha Military Landscapes"
+                                  ]
+                                },
+                                " — a network of 12 forts — as a UNESCO World Heritage Site, recognizing Shivaji Maharaj's unique fortification genius for the world."
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-mr-text deva-body"
+                              },
+                              "children": [
+                                "2024 मध्ये 12 मराठा किल्ल्यांना युनेस्को जागतिक वारसा स्थळाचा दर्जा मिळाला, ज्यात महाराजांच्या अद्वितीय दुर्गस्थापत्याची जागतिक मान्यता आहे."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-today-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__img artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/ashtapradhan-council",
+                                "alt": "Shivaji with the Ashtapradhan council — artistic reconstruction",
+                                "className": "artwork-image"
+                              },
+                              "children": []
+                            },
+                            " ",
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__body"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "legacy-today-card__tag lang-en"
+                              },
+                              "children": [
+                                "Governance · Constitution"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "Governance Philosophy"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "प्रशासन तत्त्वज्ञान"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Scholars of constitutional law cite the Ashtapradhan's separation of powers, direct accountability, and protection of citizens as a precursor to modern democratic federal governance principles in India's Constitution."
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-mr-text deva-body"
+                              },
+                              "children": [
+                                "अष्टप्रधानाची सत्तापृथक्करण आणि थेट जबाबदारीची संकल्पना भारतीय संविधानातील लोकशाही तत्त्वांचा पूर्वज मानली जाते."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-today-card"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__img artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/ins-training",
+                                "alt": "Camp ‘Abhyas- 21’ for Direct Entry Engineering Mechanic Course 60.948 was conducted at INS Shivaji from 17 to 19 December 2021. 196 trainees, including one international trainee from Maldives, partici",
+                                "className": "artwork-image"
+                              },
+                              "children": []
+                            },
+                            " ",
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-today-card__body"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "legacy-today-card__tag lang-en"
+                              },
+                              "children": [
+                                "INS Shivaji · Military Training"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "h3",
+                              "props": {},
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-en"
+                                  },
+                                  "children": [
+                                    "INS Shivaji & INS Angre"
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "props": {
+                                    "className": "lang-mr-text deva"
+                                  },
+                                  "children": [
+                                    "आय.एन.एस. शिवाजी"
+                                  ]
+                                }
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "The Indian Navy's premier engineering and technical training establishment is named ",
+                                {
+                                  "tag": "strong",
+                                  "props": {},
+                                  "children": [
+                                    "INS Shivaji"
+                                  ]
+                                },
+                                ". The Western Naval Command's administrative hub is named ",
+                                {
+                                  "tag": "strong",
+                                  "props": {},
+                                  "children": [
+                                    "INS Angre"
+                                  ]
+                                },
+                                ", after Kanhoji Angre — the great Maratha Admiral who held the Konkan coast for decades."
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "p",
+                              "props": {
+                                "className": "lang-mr-text deva-body"
+                              },
+                              "children": [
+                                "भारतीय नौदलाची प्रमुख प्रशिक्षण संस्था आय.एन.एस. शिवाजी आणि आय.एन.एस. आंग्रे — कान्होजी आंग्रे यांच्या नावाने — हे महाराजांच्या वारशाची जिवंत स्मारके आहेत."
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "section",
+          "props": {
+            "id": "legacy-retro"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "retro-inner"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "retro-header"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "plaque"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Historical Retrospective"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "ऐतिहासिक विहंगावलोकन"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "h2",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "THE ENDURING INSPIRATION"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "अखंड प्रेरणास्रोत"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "legacy-photos"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-photo"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-photo__image artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/raigad-statue",
+                                "alt": "Statue of Shivaji Maharaj at Raigad",
+                                "className": "artwork-image"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "legacy-photo__caption"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Statue at Raigad"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "रायगडावरील पुतळा"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-photo"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-photo__image artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/raigad",
+                                "alt": "Raigad Fort — This is a photo of ASI monument number",
+                                "className": "artwork-image"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "legacy-photo__caption"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Raigad Fort (UNESCO)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "रायगड — युनेस्को"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-photo"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-photo__image artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/modi-letter",
+                                "alt": "Modi Letter, Sawantwadi, 1604 AD",
+                                "className": "artwork-image image-contain"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "legacy-photo__caption"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Modi Script Correspondence"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "मोडी लिपी पत्रव्यवहार"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "legacy-photo"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "legacy-photo__image artwork"
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "props": {
+                                "src": "curated/coins",
+                                "alt": "Shivrai gold Hon — exhibition photograph",
+                                "className": "artwork-image image-contain"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "legacy-photo__caption"
+                          },
+                          "children": [
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Shivrai & Gold Hon Coins"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "शिवराई व सोन्याचे होन"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "retro-flame"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "aria-hidden": "true"
+                      },
+                      "children": [
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-torch"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        " \"His administrative structure and military disciplines established a standard of native governance that stands as a beacon of resistance, dignity, and self-determination for all who come after.\" "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "p",
+                      "props": {
+                        "className": "lang-mr-text deva-body"
+                      },
+                      "children": [
+                        " \"महाराजांचे सुशासन, सैन्यशिस्त आणि स्वाभिमानी राज्यकारभार हे नंतर येणाऱ्या प्रत्येक पिढीसाठी प्रेरणेचा अखंड दीपस्तंभ आहे.\" "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "deva-body"
+                },
+                "children": [
+                  " प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते । "
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-reflection"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  "\"Praised by Friends and Respected by Foes — the standard of a truly great King.\""
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-mr-text deva-body"
+                },
+                "children": [
+                  "\"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली.\""
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Life"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "जीवन"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Legacy"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "वारसा"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Forts"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "किल्ले"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Timeline"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "कालपट"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Sources"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "साधने"
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-quote"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " Praised by Friends and Respected by Foes ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-mr-text deva"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " शत्रूनेही आदर करावा असे आदर्श राजे ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  " ",
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-diamond"
+                    },
+                    "children": []
+                  },
+                  " "
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

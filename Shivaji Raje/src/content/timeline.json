@@ -1,0 +1,1501 @@
+{
+  "content": [
+    {
+      "tag": "section",
+      "props": {
+        "id": "timeline-page"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "timeline-header"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Journey of Swarajya"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "स्वराज्याचा प्रवास"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h1",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "THE LIFELINE"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "कालपट"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "p",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Follow the chronological events that shaped the foundation and expansion of Hindavi Swarajya, from a young boy's oath to the coronation of a sovereign king."
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "छत्रपती शिवरायांच्या जन्मापासून ते त्यांच्या राज्याभिषेकापर्यंतच्या ऐतिहासिक घटनांचा आणि स्वराज्याच्या विस्ताराचा कालानुक्रम प्रवास."
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "timeline-scrubber-container"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "timeline-years"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1630"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1646"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1659"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1665"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1674"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-year"
+                  },
+                  "children": [
+                    "1680"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "input",
+              "props": {
+                "type": "range",
+                "min": "1630",
+                "max": "1680",
+                "className": "timeline-scrubber",
+                "aria-label": "Timeline Scrubber",
+                "defaultValue": "1630"
+              },
+              "children": []
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "timeline-map"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "timeline-map__inner"
+              },
+              "children": [
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1630"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/shivneri",
+                        "alt": "Shivneri Fort — Shivneri, a 17th-century fort near Junnar, India",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1646"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/torna",
+                        "alt": "Torna Fort — Torna Fort",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1659"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/pratapgad",
+                        "alt": "Pratapgad — This is a photo of ASI monument number",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1665"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/purandar",
+                        "alt": "Purandar Fort — Purandar Fort, Pune district, Maharashtra",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1674"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/coronation",
+                        "alt": "The coronation durbar at Raigad, 1674 — artistic reconstruction",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-map-img artwork",
+                    "data-year": "1680"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/raigad",
+                        "alt": "Raigad Fort — This is a photo of ASI monument number",
+                        "className": "artwork-image"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                " ",
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "timeline-map__year timeline-year-display"
+              },
+              "children": [
+                "1630"
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "timeline-cards"
+          },
+          "children": [
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1630",
+                "className": "timeline-card milestone-card active"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "I"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1630"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Birth at Shivneri"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "शिवनेरीवर जन्म"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Born on the Shivneri fort to Jijabai and Shahaji Raje Bhosale. His early years were shaped by his mother's teachings of righteousness and justice."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "शिवनेरी किल्ल्यावर माता जिजाऊ आणि शहाजीराजे भोसले यांच्या पोटी शिवरायांचा जन्म झाला."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html#birth",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1646",
+                "className": "timeline-card milestone-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "II"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1646"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Oath of Swarajya"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याची शपथ आणि तोरणा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "At the age of 16, he took the oath of Swarajya at Raireshwar temple and captured the Torna fort, marking the beginning of his independent kingdom."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "रायरेश्वराच्या मंदिरात स्वराज्याची शपथ घेतली आणि तोरणा किल्ला जिंकून स्वराज्याचे पहिले तोरण बांधले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html#torna",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1659",
+                "className": "timeline-card milestone-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "III"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1659"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Defeating Afzal Khan"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अफझलखान वध"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "A defining moment where he strategically eliminated the giant Adilshahi general Afzal Khan at the foothills of Pratapgad, saving Swarajya from early destruction."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "प्रतापगडाच्या पायथ्याशी विजापूरचा सरदार अफझलखान याचा अत्यंत चातुर्याने वध केला."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html#conflicts",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1665",
+                "className": "timeline-card milestone-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "IV"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1665 – 1666"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Treaty & Escape"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "पुरंदरचा तह आणि आग्र्याहून सुटका"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Signed the Treaty of Purandar to protect his people, leading to his house arrest in Agra by Aurangzeb, and his legendary, miraculous escape."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "रयतेच्या रक्षणासाठी पुरंदरचा तह केला. नंतर आग्र्याला औरंगजेबाच्या कैदेतून अत्यंत शिताफीने निसटले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html#conflicts",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1674",
+                "className": "timeline-card milestone-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "V"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1674"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Coronation"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "राज्याभिषेक"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Crowned as the Chhatrapati (sovereign emperor) of the Maratha Empire at Raigad fort, formally establishing an independent Hindu kingdom."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "रायगड किल्ल्यावर शिवरायांचा राज्याभिषेक संपन्न झाला आणि ते अधिकृतपणे 'छत्रपती' बनले."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html#coronation",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "id": "milestone-1680",
+                "className": "timeline-card milestone-card"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__badge oct-badge oct-badge--sm oct-badge--gold"
+                  },
+                  "children": [
+                    "VI"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "timeline-card__year"
+                  },
+                  "children": [
+                    "1680"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h3",
+                  "props": {
+                    "className": "timeline-card__title"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "The Final Journey"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वर्गवास"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "p",
+                  "props": {
+                    "className": "timeline-card__desc"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Chhatrapati Shivaji Maharaj breathed his last at Raigad. He left behind a vast, well-administered empire and a legacy of self-respect that endures forever."
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "रायगडावर शिवरायांचा स्वर्गवास झाला. त्यांनी मागे एक विशाल साम्राज्य आणि स्वाभिमानाचा प्रेरणादायी वारसा ठेवला."
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "href": "index.html",
+                    "className": "timeline-card__link"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Read More"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "अधिक वाचा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "deva-body"
+                },
+                "children": [
+                  " प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते । "
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-reflection"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  "\"Praised by Friends and Respected by Foes — the standard of a truly great King.\""
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-mr-text deva-body"
+                },
+                "children": [
+                  "\"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली.\""
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Life"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "जीवन"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Legacy"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "वारसा"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Forts"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "किल्ले"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Timeline"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "कालपट"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Sources"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "साधने"
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-quote"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " Praised by Friends and Respected by Foes ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-mr-text deva"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " शत्रूनेही आदर करावा असे आदर्श राजे ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  " ",
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-diamond"
+                    },
+                    "children": []
+                  },
+                  " "
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}

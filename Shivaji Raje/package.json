@@ -1,0 +1,27 @@
+{
+  "name": "shivaji-maharaj-heritage",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-bootstrap-sprite.mjs && vite",
+    "build": "node scripts/build-bootstrap-sprite.mjs && vite build",
+    "preview": "vite preview",
+    "migrate": "node scripts/migrate.mjs",
+    "test": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "bootstrap-icons": "^1.13.1",
+    "cheerio": "^1.1.0",
+    "nanoid": "^3.3.19",
+    "postcss": "^8.5.28",
+    "sharp": "^0.35.5",
+    "vite": "^6.4.0"
+  }
+}

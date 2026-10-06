@@ -1,0 +1,2726 @@
+{
+  "content": [
+    {
+      "tag": "div",
+      "props": {
+        "className": "ribbon"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "svg",
+          "props": {
+            "className": "ribbon-icon",
+            "aria-hidden": "true"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "use",
+              "props": {
+                "href": "icons/sprite.svg#icon-fortress"
+              },
+              "children": []
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "ribbon-text"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "span",
+              "props": {
+                "className": "lang-en"
+              },
+              "children": [
+                "FORTS OF SWARAJYA · IMPREGNABLE BASTIONS"
+              ]
+            },
+            " ",
+            {
+              "tag": "span",
+              "props": {
+                "className": "lang-mr-text deva"
+              },
+              "children": [
+                "स्वराज्याचे किल्ले · अभेद्य तटबंदी"
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "svg",
+          "props": {
+            "className": "ribbon-icon",
+            "aria-hidden": "true"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "use",
+              "props": {
+                "href": "icons/sprite.svg#icon-fortress"
+              },
+              "children": []
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "id": "forts-module"
+      },
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "fort-map",
+            "aria-label": "Interactive Map of Swarajya Forts"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "fort-map__inner"
+              },
+              "children": [
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": " artwork"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "props": {
+                        "src": "curated/fort-map",
+                        "alt": "Sahyadri fort network — schematic, not to scale",
+                        "className": "artwork-image image-contain"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-map__compass",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {},
+                      "children": [
+                        " ",
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-compass"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "map-ships",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "map-ship"
+                      },
+                      "children": [
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-ship"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "map-ships",
+                    "aria-hidden": "true"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "svg",
+                      "props": {
+                        "className": "map-ship"
+                      },
+                      "children": [
+                        {
+                          "tag": "use",
+                          "props": {
+                            "href": "icons/sprite.svg#icon-ship"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-raigad",
+                    "tabIndex": "0",
+                    "aria-label": "Raigad Fort Pin",
+                    "style": {
+                      "top": "40%",
+                      "left": "40%"
+                    },
+                    "href": "fort-raigad.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm oct-badge--gold"
+                      },
+                      "children": [
+                        "1"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-pratapgad",
+                    "tabIndex": "0",
+                    "aria-label": "Pratapgad Fort Pin",
+                    "style": {
+                      "top": "51%",
+                      "left": "43%"
+                    },
+                    "href": "fort-pratapgad.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm"
+                      },
+                      "children": [
+                        "2"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-sindhudurg",
+                    "tabIndex": "0",
+                    "aria-label": "Sindhudurg Fort Pin",
+                    "style": {
+                      "top": "75%",
+                      "left": "39%"
+                    },
+                    "href": "fort-sindhudurg.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm oct-badge--teal"
+                      },
+                      "children": [
+                        "3"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-shivneri",
+                    "tabIndex": "0",
+                    "aria-label": "Shivneri Fort Pin",
+                    "style": {
+                      "top": "22%",
+                      "left": "56%"
+                    },
+                    "href": "fort-shivneri.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm"
+                      },
+                      "children": [
+                        "4"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-panhala",
+                    "tabIndex": "0",
+                    "aria-label": "Panhala Fort Pin",
+                    "style": {
+                      "top": "64%",
+                      "left": "54%"
+                    },
+                    "href": "fort-panhala.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm"
+                      },
+                      "children": [
+                        "5"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "a",
+                  "props": {
+                    "className": "map-pin",
+                    "data-fort-id": "fort-sinhagad",
+                    "tabIndex": "0",
+                    "aria-label": "Sinhagad Fort Pin",
+                    "style": {
+                      "top": "37%",
+                      "left": "52%"
+                    },
+                    "href": "fort-sinhagad.html"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "oct-badge oct-badge--sm"
+                      },
+                      "children": [
+                        "6"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "map-legend"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "map-legend__title"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Terrain Classifications"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ल्यांचे प्रकार"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "map-legend__items"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-legend__item"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Giridurg (Hill Forts)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "गिरीदुर्ग"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-legend__item"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Jaladurg (Sea Forts)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "जलदुर्ग"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "div",
+                          "props": {
+                            "className": "map-legend__item"
+                          },
+                          "children": [
+                            " ",
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-en"
+                              },
+                              "children": [
+                                "Bhuidurg (Land Forts)"
+                              ]
+                            },
+                            " ",
+                            {
+                              "tag": "span",
+                              "props": {
+                                "className": "lang-mr-text deva"
+                              },
+                              "children": [
+                                "भुईकोट"
+                              ]
+                            },
+                            " "
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "map-hint"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Hover pins to highlight"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "माहितीसाठी पिनवर जा"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "fort-grid-panel"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "fort-grid-header"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "plaque"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "Strategic Network"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "किल्ल्यांचे जाळे"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                {
+                  "tag": "h1",
+                  "props": {},
+                  "children": [
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-en"
+                      },
+                      "children": [
+                        "GUARDIANS OF SWARAJYA"
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "span",
+                      "props": {
+                        "className": "lang-mr-text deva"
+                      },
+                      "children": [
+                        "स्वराज्याचे रक्षक"
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "fort-grid"
+              },
+              "children": [
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-raigad"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/raigad",
+                            "alt": "Raigad Fort — This is a photo of ASI monument number"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Raigad"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "रायगड"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Capital, Sahyadri"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "राजधानी"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "The impenetrable capital of Swarajya, where the historic coronation took place."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "स्वराज्याची अभेद्य राजधानी, जिथे शिवरायांचा राज्याभिषेक झाला."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-governance"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Capital / Giridurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "राजधानी"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-raigad.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-pratapgad"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/pratapgad",
+                            "alt": "Pratapgad — This is a photo of ASI monument number"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Pratapgad"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "प्रतापगड"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Satara District"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सातारा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Site of the legendary encounter where Afzal Khan was defeated."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "अफझलखानाचा वध आणि विजापूरी सैन्याचा पराभव याच किल्ल्यावर झाला."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-crossed-swords"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Military / Giridurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "लष्करी"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-pratapgad.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-sindhudurg"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/sindhudurg-walls",
+                            "alt": "Sea walls of Sindhudurg Fort"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Sindhudurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सिंधुदुर्ग"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Konkan Coast"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "कोकण"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "A formidable naval base built on the Kurte island to secure the Konkan coast."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "कोकण किनारपट्टीच्या रक्षणासाठी कुरटे बेटावर बांधलेला अभेद्य जलदुर्ग."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-anchor"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Naval / Jaladurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "नौदल"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-sindhudurg.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-shivneri"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/shivneri",
+                            "alt": "Shivneri Fort — Shivneri, a 17th-century fort near Junnar, India"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Shivneri"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "शिवनेरी"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Junnar"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "जुन्नर"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "The birthplace of Shivaji Maharaj, a fort with deep emotional significance."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "छत्रपती शिवाजी महाराजांचे जन्मस्थान असलेला ऐतिहासिक किल्ला."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-mother-child"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Birthplace / Giridurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "जन्मस्थान"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-shivneri.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-panhala"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/panhala",
+                            "alt": "Panhala Fort — Teen darwaza gate, Panhala, Maharashtra, India"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Panhala"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "पन्हाळा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Kolhapur Region"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "कोल्हापूर"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Known for the epic siege and Maharaj's daring escape to Vishalgad."
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सिद्धी जोहरच्या वेढ्यातून शिवरायांच्या ऐतिहासिक सुटकेचा साक्षीदार."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-fortress"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Outpost / Giridurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "चौकी"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-panhala.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " ",
+                " ",
+                {
+                  "tag": "div",
+                  "props": {
+                    "className": "fort-card",
+                    "data-fort-id": "fort-sinhagad"
+                  },
+                  "children": [
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__image"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "img",
+                          "props": {
+                            "src": "curated/sinhagad",
+                            "alt": "Sinhagad — A Photo of Sinhagad"
+                          },
+                          "children": []
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__name"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Sinhagad"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "सिंहगड"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__location"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Pune Outskirts"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "पुणे"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__desc"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Captured by Tanaji Malusare in a fierce night battle. \"Gad aala pan Sinha gela.\""
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "तानाजी मालुसरे यांच्या बलिदानाने पावन झालेला 'कोंढाणा'."
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "div",
+                      "props": {
+                        "className": "fort-card__role"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "svg",
+                          "props": {
+                            "className": "fort-card__role-icon",
+                            "aria-hidden": "true"
+                          },
+                          "children": [
+                            {
+                              "tag": "use",
+                              "props": {
+                                "href": "icons/sprite.svg#icon-lion"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Defense / Giridurg"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "संरक्षण"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " ",
+                    {
+                      "tag": "a",
+                      "props": {
+                        "href": "fort-sinhagad.html",
+                        "className": "btn-outline"
+                      },
+                      "children": [
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-en"
+                          },
+                          "children": [
+                            "Explore Fort"
+                          ]
+                        },
+                        " ",
+                        {
+                          "tag": "span",
+                          "props": {
+                            "className": "lang-mr-text deva"
+                          },
+                          "children": [
+                            "किल्ला पहा"
+                          ]
+                        },
+                        " "
+                      ]
+                    },
+                    " "
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "className": "band"
+      },
+      "children": [
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "band__panel band__panel--charcoal"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Visual Archives"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "चित्रावली"
+                  ]
+                },
+                " "
+              ]
+            },
+            " ",
+            {
+              "tag": "h2",
+              "props": {},
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "GLIMPSES OF GLORY"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "वैभवाची क्षणचित्रे"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    },
+    {
+      "tag": "section",
+      "props": {
+        "className": "image-gallery"
+      },
+      "children": [
+        " ",
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/ashtapradhan-council",
+                "alt": "Shivaji with the Ashtapradhan council — artistic reconstruction"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Royal Durbar"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "राज दरबार"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/maval-arms",
+                "alt": "Talwar, dagger and shield — illustrated arms study"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Maval Arms"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "मावळ्यांची शस्त्रे"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/bhavani-alt",
+                "alt": "Tulja Bhavani idol, Tuljapur — photograph"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Goddess Bhavani"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "भवानी माता"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/rajgad",
+                "alt": "Rajgad — This is a photo of ASI monument number"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Rajgad Bastion"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "राजगड तटबंदी"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/maratha-navy",
+                "alt": "Maratha coastal fleet — artistic reconstruction"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Naval Ships"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "नौदल जहाजे"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/maval-cavalry",
+                "alt": "Maval cavalry — artistic reconstruction"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Cavalry Charge"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "घोडदळ"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/sindhudurg-walls",
+                "alt": "Sea walls of Sindhudurg Fort"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Sindhudurg Walls"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "सिंधुदुर्ग भिंत"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " ",
+        {
+          "tag": "div",
+          "props": {
+            "className": "gallery-tile"
+          },
+          "children": [
+            " ",
+            {
+              "tag": "img",
+              "props": {
+                "src": "curated/coronation",
+                "alt": "The coronation durbar at Raigad, 1674 — artistic reconstruction"
+              },
+              "children": []
+            },
+            " ",
+            {
+              "tag": "div",
+              "props": {
+                "className": "plaque plaque--caption"
+              },
+              "children": [
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-en"
+                  },
+                  "children": [
+                    "Coronation"
+                  ]
+                },
+                " ",
+                {
+                  "tag": "span",
+                  "props": {
+                    "className": "lang-mr-text deva"
+                  },
+                  "children": [
+                    "राज्याभिषेक"
+                  ]
+                },
+                " "
+              ]
+            },
+            " "
+          ]
+        },
+        " "
+      ]
+    }
+  ],
+  "footer": {
+    "tag": "footer",
+    "props": {
+      "className": "site-footer"
+    },
+    "children": [
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-main"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-seal-container"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "className": "footer-seal",
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-rajmudra"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-center"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "h3",
+                "props": {
+                  "className": "deva"
+                },
+                "children": [
+                  "छत्रपती शिवाजी महाराज"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "footer-subtitle"
+                },
+                "children": [
+                  "FOUNDER OF HINDAVI SWARAJYA · 1630 – 1680"
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "deva-body"
+                },
+                "children": [
+                  " प्रतिपच्चंद्रलेखेव वर्धिष्णुर्विश्ववंदिता शाहसूनोः शिवस्यैषा मुद्रा भद्राय राजते । "
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-reflection"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  "\"Praised by Friends and Respected by Foes — the standard of a truly great King.\""
+                ]
+              },
+              " ",
+              {
+                "tag": "p",
+                "props": {
+                  "className": "lang-mr-text deva-body"
+                },
+                "children": [
+                  "\"महाराजांनी केवळ राज्य केले नाही, तर त्यांनी एका राष्ट्राची अस्मिता जागवली, रयतेला सन्मानाने आणि ताठ मानेने जगण्याची शिकवण दिली.\""
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " ",
+      {
+        "tag": "div",
+        "props": {
+          "className": "footer-bottom"
+        },
+        "children": [
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-social"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "index.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Life"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "जीवन"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "legacy.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "The Legacy"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "वारसा"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "galleries.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Forts"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "किल्ले"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "timeline.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Timeline"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "कालपट"
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "a",
+                "props": {
+                  "href": "letters.html"
+                },
+                "children": [
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-en"
+                    },
+                    "children": [
+                      "Sources"
+                    ]
+                  },
+                  {
+                    "tag": "span",
+                    "props": {
+                      "className": "lang-mr-text deva"
+                    },
+                    "children": [
+                      "साधने"
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-quote"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-en"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " Praised by Friends and Respected by Foes ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " ",
+              {
+                "tag": "span",
+                "props": {
+                  "className": "lang-mr-text deva"
+                },
+                "children": [
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  " शत्रूनेही आदर करावा असे आदर्श राजे ",
+                  {
+                    "tag": "svg",
+                    "props": {
+                      "className": "bi-icon",
+                      "aria-hidden": "true"
+                    },
+                    "children": [
+                      {
+                        "tag": "use",
+                        "props": {
+                          "href": "icons/bootstrap.svg#stars"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              " "
+            ]
+          },
+          " ",
+          {
+            "tag": "div",
+            "props": {
+              "className": "footer-legal"
+            },
+            "children": [
+              " ",
+              {
+                "tag": "span",
+                "props": {},
+                "children": [
+                  "© 2026 Tribute."
+                ]
+              },
+              " ",
+              {
+                "tag": "svg",
+                "props": {
+                  "aria-hidden": "true"
+                },
+                "children": [
+                  " ",
+                  {
+                    "tag": "use",
+                    "props": {
+                      "href": "icons/sprite.svg#icon-diamond"
+                    },
+                    "children": []
+                  },
+                  " "
+                ]
+              },
+              " "
+            ]
+          },
+          " "
+        ]
+      },
+      " "
+    ]
+  }
+}
