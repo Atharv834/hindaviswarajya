@@ -213,14 +213,7 @@
                         "className": "impact-stat__number"
                       },
                       "children": [
-                        "300",
-                        {
-                          "tag": "span",
-                          "props": {},
-                          "children": [
-                            "+"
-                          ]
-                        }
+                        "Many"
                       ]
                     },
                     " ",
@@ -257,7 +250,7 @@
                         "className": "impact-stat__desc lang-en"
                       },
                       "children": [
-                        "At its peak, Swarajya administered over 300 forts across the Deccan and Konkan."
+                        "The fort network changed across reigns and campaigns; its total depends on the date and source."
                       ]
                     },
                     " "
@@ -314,7 +307,7 @@
                         "className": "impact-stat__desc lang-en"
                       },
                       "children": [
-                        "The Ashtapradhan — eight merit-based ministers overseeing every branch of governance."
+                        "The Ashtapradhan was a council of eight offices associated with court administration."
                       ]
                     },
                     " "
@@ -334,14 +327,7 @@
                         "className": "impact-stat__number"
                       },
                       "children": [
-                        "50",
-                        {
-                          "tag": "span",
-                          "props": {},
-                          "children": [
-                            "+"
-                          ]
-                        }
+                        "1660"
                       ]
                     },
                     " ",
@@ -378,7 +364,7 @@
                         "className": "impact-stat__desc lang-en"
                       },
                       "children": [
-                        "Firangoji Narsala held Chakan fort against Shaista Khan's entire army for 50+ days."
+                        "Chakan was besieged during Shaista Khan’s 1660 campaign; exact durations differ among accounts."
                       ]
                     },
                     " "
@@ -435,7 +421,7 @@
                         "className": "impact-stat__desc lang-en"
                       },
                       "children": [
-                        "Giridurg (hill), Jaladurg (sea), and Bhuidurg (land) — a revolutionary tri-domain defense."
+                        "Hill, sea and land forts illustrate different settings within the wider defensive network."
                       ]
                     },
                     " "
@@ -1780,7 +1766,7 @@
                             "className": "lang-en"
                           },
                           "children": [
-                            "Highly mobile Bargir cavalry capable of covering fifty miles in a single day without supply trains. Armed with speed, not sheer numbers — they were the rapid-strike force of Swarajya."
+                            "Bargir cavalry formed part of a mobile force. Exact daily distances and the absence of supply trains vary by campaign and require documentary evidence."
                           ]
                         },
                         " ",
@@ -1790,7 +1776,7 @@
                             "className": "lang-mr-text deva-body"
                           },
                           "children": [
-                            "एका दिवसात ५० मैल अंतर कापणारे हलके, चपळ घोडदळ. रसद न घेता स्वतंत्रपणे कार्यरत असलेले स्वराज्याचे अग्रदल."
+                            "बारगीर घोडदळ हे गतिमान सैन्याचा भाग होते. रोजचे नेमके अंतर आणि रसदव्यवस्था मोहिमेनुसार बदलत असे; त्यासाठी साधनांचा आधार आवश्यक आहे."
                           ]
                         },
                         " "
@@ -1857,7 +1843,7 @@
                             "className": "lang-en"
                           },
                           "children": [
-                            "300+ forts classified into three domains — ",
+                            "The fort network included ",
                             {
                               "tag": "em",
                               "props": {},
@@ -1881,7 +1867,7 @@
                                 "Bhuidurg"
                               ]
                             },
-                            " (land) — each self-sustaining with grain, water, and arms, forming an interlocking defensive web."
+                            " (land) sites. Their numbers, stores and condition changed over time."
                           ]
                         },
                         " ",
@@ -1958,15 +1944,7 @@
                             "className": "lang-en"
                           },
                           "children": [
-                            "Led by the legendary ",
-                            {
-                              "tag": "strong",
-                              "props": {},
-                              "children": [
-                                "Bahirji Naik"
-                              ]
-                            },
-                            ", Swarajya's intelligence wing penetrated every enemy court and camp, supplying precise troop counts, patrol routes, and strategic vulnerabilities before every campaign."
+                            "Accounts of Bahirji Naik describe intelligence work, but claims of access to every camp and exact knowledge before every campaign cannot be verified from the material cited here."
                           ]
                         },
                         " ",
@@ -1976,7 +1954,7 @@
                             "className": "lang-mr-text deva-body"
                           },
                           "children": [
-                            "बहिर्जी नाईक यांच्या नेतृत्वाखालील अचूक गुप्तहेर यंत्रणा शत्रूच्या प्रत्येक छावणीत पोहोचत असे आणि प्रत्येक मोहिमेपूर्वी अचूक माहिती पुरवत असे."
+                            "बहिर्जी नाईक यांच्याशी गुप्तवार्तांचे उल्लेख जोडले जातात; प्रत्येक छावणीत प्रवेश किंवा प्रत्येक मोहिमेची अचूक माहिती या दाव्यांसाठी विशिष्ट पुरावा हवा."
                           ]
                         },
                         " "

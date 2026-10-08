@@ -89,7 +89,7 @@
           "tag": "div",
           "props": {
             "className": "fort-map",
-            "aria-label": "Interactive Map of Swarajya Forts"
+            "aria-label": "Illustrative schematic of six Swarajya forts; pin positions are not geographic coordinates"
           },
           "children": [
             " ",
@@ -534,7 +534,7 @@
                         "className": "lang-en"
                       },
                       "children": [
-                        "Hover pins to highlight"
+                        "Illustrative schematic · focus or hover a pin, then open its fort page"
                       ]
                     },
                     " ",
@@ -544,7 +544,7 @@
                         "className": "lang-mr-text deva"
                       },
                       "children": [
-                        "माहितीसाठी पिनवर जा"
+                        "ही रेखाटनात्मक मांडणी आहे · पिनवर लक्ष केंद्रित करा"
                       ]
                     },
                     " "
