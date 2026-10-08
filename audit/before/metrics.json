@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "index",
+    "width": 1920,
+    "height": 1080,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1920,
+    "bodyWidth": 1920
+  },
+  {
+    "slug": "timeline",
+    "width": 1920,
+    "height": 1080,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1920,
+    "bodyWidth": 1920
+  },
+  {
+    "slug": "galleries",
+    "width": 1920,
+    "height": 1080,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1920,
+    "bodyWidth": 1920
+  },
+  {
+    "slug": "legacy",
+    "width": 1920,
+    "height": 1080,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1920,
+    "bodyWidth": 1920
+  },
+  {
+    "slug": "fort-raigad",
+    "width": 1920,
+    "height": 1080,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1920,
+    "bodyWidth": 1920
+  },
+  {
+    "slug": "index",
+    "width": 1440,
+    "height": 900,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1440,
+    "bodyWidth": 1440
+  },
+  {
+    "slug": "timeline",
+    "width": 1440,
+    "height": 900,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1440,
+    "bodyWidth": 1440
+  },
+  {
+    "slug": "galleries",
+    "width": 1440,
+    "height": 900,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1440,
+    "bodyWidth": 1440
+  },
+  {
+    "slug": "legacy",
+    "width": 1440,
+    "height": 900,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1440,
+    "bodyWidth": 1440
+  },
+  {
+    "slug": "fort-raigad",
+    "width": 1440,
+    "height": 900,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 1440,
+    "bodyWidth": 1440
+  },
+  {
+    "slug": "index",
+    "width": 768,
+    "height": 1024,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 768,
+    "bodyWidth": 768
+  },
+  {
+    "slug": "timeline",
+    "width": 768,
+    "height": 1024,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 768,
+    "bodyWidth": 768
+  },
+  {
+    "slug": "galleries",
+    "width": 768,
+    "height": 1024,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 768,
+    "bodyWidth": 768
+  },
+  {
+    "slug": "legacy",
+    "width": 768,
+    "height": 1024,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 768,
+    "bodyWidth": 768
+  },
+  {
+    "slug": "fort-raigad",
+    "width": 768,
+    "height": 1024,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 768,
+    "bodyWidth": 768
+  },
+  {
+    "slug": "index",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 390,
+    "bodyWidth": 390
+  },
+  {
+    "slug": "timeline",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 390,
+    "bodyWidth": 390
+  },
+  {
+    "slug": "galleries",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 390,
+    "bodyWidth": 390
+  },
+  {
+    "slug": "legacy",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 390,
+    "bodyWidth": 390
+  },
+  {
+    "slug": "fort-raigad",
+    "width": 390,
+    "height": 844,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 390,
+    "bodyWidth": 390
+  },
+  {
+    "slug": "index",
+    "width": 360,
+    "height": 800,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 360,
+    "bodyWidth": 360
+  },
+  {
+    "slug": "timeline",
+    "width": 360,
+    "height": 800,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 360,
+    "bodyWidth": 360
+  },
+  {
+    "slug": "galleries",
+    "width": 360,
+    "height": 800,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 360,
+    "bodyWidth": 360
+  },
+  {
+    "slug": "legacy",
+    "width": 360,
+    "height": 800,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 360,
+    "bodyWidth": 360
+  },
+  {
+    "slug": "fort-raigad",
+    "width": 360,
+    "height": 800,
+    "status": 200,
+    "errors": [],
+    "documentWidth": 360,
+    "bodyWidth": 360
+  }
+]

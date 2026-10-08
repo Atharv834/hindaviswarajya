@@ -1,0 +1,83 @@
+{
+  "context": "Local production preview; headless Chromium, warm machine, no throttling. Not field Core Web Vitals.",
+  "results": [
+    {
+      "slug": "index",
+      "width": 1440,
+      "wallMs": 1181,
+      "ttfbMs": 6,
+      "domReadyMs": 73,
+      "loadMs": 74,
+      "lcpMs": 216,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 13,
+      "transferBytes": 391590
+    },
+    {
+      "slug": "timeline",
+      "width": 1440,
+      "wallMs": 983,
+      "ttfbMs": 6,
+      "domReadyMs": 80,
+      "loadMs": 81,
+      "lcpMs": 508,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 10,
+      "transferBytes": 160668
+    },
+    {
+      "slug": "galleries",
+      "width": 1440,
+      "wallMs": 1016,
+      "ttfbMs": 4,
+      "domReadyMs": 92,
+      "loadMs": 92,
+      "lcpMs": 488,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 27,
+      "transferBytes": 1195455
+    },
+    {
+      "slug": "index",
+      "width": 390,
+      "wallMs": 1084,
+      "ttfbMs": 3,
+      "domReadyMs": 62,
+      "loadMs": 62,
+      "lcpMs": 168,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 25,
+      "transferBytes": 222222
+    },
+    {
+      "slug": "timeline",
+      "width": 390,
+      "wallMs": 968,
+      "ttfbMs": 7,
+      "domReadyMs": 95,
+      "loadMs": 95,
+      "lcpMs": 460,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 10,
+      "transferBytes": 130670
+    },
+    {
+      "slug": "galleries",
+      "width": 390,
+      "wallMs": 982,
+      "ttfbMs": 7,
+      "domReadyMs": 86,
+      "loadMs": 86,
+      "lcpMs": 476,
+      "cls": 0,
+      "eventDurationMs": 0,
+      "resources": 14,
+      "transferBytes": 207144
+    }
+  ]
+}
