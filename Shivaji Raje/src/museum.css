@@ -65,3 +65,9 @@
  .lang-mr .museum-exhibit h2,.lang-mr .museum-exhibit h3,.lang-mr .source-context h2{line-height:1.4;word-break:normal;overflow-wrap:normal}
 }
 @media(max-width:390px){.hero-actions{gap:16px}.hero-actions .button-primary{padding:13px 16px}.reading-chapter{display:none}.site-header{gap:9px}.brand strong{font-size:16px}.brand svg{width:36px;height:36px}.language-switch{padding-left:8px}.language-switch button{font-size:12px}}
+.timeline-card__select{align-self:flex-start;border:1px solid var(--line);background:transparent;color:var(--accent);padding:7px 12px;font-size:13px;min-height:44px;margin-bottom:12px}
+.timeline-card__select:hover,.timeline-card__select[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.artwork:has(>img[data-reconstruction=true])::before{content:'ARTISTIC RECONSTRUCTION';position:absolute;top:12px;left:12px;z-index:4;background:#f5f1e8eb;color:var(--ink);border-left:2px solid var(--accent);padding:6px 9px;font:700 10px/1.2 var(--sans);letter-spacing:.08em;pointer-events:none}
+.lang-mr .artwork:has(>img[data-reconstruction=true])::before{content:'कलात्मक पुनर्निर्मिती';font-size:12px;letter-spacing:0}
+:root{--accent:#98411f;--muted:#54594e}
+.quote-attribution{font-size:13px;line-height:1.5}

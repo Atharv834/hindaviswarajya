@@ -19,7 +19,7 @@ try {
   assert.equal(await page.locator('#main-content').evaluate(el=>el===document.activeElement),true,'route focus');
   await page.locator('.breadcrumbs').getByRole('link',{name:'Home',exact:true}).click();
   await page.getByRole('link',{name:'View timeline'}).click();
-  await page.locator('#milestone-1659').focus();
+  await page.locator('#milestone-1659 .timeline-card__select').focus();
   await page.keyboard.press('Enter');
   assert.equal(await page.locator('#milestone-1659').getAttribute('data-selected'),'true');
   assert.equal(await page.locator('.timeline-year-display').innerText(),'1659');

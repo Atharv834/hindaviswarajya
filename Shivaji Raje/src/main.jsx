@@ -58,27 +58,35 @@ function Seal({className=''}) { return <svg className={className} aria-hidden="t
 
 function Picture({src,alt='',className='',priority=false,...rest}) {
   const item = images[src];
+  const reconstruction=src.startsWith('curated/')&&credits[src.slice(8)]?.kind==='generated';
   if (!item) return <img src={src} alt={alt} className={className} loading={priority?'eager':'lazy'} {...rest}/>;
-  return <img {...rest} src={item.variants[1].src} srcSet={item.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 760px) 100vw, 48vw" width={item.width} height={item.height} alt={alt} className={className} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>;
+  return <img {...rest} src={item.variants[1].src} srcSet={item.variants.map(v=>`${v.src} ${v.width}w`).join(', ')} sizes="(max-width: 760px) 100vw, 48vw" width={item.width} height={item.height} alt={reconstruction&&alt?`${alt} — artistic reconstruction`:alt} title={reconstruction?'Artistic reconstruction; not an original historical image':rest.title} data-reconstruction={reconstruction?'true':undefined} className={className} loading={priority?'eager':'lazy'} fetchPriority={priority?'high':undefined} decoding="async"/>;
 }
 function Header({lang,setLang}) {
   const slug=useContext(Route);
   const [open,setOpen] = useState(false);
   const menuRef = useRef(null);
+  const exploreRef = useRef(null);
+  const closeMenus=()=>{setOpen(false);if(exploreRef.current)exploreRef.current.open=false;};
   useEffect(()=>{
-    const close = e=>{if(e.key==='Escape' && open){setOpen(false);menuRef.current?.focus();}};
+    const close = e=>{if(e.key==='Escape'){
+      if(exploreRef.current?.open){exploreRef.current.open=false;exploreRef.current.querySelector('summary')?.focus();}
+      else if(open){setOpen(false);menuRef.current?.focus();}
+    }};
+    const outside=e=>{if(exploreRef.current?.open&&!exploreRef.current.contains(e.target))exploreRef.current.open=false;};
     document.addEventListener('keydown',close);
-    return ()=>document.removeEventListener('keydown',close);
+    document.addEventListener('pointerdown',outside);
+    return ()=>{document.removeEventListener('keydown',close);document.removeEventListener('pointerdown',outside);};
   },[open]);
   return <header className="site-header"><ReadingProgress chapters={slug==='index'?chapters:null} marathi={lang==='mr'}/><a className="brand" href="index.html" aria-label="Chhatrapati Shivaji Maharaj home"><Seal/><span><small>CHHATRAPATI</small><strong>Shivaji Maharaj</strong></span></a>
     <button ref={menuRef} className="menu-button" onClick={()=>setOpen(!open)} aria-expanded={open} aria-controls="main-nav" aria-label={open?'Close navigation':'Open navigation'}>{open?'Close':'Menu'} <BootstrapIcon name={open?'x-lg':'list'}/></button>
-    <nav id="main-nav" className={open?'navigation is-open':'navigation'} aria-label="Main navigation">{nav.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={()=>setOpen(false)} aria-current={(slug===id || (slug.startsWith('fort-')&&id==='galleries'))?'page':undefined}><T en={en} mr={mr}/></a>)}<details className="explore-menu"><summary><T en="Explore" mr="अधिक पाहा"/></summary><div className="explore-menu__links">{explore.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={()=>setOpen(false)} aria-current={slug===id?'page':undefined}><T en={en} mr={mr}/></a>)}</div></details></nav>
+    <nav id="main-nav" className={open?'navigation is-open':'navigation'} aria-label="Main navigation">{nav.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={closeMenus} aria-current={(slug===id || (slug.startsWith('fort-')&&id==='galleries'))?'page':undefined}><T en={en} mr={mr}/></a>)}<details className="explore-menu" ref={exploreRef}><summary><T en="Explore" mr="अधिक पाहा"/></summary><div className="explore-menu__links">{explore.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={closeMenus} aria-current={slug===id?'page':undefined}><T en={en} mr={mr}/></a>)}</div></details></nav>
     <div className="language-switch" aria-label="Language"><button onClick={()=>setLang('en')} aria-pressed={lang==='en'}>EN</button><span>/</span><button onClick={()=>setLang('mr')} aria-label="मराठी" aria-pressed={lang==='mr'}>मराठी</button></div>
   </header>;
 }
 function Hero(){
-  return <><section className="hero" id="hero"><div className="hero-copy"><div className="eyebrow"><span/> <T en="THE LIFE · 1630 — 1680" mr="जीवनपट · १६३० — १६८०"/></div><p className="hero-honorific"><T en="Chhatrapati" mr="छत्रपती"/></p><h1><T en={<>Shivaji<br/><em>Maharaj.</em></>} mr={<>शिवाजी<br/><em>महाराज.</em></>}/></h1><div className="hero-rule"/><p className="hero-tagline"><T en="Founder of Hindavi Swarajya" mr="हिंदवी स्वराज्याचे संस्थापक"/></p><p className="hero-description"><T en="A visionary strategist, administrator, and warrior king who forged an independent empire from basalt and blood, establishing self-rule and dignity for his people." mr="सह्याद्रीच्या कुशीतून, शून्यातून स्वराज्य निर्माण करणारे युगपुरुष, कुशल प्रशासक आणि नीतिशास्त्रसंपन्न राजे छत्रपती शिवाजी महाराज यांचा गौरवशाली इतिहास."/></p><div className="hero-actions"><a className="button-primary" href="#prologue"><T en="Explore His Journey" mr="प्रवास अनुभवा"/><span><BootstrapIcon name="arrow-up-right"/></span></a><a className="text-link" href="timeline.html"><T en="View timeline" mr="कालपट पहा"/> <span><BootstrapIcon name="arrow-right"/></span></a></div><div className="hero-footnote"><span>॥ श्री ॥</span><T en="A life of courage. A legacy of self-rule." mr="शौर्याचे जीवन. स्वराज्याचा वारसा."/></div></div>
-    <figure className="hero-art"><div className="portrait-frame"><Picture priority src="assets/img/hero-raigad.jpg" alt="Portrait of Chhatrapati Shivaji Maharaj"/><div className="portrait-label"><span>छत्रपती शिवाजी महाराज</span><span>1630 — 1680</span></div></div><figcaption><span><T en="THE FOUNDER OF SWARAJYA" mr="स्वराज्याचे संस्थापक"/></span><span>01 / 06</span></figcaption><div className="portrait-stamp"><Seal/></div></figure></section><ChapterNav/></>;
+  return <><section className="hero" id="hero"><div className="hero-copy"><div className="eyebrow"><span/> <T en="THE LIFE · 1630 — 1680" mr="जीवनपट · १६३० — १६८०"/></div><p className="hero-honorific"><T en="Chhatrapati" mr="छत्रपती"/></p><h1><T en={<>Shivaji<br/><em>Maharaj.</em></>} mr={<>शिवाजी<br/><em>महाराज.</em></>}/></h1><div className="hero-rule"/><p className="hero-tagline"><T en="Founder of Hindavi Swarajya" mr="हिंदवी स्वराज्याचे संस्थापक"/></p><p className="hero-description"><T en="From the Sahyadri hill forts, Chhatrapati Shivaji Maharaj built an independent state whose administration, military organization and maritime ambitions reshaped seventeenth-century western India." mr="सह्याद्रीच्या दुर्गांपासून छत्रपती शिवाजी महाराजांनी स्वतंत्र राज्य उभारले. प्रशासन, लष्करी संघटना आणि सागरी संरक्षण यांमुळे सतराव्या शतकातील पश्चिम भारताचा इतिहास बदलला."/></p><div className="hero-actions"><a className="button-primary" href="#prologue"><T en="Explore His Journey" mr="प्रवास अनुभवा"/><span><BootstrapIcon name="arrow-up-right"/></span></a><a className="text-link" href="timeline.html"><T en="View timeline" mr="कालपट पहा"/> <span><BootstrapIcon name="arrow-right"/></span></a></div><div className="hero-footnote"><span>॥ श्री ॥</span><T en="A life of courage. A legacy of self-rule." mr="शौर्याचे जीवन. स्वराज्याचा वारसा."/></div></div>
+    <figure className="hero-art"><div className="portrait-frame"><Picture priority src="assets/img/hero-raigad.jpg" alt="Modern painted portrait of Chhatrapati Shivaji Maharaj"/><div className="portrait-label"><span>छत्रपती शिवाजी महाराज</span><span>1630 — 1680</span></div></div><figcaption><span><T en="THE FOUNDER OF SWARAJYA" mr="स्वराज्याचे संस्थापक"/></span><span>01 / 06</span></figcaption><div className="portrait-stamp"><Seal/></div></figure></section><ChapterNav/></>;
 }
 const chapters = [['prologue','The Vision','स्वराज्य'],['birth','Early Life','बालपण'],['torna','The Beginning','सुरुवात'],['building','The Kingdom','राज्यनिर्मिती'],['conflicts','The Conflicts','संघर्ष'],['coronation','The Coronation','राज्याभिषेक']];
 function ChapterNav(){return <nav className="chapters" aria-label="Life chapters">{chapters.map(([id,en,mr],i)=><a key={id} href={`#${id}`}><small>0{i+1}</small><T en={en} mr={mr}/><span><BootstrapIcon name="arrow-up-right"/></span></a>)}</nav>;}
@@ -87,6 +95,7 @@ function ChapterNav(){return <nav className="chapters" aria-label="Life chapters
 // source text separate lets all thirteen pages share the same accessible UI.
 function Content({node}) {
   const state = useContext(Interaction);
+  const lang = useContext(Language);
   if (typeof node==='string') return node;
   if (!node) return null;
   let { tag,props: original={},children=[] } = node;
@@ -116,9 +125,6 @@ function Content({node}) {
     props['data-selected']=value===state.year;
     // Every milestone remains readable, and selecting one updates the artwork.
     props.onClick=()=>state.selectYear(value);
-    props.role='button';props.tabIndex=0;
-    props['aria-label']=`Select ${value} milestone`;
-    props.onKeyDown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();state.selectYear(value);}};
   }
   if (props['data-fort-id']) {
     const id=props['data-fort-id'];
@@ -127,6 +133,10 @@ function Content({node}) {
     props.className=cls+(state.fort===id?' highlighted':'');
   }
   const renderedChildren=children.map((child,i)=><Content key={i} node={child}/>);
+  if(cls.includes('milestone-card')){
+    const value=Number(props.id?.split('-')[1]);
+    renderedChildren.unshift(<button key="select-year" className="timeline-card__select" aria-pressed={value===state.year} onClick={()=>state.selectYear(value)}>{lang==='mr'?`${value} निवडा`:`Select ${value}`}<span aria-hidden="true"> ↗</span></button>);
+  }
   if (tag==='a' && /\b(btn-outline|timeline-card__link)\b/.test(cls)) renderedChildren.push(<BootstrapIcon key="link-icon" name="arrow-up-right"/>);
   return React.createElement(tag,props,...renderedChildren);
 }
@@ -150,7 +160,7 @@ function DocumentContent({data}){
   return <>{slug!=='index'&&<Breadcrumbs slug={slug}/ >}{data.content.map((node,i)=><Content key={i} node={node}/>)}{slug.startsWith('fort-')&&<FortExhibition slug={slug} lang={lang}/ >}{slug==='campaign'&&<CampaignExhibition lang={lang}/ >}{(slug==='letters'||slug==='timeline')&&<SourceContext slug={slug} lang={lang}/ >}<nav className="explore-next" aria-label="Continue exploring"><span className="eyebrow"><T en="CONTINUE EXPLORING" mr="पुढे वाचा"/></span><div className="related-links">{relatedRoutes[slug].map(id=><a key={id} href={`${id}.html`}>{routeNames[id][lang==='mr'?1:0]}<BootstrapIcon name="arrow-up-right"/></a>)}</div></nav><Content node={data.footer}/><MediaCredits/></>;
 }
 function Breadcrumbs({slug}){const lang=useContext(Language);const parent=slug.startsWith('fort-')?routeNames.galleries:null;return <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="index.html"><T en="Home" mr="मुख्यपृष्ठ"/></a><span aria-hidden="true">/</span>{parent&&<><a href="galleries.html">{parent[lang==='mr'?1:0]}</a><span aria-hidden="true">/</span></>}<span aria-current="page">{routeNames[slug][lang==='mr'?1:0]}</span></nav>}
-function MediaCredits(){return <details className="media-credits"><summary><T en="About the imagery & image credits" mr="चित्रांविषयी आणि छायाचित्रांचे श्रेय"/></summary><p><T en="Historic scenes are artistic reconstructions. Fort photographs are credited to their photographers below. The original main portrait is preserved." mr="ऐतिहासिक प्रसंगांची चित्रे कलात्मक पुनर्निर्मिती आहेत. किल्ल्यांच्या छायाचित्रांचे श्रेय खाली दिले आहे. मुख्य चित्र मूळ स्वरूपात जपले आहे."/></p><div className="credits-grid">{Object.entries(credits).map(([id,c])=><div key={id}><span className="media-kind">{c.kind==='generated'?'AI-created illustration':c.kind==='diagram'?'Schematic illustration':'Source photograph / artwork'}</span><p><strong>{c.title}</strong></p><p>{c.author}</p>{c.source&&<a href={c.source} target="_blank" rel="noreferrer">Source</a>}{c.license&&<p>{c.licenseUrl?<a href={c.licenseUrl} target="_blank" rel="noreferrer">{c.license}</a>:c.license}</p>}<p>{c.changes}</p></div>)}</div></details>;}
+function MediaCredits(){return <details className="media-credits"><summary><T en="About the imagery & image credits" mr="चित्रांविषयी आणि छायाचित्रांचे श्रेय"/></summary><p><T en="Historic scenes are artistic reconstructions. Fort photographs are credited to their photographers below. The site’s original hero portrait is preserved." mr="ऐतिहासिक प्रसंगांची चित्रे कलात्मक पुनर्निर्मिती आहेत. किल्ल्यांच्या छायाचित्रांचे श्रेय खाली दिले आहे. मुख्य चित्र मूळ स्वरूपात जपले आहे."/></p><div className="credits-grid">{Object.entries(credits).map(([id,c])=><div key={id}><span className="media-kind">{c.kind==='generated'?'AI-created illustration':c.kind==='diagram'?'Schematic illustration':'Source photograph / artwork'}</span><p><strong>{c.title}</strong></p><p>{c.author}</p>{c.source&&<a href={c.source} target="_blank" rel="noreferrer">Source</a>}{c.license&&<p>{c.licenseUrl?<a href={c.licenseUrl} target="_blank" rel="noreferrer">{c.license}</a>:c.license}</p>}<p>{c.changes}</p></div>)}</div></details>;}
 class ErrorBoundary extends React.Component {
   state={error:false};
   static getDerivedStateFromError(){return {error:true};}

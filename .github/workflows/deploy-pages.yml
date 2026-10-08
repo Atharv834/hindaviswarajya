@@ -55,6 +55,7 @@ jobs:
           npm test
           node scripts/verify-motion.mjs
           node scripts/verify-museum.mjs
+          node scripts/verify-a11y.mjs
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
