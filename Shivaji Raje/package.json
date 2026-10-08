@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/build-bootstrap-sprite.mjs && vite",
-    "build": "node scripts/build-bootstrap-sprite.mjs && vite build",
+    "build": "node scripts/build-bootstrap-sprite.mjs && vite build && node scripts/write-seo.mjs",
     "preview": "vite preview",
     "migrate": "node scripts/migrate.mjs",
     "test": "node scripts/verify.mjs"

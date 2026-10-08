@@ -38,6 +38,24 @@ jobs:
         working-directory: Shivaji Raje
         run: npm run build
 
+      - name: Check source content
+        working-directory: Shivaji Raje
+        run: node scripts/verify.mjs --content-only
+
+      - name: Run browser checks
+        working-directory: Shivaji Raje
+        run: |
+          npm run dev -- --port 5173 --strictPort &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:5173/index.html >/dev/null; then break; fi
+            sleep 1
+          done
+          npm test
+          node scripts/verify-motion.mjs
+          node scripts/verify-museum.mjs
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
