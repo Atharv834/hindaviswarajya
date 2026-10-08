@@ -9,6 +9,8 @@ import './details.css';
 import { useStoryMotion, useTimelineScroll, ReadingProgress, GalleryTile } from './motion';
 import credits from './content/credits.json';
 import BootstrapIcon from './BootstrapIcon';
+import { FortExhibition, CampaignExhibition, SourceContext } from './museum';
+import './museum.css';
 
 const Language = createContext('en');
 const Interaction = createContext(null);
@@ -47,7 +49,10 @@ function internalPage(anchor){
   const slug=routeSlug(url.pathname);
   return manifest[slug]?{slug,url}:null;
 }
-const nav = [['index','The Life','जीवनपट'],['legacy','The Legacy','वारसा'],['galleries','Forts & Gallery','किल्ले व दालन'],['timeline','Timeline','कालपट'],['letters','Quotes & Sources','विचार व साधने']];
+const nav = [['index','The Life','जीवनपट'],['timeline','Timeline','कालपट'],['galleries','Fort atlas','दुर्गदालन'],['legacy','Legacy','वारसा']];
+const explore = [['commanders','Commanders','सरदार'],['campaign','Southern campaign','दक्षिण मोहीम'],['letters','Documents & sources','पत्रे व साधने']];
+const routeNames = {index:['The Life','जीवनपट'],timeline:['Timeline','कालपट'],galleries:['Fort atlas','दुर्गदालन'],legacy:['Legacy','वारसा'],commanders:['Commanders','सरदार'],campaign:['Southern campaign','दक्षिण मोहीम'],letters:['Documents & sources','पत्रे व साधने'],'fort-raigad':['Raigad','रायगड'],'fort-pratapgad':['Pratapgad','प्रतापगड'],'fort-shivneri':['Shivneri','शिवनेरी'],'fort-sindhudurg':['Sindhudurg','सिंधुदुर्ग'],'fort-sinhagad':['Sinhagad','सिंहगड'],'fort-panhala':['Panhala','पन्हाळा']};
+const relatedRoutes = {index:['timeline','galleries'],timeline:['fort-shivneri','campaign'],galleries:['fort-raigad','fort-sindhudurg'],legacy:['commanders','letters'],commanders:['fort-sinhagad','campaign'],campaign:['fort-panhala','legacy'],letters:['legacy','index'],'fort-raigad':['galleries','timeline'],'fort-pratapgad':['galleries','timeline'],'fort-shivneri':['galleries','index'],'fort-sindhudurg':['galleries','legacy'],'fort-sinhagad':['galleries','commanders'],'fort-panhala':['galleries','campaign']};
 function T({en,mr}) { return useContext(Language)==='mr' ? mr : en; }
 function Seal({className=''}) { return <svg className={className} aria-hidden="true"><use href="icons/sprite.svg#icon-rajmudra"/></svg>; }
 
@@ -65,9 +70,9 @@ function Header({lang,setLang}) {
     document.addEventListener('keydown',close);
     return ()=>document.removeEventListener('keydown',close);
   },[open]);
-  return <header className="site-header"><ReadingProgress chapters={slug==='index'?chapters:null} marathi={lang==='mr'}/><a className="brand" href="index.html" aria-label="Shivaji Maharaj home"><Seal/><span><small>CHHATRAPATI</small><strong>Shivaji Maharaj</strong></span></a>
+  return <header className="site-header"><ReadingProgress chapters={slug==='index'?chapters:null} marathi={lang==='mr'}/><a className="brand" href="index.html" aria-label="Chhatrapati Shivaji Maharaj home"><Seal/><span><small>CHHATRAPATI</small><strong>Shivaji Maharaj</strong></span></a>
     <button ref={menuRef} className="menu-button" onClick={()=>setOpen(!open)} aria-expanded={open} aria-controls="main-nav" aria-label={open?'Close navigation':'Open navigation'}>{open?'Close':'Menu'} <BootstrapIcon name={open?'x-lg':'list'}/></button>
-    <nav id="main-nav" className={open?'navigation is-open':'navigation'} aria-label="Main navigation">{nav.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={()=>setOpen(false)} aria-current={(slug===id || (slug.startsWith('fort-')&&id==='galleries'))?'page':undefined}><T en={en} mr={mr}/></a>)}</nav>
+    <nav id="main-nav" className={open?'navigation is-open':'navigation'} aria-label="Main navigation">{nav.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={()=>setOpen(false)} aria-current={(slug===id || (slug.startsWith('fort-')&&id==='galleries'))?'page':undefined}><T en={en} mr={mr}/></a>)}<details className="explore-menu"><summary><T en="Explore" mr="अधिक पाहा"/></summary><div className="explore-menu__links">{explore.map(([id,en,mr])=><a key={id} href={`${id}.html`} onClick={()=>setOpen(false)} aria-current={slug===id?'page':undefined}><T en={en} mr={mr}/></a>)}</div></details></nav>
     <div className="language-switch" aria-label="Language"><button onClick={()=>setLang('en')} aria-pressed={lang==='en'}>EN</button><span>/</span><button onClick={()=>setLang('mr')} aria-label="मराठी" aria-pressed={lang==='mr'}>मराठी</button></div>
   </header>;
 }
@@ -111,6 +116,9 @@ function Content({node}) {
     props['data-selected']=value===state.year;
     // Every milestone remains readable, and selecting one updates the artwork.
     props.onClick=()=>state.selectYear(value);
+    props.role='button';props.tabIndex=0;
+    props['aria-label']=`Select ${value} milestone`;
+    props.onKeyDown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();state.selectYear(value);}};
   }
   if (props['data-fort-id']) {
     const id=props['data-fort-id'];
@@ -128,6 +136,7 @@ function RoyalSeal(){
 }
 function DocumentContent({data}){
   const slug=useContext(Route);
+  const lang=useContext(Language);
   useStoryMotion(data);
   const state=useContext(Interaction);
   useTimelineScroll(slug==='timeline',state.setYear,state.manualYearUntil);
@@ -138,8 +147,9 @@ function DocumentContent({data}){
       initialScrollY=null;
     }
   },[]);
-  return <>{data.content.map((node,i)=><Content key={i} node={node}/>)}<nav className="explore-next" aria-label="Continue exploring"><span className="eyebrow"><T en="THE STORY CONTINUES" mr="पुढील प्रवास"/></span><a href={slug==='legacy'?'galleries.html':'legacy.html'}><T en={slug==='legacy'?'Forts of Swarajya':'Discover the legacy'} mr={slug==='legacy'?'स्वराज्याचे किल्ले':'वारसा अनुभवा'}/><span><BootstrapIcon name="arrow-up-right"/></span></a></nav><Content node={data.footer}/><MediaCredits/></>;
+  return <>{slug!=='index'&&<Breadcrumbs slug={slug}/ >}{data.content.map((node,i)=><Content key={i} node={node}/>)}{slug.startsWith('fort-')&&<FortExhibition slug={slug} lang={lang}/ >}{slug==='campaign'&&<CampaignExhibition lang={lang}/ >}{(slug==='letters'||slug==='timeline')&&<SourceContext slug={slug} lang={lang}/ >}<nav className="explore-next" aria-label="Continue exploring"><span className="eyebrow"><T en="CONTINUE EXPLORING" mr="पुढे वाचा"/></span><div className="related-links">{relatedRoutes[slug].map(id=><a key={id} href={`${id}.html`}>{routeNames[id][lang==='mr'?1:0]}<BootstrapIcon name="arrow-up-right"/></a>)}</div></nav><Content node={data.footer}/><MediaCredits/></>;
 }
+function Breadcrumbs({slug}){const lang=useContext(Language);const parent=slug.startsWith('fort-')?routeNames.galleries:null;return <nav className="breadcrumbs" aria-label="Breadcrumb"><a href="index.html"><T en="Home" mr="मुख्यपृष्ठ"/></a><span aria-hidden="true">/</span>{parent&&<><a href="galleries.html">{parent[lang==='mr'?1:0]}</a><span aria-hidden="true">/</span></>}<span aria-current="page">{routeNames[slug][lang==='mr'?1:0]}</span></nav>}
 function MediaCredits(){return <details className="media-credits"><summary><T en="About the imagery & image credits" mr="चित्रांविषयी आणि छायाचित्रांचे श्रेय"/></summary><p><T en="Historic scenes are artistic reconstructions. Fort photographs are credited to their photographers below. The original main portrait is preserved." mr="ऐतिहासिक प्रसंगांची चित्रे कलात्मक पुनर्निर्मिती आहेत. किल्ल्यांच्या छायाचित्रांचे श्रेय खाली दिले आहे. मुख्य चित्र मूळ स्वरूपात जपले आहे."/></p><div className="credits-grid">{Object.entries(credits).map(([id,c])=><div key={id}><span className="media-kind">{c.kind==='generated'?'AI-created illustration':c.kind==='diagram'?'Schematic illustration':'Source photograph / artwork'}</span><p><strong>{c.title}</strong></p><p>{c.author}</p>{c.source&&<a href={c.source} target="_blank" rel="noreferrer">Source</a>}{c.license&&<p>{c.licenseUrl?<a href={c.licenseUrl} target="_blank" rel="noreferrer">{c.license}</a>:c.license}</p>}<p>{c.changes}</p></div>)}</div></details>;}
 class ErrorBoundary extends React.Component {
   state={error:false};
@@ -178,6 +188,7 @@ function App(){
       else scrollTo({top:0,behavior:'instant'});
     }else scrollTo({top:target.y||0,behavior:'instant'});
     document.documentElement.classList.remove('route-pending');
+    if(target.focus)document.getElementById('main-content')?.focus({preventScroll:true});
   },[slug]);
   useEffect(()=>{
     const navigate=(next,url,fromHistory=false,restoreY=0)=>{
@@ -189,7 +200,7 @@ function App(){
           history.replaceState({...history.state,scrollY},'',location.href);
           history.pushState({scrollY:0},'',url.pathname+url.search+url.hash);
         }
-        scrollTarget.current={slug:next,hash:url.hash,y:restoreY};
+        scrollTarget.current={slug:next,hash:url.hash,y:restoreY,focus:!fromHistory};
         startTransition(()=>setSlug(next));
       }).catch(()=>{location.assign(url.href);});
     };

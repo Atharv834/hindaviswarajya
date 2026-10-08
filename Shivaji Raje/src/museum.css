@@ -1,0 +1,67 @@
+/* Editorial additions use the site's parchment, ink and saffron tokens. */
+:root{--reading-width:70ch;--space-1:8px;--space-2:16px;--space-3:24px;--space-4:40px;--space-5:64px}
+.navigation{gap:clamp(13px,1.5vw,25px)}
+.explore-menu{position:relative}
+.explore-menu>summary{list-style:none;cursor:pointer;padding:31px 0;min-height:44px}
+.explore-menu>summary::-webkit-details-marker{display:none}
+.explore-menu>summary::after{content:'⌄';margin-left:8px;color:var(--accent)}
+.explore-menu[open]>summary,.explore-menu>summary:hover{color:var(--accent)}
+.explore-menu__links{position:absolute;right:0;top:100%;width:max-content;min-width:240px;background:var(--paper);border:1px solid var(--line);box-shadow:0 15px 30px #1b241b20;padding:8px 18px;z-index:60}
+.navigation .explore-menu__links a{display:block;padding:11px 8px;border-bottom:1px solid var(--line);font-size:14px}
+.navigation .explore-menu__links a:last-child{border:0}
+.navigation .explore-menu__links a[aria-current=page]::after{bottom:7px}
+.breadcrumbs{display:flex;align-items:center;flex-wrap:wrap;gap:10px;max-width:1440px;margin:auto;padding:18px 6% 0;font-size:13px;color:var(--muted)}
+.breadcrumbs a{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.breadcrumbs a:hover{color:var(--accent)}
+.breadcrumbs [aria-current=page]{color:var(--ink);font-weight:600}
+.museum-exhibit,.source-context{max-width:1320px;margin:var(--space-5) auto;padding:clamp(28px,5vw,64px) 6%;border-block:1px solid var(--line);background:#efe9dc}
+.museum-exhibit__intro{max-width:850px;margin-bottom:var(--space-4)}
+.museum-kicker{color:var(--accent);font-size:12px;letter-spacing:.14em;font-weight:700;text-transform:uppercase;margin:0 0 12px}
+.museum-exhibit h2,.source-context h2{font-size:clamp(2rem,3.2vw,3.5rem);margin-bottom:12px}
+.museum-exhibit__intro>p:last-child{color:var(--muted);font-size:15px}
+.museum-exhibit__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,2vw,32px)}
+.museum-exhibit__panel{border-top:2px solid var(--accent);padding:22px 4px 0}
+.museum-exhibit__number{font-size:12px;letter-spacing:.12em;color:var(--accent)}
+.museum-exhibit__panel h3{font-size:clamp(1.45rem,2vw,2rem);margin:10px 0}
+.museum-exhibit__panel p,.source-context>p:not(.museum-kicker){font-size:clamp(16px,1.15vw,18px);line-height:1.8;max-width:var(--reading-width)}
+.citation{margin-top:var(--space-4);border-top:1px solid var(--line);font-size:14px}
+.citation summary{cursor:pointer;display:list-item;padding:15px 0;min-height:44px;color:var(--accent);font-weight:600}
+.citation ul{padding-left:22px;margin:0 0 12px;max-width:85ch}
+.citation li{margin:10px 0;line-height:1.6}
+.citation a{text-decoration:underline;text-underline-offset:3px}
+.source-context{background:var(--paper);border:1px solid var(--line)}
+.related-links{display:flex;gap:clamp(18px,3vw,50px);flex-wrap:wrap}
+.related-links a{font-family:var(--serif);font-size:clamp(23px,2.5vw,34px);display:inline-flex;align-items:center;gap:18px;border-bottom:1px solid var(--accent);padding:8px 0}
+.related-links a:hover{color:var(--accent)}
+.related-links svg{width:18px;height:18px}
+.timeline-card[role=button]:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.map-pin{min-width:44px;min-height:44px;display:grid;place-items:center;translate:-50% -50%}
+.map-pin .oct-badge{width:44px;height:44px;display:grid;place-items:center}
+.map-pin:focus-visible .oct-badge{background:var(--accent);color:white}
+.map-hint{font-size:12px;max-width:25ch;line-height:1.35}
+.hero-description,.section-body-dark,.band__panel>p,.prologue-body{max-width:var(--reading-width)}
+.fort-card__location,.fort-card__role,.legacy-today-card__tag{font-size:12px!important}
+.media-credits>summary{min-height:44px;padding:10px 0}
+@media(max-width:900px){
+ .navigation .explore-menu>summary{padding:14px 0;font-size:14px}
+ .explore-menu__links{position:static;width:100%;box-shadow:none;background:var(--paper-dark);padding:0 12px}
+ .navigation .explore-menu__links a{padding:11px 5px}
+ .navigation.is-open{max-height:calc(100svh - 80px);overflow:auto}
+}
+@media(max-width:760px){
+ .museum-exhibit,.source-context{margin:32px auto;padding:36px 6%}
+ .museum-exhibit__grid{grid-template-columns:1fr;gap:18px}
+ .museum-exhibit__panel{padding-top:17px}
+ .museum-exhibit__panel h3{margin:6px 0}
+ .museum-exhibit__panel p{margin-bottom:4px}
+ .fort-grid{grid-template-columns:1fr}
+ .fort-card__image img{height:220px}
+ .fort-card__desc{font-size:16px}
+ .explore-next{display:block}
+ .related-links{margin-top:18px;display:grid;gap:10px}
+ .map-hint{left:12px;bottom:7px}
+ .reading-chapter{bottom:64px}
+ .page-index .split__panel::before{opacity:.04}
+ .lang-mr .museum-exhibit h2,.lang-mr .museum-exhibit h3,.lang-mr .source-context h2{line-height:1.4;word-break:normal;overflow-wrap:normal}
+}
+@media(max-width:390px){.hero-actions{gap:16px}.hero-actions .button-primary{padding:13px 16px}.reading-chapter{display:none}.site-header{gap:9px}.brand strong{font-size:16px}.brand svg{width:36px;height:36px}.language-switch{padding-left:8px}.language-switch button{font-size:12px}}
