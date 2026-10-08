@@ -1,0 +1,7 @@
+# Refine Hindavi Swarajya into a bilingual heritage exhibition
+
+The site had 13 routes but hid the campaign and commanders in global navigation, offered only brief fort detail pages, and presented several traditional or numerical claims as settled history. This branch preserves the original hero portrait and visual palette while adding discoverable navigation, breadcrumbs, contextual reading, six bilingual fort exhibitions, campaign context, accessible timeline selection, reconstruction labels and evidence notes. It also qualifies unsupported claims at the archive source, so content migration preserves those changes.
+
+Production builds now include canonical and social metadata plus a 13-route sitemap. The deployment workflow checks source content, browser behavior, motion, new museum interactions and axe WCAG-tagged rules before Pages upload. The audit includes matched before/after screenshots, a historical source-status ledger, lab performance readings and rollback guidance.
+
+Validation: `npm run build`, `node scripts/verify.mjs --content-only`, `npm test`, `node scripts/verify-motion.mjs`, `node scripts/verify-museum.mjs`, and `node scripts/verify-a11y.mjs` passed locally with system Chromium. All 13 routes and both languages passed browser checks; five representative pages had no horizontal overflow from 360px to 1920px. External scholarly pages and the live deployment could not be checked because the cloud proxy returned HTTP 403. Work-level references require page-specific follow-up; body text remains client-rendered.
