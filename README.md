@@ -50,22 +50,45 @@ The application lives in **[`Shivaji Raje/`](./Shivaji%20Raje/)**. It builds to 
 - **Local interface assets:** An SVG icon sprite and no external font requests.
 - **Production metadata:** Page-specific titles and descriptions, canonical links, structured data, a sitemap, and robots instructions.
 
+## A closer look
+
+### Forts, timeline & legacy
+
+| Fort exhibition | Fort atlas & gallery |
+| :---: | :---: |
+| [![Raigad fort exhibition in the desktop layout](./audit/after/fort-raigad-1440-en-top.png)](./audit/after/fort-raigad-1440-en-full.png) | [![Forts and gallery in the desktop layout](./audit/after/galleries-1440-en-top.png)](./audit/after/galleries-1440-en-full.png) |
+| **Raigad** — architecture, context, and further reading | **Forts & Gallery** — the atlas and visual collection |
+
+| Interactive chronology | The legacy |
+| :---: | :---: |
+| [![Interactive timeline in the desktop layout](./audit/after/timeline-1440-en-top.png)](./audit/after/timeline-1440-en-full.png) | [![Legacy page in the desktop layout](./audit/after/legacy-1440-en-top.png)](./audit/after/legacy-1440-en-full.png) |
+| **Timeline** — milestones and historical context | **Legacy** — institutions, defence, and remembrance |
+
+Click a desktop preview to open its full-page capture.
+
+### On a smaller screen
+
+<table>
+  <tr>
+    <th>मराठी · Homepage</th>
+    <th>Forts & Gallery</th>
+    <th>Timeline</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="./audit/after/index-390-mr-top.png" alt="Marathi homepage in a 390-pixel mobile viewport" width="230"></td>
+    <td align="center"><img src="./audit/after/galleries-390-en-top.png" alt="Forts and gallery page in a 390-pixel mobile viewport" width="230"></td>
+    <td align="center"><img src="./audit/after/timeline-390-en-top.png" alt="Timeline page in a 390-pixel mobile viewport" width="230"></td>
+  </tr>
+</table>
+
 <details>
-<summary><strong>See more of the interface</strong></summary>
+<summary><strong>Explore the interactions</strong></summary>
 
-### Fort exhibition
+| Image gallery | Evidence & references |
+| :---: | :---: |
+| ![Gallery dialog on a mobile screen](./audit/after/interaction-mobile-gallery.png) | ![Raigad evidence and references panel](./audit/after/interaction-raigad-evidence.png) |
 
-![Raigad exhibition in the desktop layout](./audit/after/fort-raigad-1440-en-top.png)
-
-### Timeline
-
-![Interactive timeline in the desktop layout](./audit/after/timeline-1440-en-top.png)
-
-### Mobile reading
-
-<img src="./audit/after/index-390-mr-top.png" alt="Marathi homepage at a mobile viewport" width="300">
-
-These are existing local review captures. The [comparison record](./audit/COMPARISON.md) contains additional desktop, mobile, and interaction screenshots.
+These screenshots come from the existing local review captures. The [comparison record](./audit/COMPARISON.md) includes more viewports and before/after evidence.
 
 </details>
 
